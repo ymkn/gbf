@@ -1,0 +1,68 @@
+<!Doctype HTML>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <title>ｾｽﾗｶ翻訳機</title>
+    <style type="text/css">
+        body {
+            font-family: serif;
+        }
+        
+        input[type="text"] {
+            font-family: monospace;
+        }
+        
+        div#buttons {
+            text-align: center;
+        }
+    </style>
+    <script type="text/javascript">
+        var automagod_table = "ﾁｺｿｼｲﾊｷｸﾆﾏﾉﾘﾓﾐﾗｾﾀｽﾄｶﾅﾋﾃｻﾝﾂ";
+        var english_table = "abcdefghijklmnopqrstuvwxyz";
+
+        function toEnglish() {
+            var source = document.getElementById('txtAutomagod').value;
+            var target = '';
+            for (var i = 0; i < source.length; i++) {
+                var p = automagod_table.indexOf(source.charAt(i))
+                if (p > -1) {
+                    target += english_table.charAt(p);
+                } else {
+                    target += source.charAt(i);
+                }
+            }
+            document.getElementById('txtEnglish').value = target;
+        }
+
+        function toAutomagod() {
+            var source = document.getElementById('txtEnglish').value;
+            var target = '';
+            for (var i = 0; i < source.length; i++) {
+                var p = english_table.indexOf(source.charAt(i))
+                if (p > -1) {
+                    target += automagod_table.charAt(p);
+                } else {
+                    target += source.charAt(i);
+                }
+            }
+            document.getElementById('txtAutomagod').value = target;
+        }
+    </script>
+</head>
+
+<body>
+    <h1>ｾｽﾗｶ翻訳機</h1>
+    <div>
+        <label>機神語</label>
+        <input type="text" id="txtAutomagod" value="ｾｽﾗｶ" />
+        <button id="btnToEnglish" onclick="toEnglish();">↓</button>
+    </div>
+    <div>
+        <label>英語　</label>
+        <input type="text" id="txtEnglish" value="prot"></textarea>
+        <button id="btnToAutomagod" onclick="toAutomagod();">↑</button>
+    </div>
+</body>
+
+</html>

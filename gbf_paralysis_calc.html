@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>グラブル麻痺計算機</title>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous" />
+    <style type="text/css">
+        body {
+            /* navbar固定による重なりを防ぐ */
+            padding-top: 70px;
+        }
+        
+        label {
+            /* 選択項目を縦に並べたい */
+            display: block;
+        }
+        
+        .navbar {
+            background-color: white;
+            border-bottom: 1px solid #999999;
+        }
+        
+        .navbar-text {
+            display: block;
+            margin: 0;
+            padding: 0;
+        }
+        
+        .alert {
+            padding: 0.25em;
+            margin: 0.25em;
+        }
+        
+        .alert-info {
+            background-color: #efefef;
+            border-color: #cccccc;
+            color: #333333;
+        }
+        
+        fieldset {
+            margin: 1em 0;
+        }
+        
+        legend {
+            font-size: 100%;
+            font-weight: bold;
+            margin: 0;
+            padding: 0.25em;
+        }
+        
+        label {
+            margin: 0.5em 0;
+            font-weight: normal;
+        }
+        
+        em {
+            font-weight: bold;
+        }
+        
+        .expr-container {
+            margin: 0.25em;
+        }
+        
+        .expr-block {
+            /* PCでは1行で、スマホでは複数行で表示したい */
+            display: inline-block;
+        }
+        
+        .history {
+            overflow-y: scroll;
+            height: 100px;
+        }
+        /* 各変数の色 */
+        
+        .char_color {
+            background-color: #eecccc;
+        }
+        
+        .up_color {
+            background-color: #cceecc;
+        }
+        
+        .down_color {
+            background-color: #ccccee;
+        }
+        
+        .monster_color {
+            background-color: #eeeecc;
+        }
+        
+        .final_color {
+            color: #ff0000;
+        }
+        
+        .reference .header {
+            border-bottom: 1px solid #999999;
+            margin: 0.5em 0;
+        }
+        
+        .percent-box {
+            width: 4em;
+        }
+    </style>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="navbar navbar-default navbar-fixed-top navbar-light">
+        <div class="container">
+            <div class="navbar-header">
+                <div class="navbar-text expr-container">&#x26A1;グラブル麻痺計算機&#x26A1;</div>
+                <div class="navbar-text expr-container">
+                    <div class="expr-block">(基礎:<span id="character" class="char_color"></span>%+UP:<span id="success" class="up_color"></span>%)</div>
+                    <div class="expr-block">× (100%-(耐性:<span id="monster" class="monster_color"></span>%-DOWN:<span id="resistance" class="down_color"></span>%))</div>
+                    <div class="expr-block">=<span id="final" class="final_color"></span>%</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <fieldset>
+                    <legend class="char_color">キャラ/アビ</legend>
+                    <label><input type="radio" class="char_group" name="char_2" data-rate="75" /> ソーン麻痺 (LB★3,Lv95↑敵1体時) (75%)</label>
+                    <label><input type="radio" class="char_group" name="char_2" data-rate="65" /> ソーン麻痺 (LB★3) (65%)</label>
+                    <label><input type="radio" class="char_group" name="char_2" data-rate="55" /> ソーン麻痺 (55%)</label>
+                    <label><input type="radio" class="char_group" name="char_2" data-rate="100" /> ソーン延長 (100%固定)</label>
+                    <div class="alert alert-info" role="alert">※ソーン延長はエリュサポアビおよび弱体成功率UPが乗らないため当該項目を選択しないよう注意</div>
+                    <label><input type="radio" class="char_group" name="char_2" data-rate="20" /> シャオ麻痺 (LB★3) (20%)</label>
+                    <label><input type="radio" class="char_group" name="char_2" data-rate="10" /> シャオ麻痺 (10%)</label>
+                    <label>
+            <input type="checkbox" class="char_group" name="char_2" data-rate="0" data-elem="ring_select" />
+            指輪 (弱体成功率UP)
+            <select class="form-control-sm select-box" id="ring_select">
+              <option value="15">15</option>
+              <option value="14">14</option>
+              <option value="13">13</option>
+              <option value="12">12</option>
+              <option value="11">11</option>
+              <option value="10">10</option>
+              <option value="9">9</option>
+              <option value="8">8</option>
+              <option value="7">7</option>
+              <option value="6">6</option>
+              <option selected>0</option>
+            </select>
+            %
+          </label>
+                    <label>
+            <input type="radio" class="char_group" name="char_2" data-rate="0" data-elem="char_ex_text" /> その他
+            <input type="number" class="form-control-sm select-box percent-box" id="char_ex_text" value="0" /> %
+          </label>
+                </fieldset>
+                <fieldset>
+                    <legend class="monster_color">敵弱体耐性</legend>
+                    <label>
+            <input type="radio" class="monster_group" name="monster_1" data-rate="0" data-elem="monster_select" checked />
+            <select class="form-control-sm select-box" id="monster_select">
+              <option value="100">100</option>
+              <option value="95">95</option>
+              <option value="90">90</option>
+              <option value="85">85</option>
+              <option value="80">80</option>
+              <option value="75">75</option>
+              <option disabled="disabled">---- 同属性・非有利 ----</option>
+              <option value="70">70 (バイヴカハ他属性)</option>
+              <option value="65">65</option>
+              <option value="60">60</option>
+              <option value="55">55</option>
+              <option value="50">50 (共闘Ex6-2、アルバハHL100%)</option>
+              <option value="45">45</option>
+              <option disabled="disabled">---- 他属性 ----</option>
+              <option value="40">40</option>
+              <option value="35">35</option>
+              <option value="30">30 (アルバハHL70%)</option>
+              <option value="25">25</option>
+              <option value="20">20</option>
+              <option value="15">15</option>
+              <option disabled="disabled">---- 有利 ----</option>
+              <option value="10">10 (アヌビス有利)</option>
+              <option value="5">5</option>
+              <option selected>0</option>
+            </select>
+            %
+          </label>
+                    <div class="alert alert-info" role="alert">※選択肢内のラインはだいたいの傾向。実際は敵個別の耐性設定、真の力等の変動、弱体効果個別耐性など要考慮</div>
+                </fieldset>
+                <fieldset>
+                    <legend class="down_color">ジョブ</legend>
+                    <label><input type="checkbox" class="down_group" name="char_1" data-rate="10" />エリュサポアビ (<em>有利のみ有効</em>) (10%)</label>
+                    <div class="alert alert-info" role="alert">※弱体耐性DOWNとして計算</div>
+                </fieldset>
+            </div>
+            <div class="col-md-4">
+                <fieldset>
+                    <legend class="up_color">弱体成功率UP 枠1 (奥義/アビ)</legend>
+                    <label><input type="radio" class="up_group" name="success_1" data-rate="20" /> 水ユエル1アビ/リミロゼ奥義 (20%)</label>
+                    <label><input type="radio" class="up_group" name="success_1" data-rate="15" /> 九界琴(最終)奥義/コナン2アビ (15%)</label>
+                    <label><input type="radio" class="up_group" name="success_1" data-rate="10" /> 九界琴(真以上)奥義 (10%)</label>
+                    <label><input type="radio" class="up_group" name="success_1" data-rate="0" /> なし</label>
+                </fieldset>
+                <fieldset>
+                    <legend class="up_color">弱体成功率UP 枠2 (コルワ)</legend>
+                    <label><input type="radio" class="up_group" name="success_2" data-rate="25" /> 恒常コルワフィル10強化済み1アビ (25%)</label>
+                    <label><input type="radio" class="up_group" name="success_2" data-rate="0" /> なし</label>
+                </fieldset>
+                <fieldset>
+                    <legend class="up_color">弱体成功率UP 枠3 (アンチラ)</legend>
+                    <label><input type="radio" class="up_group" name="success_3" data-rate="30" /> SSRアンチラ3アビ (3T) (30%)</label>
+                    <label><input type="radio" class="up_group" name="success_3" data-rate="20" /> SSRアンチラ3アビ (4T) (20%)</label>
+                    <label><input type="radio" class="up_group" name="success_3" data-rate="15" /> SSRアンチラ3アビ (2T/5T) (15%)</label>
+                    <label><input type="radio" class="up_group" name="success_3" data-rate="5" /> SSRアンチラ3アビ (1T/6T) (5%)</label>
+                    <label><input type="radio" class="up_group" name="success_3" data-rate="0" /> なし</label>
+                </fieldset>
+                <fieldset>
+                    <legend class="up_color">弱体成功率UP 枠4 (ニオサポアビ)</legend>
+                    <label><input type="radio" class="up_group" name="success_4" data-rate="10" /> ニオサポアビ (10%)</label>
+                    <label><input type="radio" class="up_group" name="success_4" data-rate="0" /> なし</label>
+                </fieldset>
+                <fieldset>
+                    <legend class="up_color">弱体成功率UP 枠5 (その他サポアビ)</legend>
+                    <label><input type="radio" class="up_group" name="success_5" data-rate="5" /> 火クラリス/アンリエット/アルタイルサポアビ (5%)</label>
+                    <label><input type="radio" class="up_group" name="success_5" data-rate="0" /> なし</label>
+                </fieldset>
+                <fieldset>
+                    <legend class="up_color">弱体成功率UP 枠6 (武器スキル)</legend>
+                    <label><input type="checkbox" class="up_group" name="success_6" data-rate="20" /> コスモスPC (<em>特殊タイプキャラのみ有効</em>) (20%)</label>
+                    <label><input type="checkbox" class="up_group" name="success_6" data-rate="20" /> 麒麟弦 (<em>メイン装備時、闇属性キャラのみ有効</em>) (20%)</label>
+                    <label><input type="checkbox" class="up_group" name="success_6" data-rate="30" /> コスモスPC+麒麟弦 (30%)</label>
+                    <label>
+            <input type="checkbox" class="up_group" name="success_6" data-rate="0" data-elem="success_6_2_select" /> シャロームボウ (<em>闇属性キャラのみ有効</em>)
+            <select class="form-control-sm select-box" id="success_6_2_select">
+              <option value="25">10本 (25%)</option>
+              <option value="22.5">9本 (22.5%)</option>
+              <option value="20">8本 (20%)</option>
+              <option value="17.5">7本 (17.5%)</option>
+              <option value="15">6本 (15%)</option>
+              <option value="12.5">5本 (12.5%)</option>
+              <option value="10">4本 (10%)</option>
+              <option value="7.5">3本 (7.5%)</option>
+              <option value="5">2本 (5%)</option>
+              <option value="2.5">1本 (2.5%)</option>
+              <option selected>0本 (0%)</option>
+            </select>
+          </label>
+                    <label><input type="checkbox" class="up_group" name="success_6" data-rate="5" /> 西風の竪琴 (<em>メイン装備時</em>) (5%)</label>
+                    <label><input type="radio" class="up_group" name="success_6" data-rate="0" /> なし</label>
+                    <div class="alert alert-info" role="alert">※本枠は<em>上限30%</em>ですが、本計算機は考慮できていないのでご注意下さい</div>
+                </fieldset>
+                <fieldset>
+                    <legend class="up_color">弱体成功率UP 枠7 (召喚)</legend>
+                    <label><input type="radio" class="up_group" name="success_7" data-rate="20" /> フレイ召喚 (20%)</label>
+                    <label><input type="radio" class="up_group" name="success_7" data-rate="0" /> なし</label>
+                </fieldset>
+                <fieldset>
+                    <legend class="up_color">弱体成功率UP その他</legend>
+                    <label>
+            <input type="checkbox" class="up_group" name="success_ex" data-rate="0" data-elem="success_ex_text" />
+            <input type="number" class="form-control-sm select-box percent-box" id="success_ex_text" value="0" /> %
+          </label>
+                </fieldset>
+            </div>
+            <div class="col-md-4">
+                <fieldset>
+                    <legend class="down_color">弱体耐性DOWN 枠1 (アビ)</legend>
+                    <label><input type="radio" class="down_group" name="down_1" data-rate="30" /> ソウルピルファー (楽器) (30%)</label>
+                    <label><input type="radio" class="down_group" name="down_1" data-rate="10" /> ソウルピルファー (短剣) (10%)</label>
+                    <label><input type="radio" class="down_group" name="down_1" data-rate="10" /> ソーン2アビ (10%)</label>
+                    <label><input type="radio" class="down_group" name="down_1" data-rate="0" /> なし</label>
+                </fieldset>
+                <fieldset>
+                    <legend class="down_color">弱体耐性DOWN 枠2 (召喚)</legend>
+                    <label><input type="radio" class="down_group" name="down_2" data-rate="20" /> トール召喚 (20%)</label>
+                    <label><input type="radio" class="down_group" name="down_2" data-rate="5" /> ゴッドギガンテス召喚/シャローム召喚 (5%)</label>
+                    <label><input type="radio" class="down_group" name="down_2" data-rate="0" /> なし</label>
+                </fieldset>
+                <fieldset>
+                    <legend class="down_color">弱体耐性DOWN 枠3 (奥義)</legend>
+                    <label><input type="radio" class="down_group" name="down_3" data-rate="10" /> 西風の竪琴奥義/ローゼンボーゲン奥義 (10%)</label>
+                    <label><input type="radio" class="down_group" name="down_3" data-rate="10" /> イベント産エゼクレイン奥義/SSR火クラリス奥義 (10%)</label>
+                    <label><input type="radio" class="down_group" name="down_3" data-rate="5" /> ドミニオンハープ奥義 (5%)</label>
+                    <label><input type="radio" class="down_group" name="down_3" data-rate="0" /> なし</label>
+                </fieldset>
+                <fieldset>
+                    <legend class="down_color">弱体耐性DOWN 枠4 (累積)</legend>
+                    <label><input type="radio" class="down_group" name="down_4" data-rate="30" /> 上限30% (ケルベロス、ヴァジラ、ゾーイ、ハロダヌ)</label>
+                    <label><input type="radio" class="down_group" name="down_4" data-rate="10" /> 上限10% (アルメイダ、ミニゴブ)</label>
+                    <label><input type="radio" class="down_group" name="down_4" data-rate="0" /> なし</label>
+                    </label>
+                    <div class="alert alert-info" role="alert">※累積枠は全キャラまたがりで加算、ただし上限はキャラ別</div>
+                </fieldset>
+                <fieldset>
+                    <legend class="down_color">弱体耐性DOWN その他</legend>
+                    <label>
+                      <input type="checkbox" class="down_group" name="down_ex" data-rate="0" data-elem="down_ex_text" />
+                      <input type="number" class="form-control-sm select-box percent-box" id="down_ex_text" value="0" /> %
+                    </label>
+                </fieldset>
+            </div>
+        </div>
+    </div>
+    <div class="container reference">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="header">更新履歴</div>
+                <ul class="history">
+                    <li>2018/10/1: ソーン延長の成功率を100％に訂正、成功率UP乗らない旨記載</li>
+                    <li>2018/5/4: 文言の統一感向上、武器スキル枠を整理</li>
+                    <li>2018/5/3: 指輪 (弱体成功率UP) の効果量をキャラ枠で追加選択可能にした</li>
+                    <li>2018/4/8: 弱体成功率UPにコナン2アビを追加、同枠内の同効果量のものをまとめた</li>
+                    <li>2018/3/31: 弱体成功率UPに召喚枠(フレイ)を追加</li>
+                    <li>2018/3/16: 自由入力欄を追加</li>
+                    <li>2018/3/9: 武器スキル枠、累積枠を追加</li>
+                    <li>2018/3/5: 敵弱体耐性に選択値を追加</li>
+                    <li>2018/3/4: 公開</li>
+                </ul>
+            </div>
+            <div class="col-md-4">
+                <div class="header">今後の予定(時期未定)</div>
+                <ul>
+                    <li>武器スキル枠上限を考慮できるようにする</li>
+                    <li>使用頻度の低そうな枠をたためるようにする</li>
+                    <li>麻痺以外のテンプレを追加する</li>
+                    <li>デザインカッコ良くする</li>
+                </ul>
+            </div>
+            <div class="col-md-4">
+                <div class="header">参考</div>
+                <ul>
+                    <li><a href="http://meidyrouge.com/list-of-articles/formation/paralysis/">【麻痺編成】麻痺･延長特化編成の解説</a></li>
+                    <li><a href="https://xn--bck3aza1a2if6kra4ee0hf.gamewith.jp/article/show/57569">【グラブル】「敵弱体耐性と弱体耐性DOWN」検証と考察/すんどめ侍コラム【グランブルーファンタジー】 - GameWith</a></li>
+                    <li><a href="https://twitter.com/jpokiehl/status/865925583863074817">ポキールさんのツイート</a></li>
+                    <li><a href="https://t.co/sTr1pxWQUc">ポキールさんのグラブル検証置き場</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="header">作った人</div>
+                <div>@ymkn_gbf (Twitter)</div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript">
+        var gbf_calc = {
+            char_rate: 0.0,
+            up_rate: 0.0,
+            monster_rate: 0.0,
+            down_rate: 0.0,
+            final_rate: 0.0,
+
+            updateCharRate: function(e) {
+                gbf_calc.char_rate = 0.0;
+                $("input.char_group:checked").each(function(index, elem) {
+                    gbf_calc.char_rate += $(elem).data('rate');
+                });
+                $("#character").html(gbf_calc.char_rate);
+                gbf_calc.updateFinalRate();
+            },
+
+            updateUpRate: function(e) {
+                gbf_calc.up_rate = 0.0;
+                $("input.up_group:checked").each(function(index, elem) {
+                    gbf_calc.up_rate += $(elem).data('rate');
+                });
+                $("#success").html(gbf_calc.up_rate);
+                gbf_calc.updateFinalRate();
+            },
+
+            updateMonsterRate: function(e) {
+                gbf_calc.monster_rate = 0.0;
+                $(".monster_group:checked").each(function(index, elem) {
+                    gbf_calc.monster_rate += $(elem).data('rate');
+                });
+                $("#monster").html(gbf_calc.monster_rate);
+                gbf_calc.updateFinalRate();
+            },
+
+            updateDownRate: function(e) {
+                gbf_calc.down_rate = 0.0;
+                $("input.down_group:checked").each(function(index, elem) {
+                    gbf_calc.down_rate += $(elem).data('rate');
+                });
+                $("#resistance").html(gbf_calc.down_rate);
+                gbf_calc.updateFinalRate();
+            },
+
+            updateFinalRate: function() {
+                gbf_calc.final_rate = ((gbf_calc.char_rate + gbf_calc.up_rate) / 100) * ((100 - (gbf_calc.monster_rate - gbf_calc.down_rate)) / 100)
+                $("#final").html((gbf_calc.final_rate * 100).toFixed(1));
+            },
+
+            changeRateFromInput: function(e) {
+                var radio = $('input[data-elem="' + e.target.id + '"]');
+                radio.data("rate", parseFloat($(e.target).val()));
+                radio.attr("checked", "checked");
+                var events = $._data(radio.get(0), "events");
+                events.click[0].handler.call(null);
+            }
+        };
+
+        $(function() {
+            $("input.char_group").click(gbf_calc.updateCharRate);
+            $("input.up_group").click(gbf_calc.updateUpRate);
+            $("input.monster_group").click(gbf_calc.updateMonsterRate);
+            $("input.down_group").click(gbf_calc.updateDownRate);
+
+            $(".select-box").change(gbf_calc.changeRateFromInput);
+            $(".select-box").blur(gbf_calc.changeRateFromInput);
+
+            gbf_calc.updateCharRate(null);
+            gbf_calc.updateUpRate(null);
+            gbf_calc.updateMonsterRate(null);
+            gbf_calc.updateDownRate(null);
+            gbf_calc.updateFinalRate();
+        });
+    </script>
+
+</body>
+
+</html>
