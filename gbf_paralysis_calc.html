@@ -222,9 +222,9 @@
                     <label><input type="radio" class="up_group" name="success_3" data-rate="0" /> なし</label>
                 </fieldset>
                 <fieldset>
-                    <legend class="up_color">弱体成功率UP 枠4 (ニオサポアビ)</legend>
-                    <label><input type="radio" class="up_group" name="success_4" data-rate="10" /> ニオサポアビ (10%)</label>
-                    <label><input type="radio" class="up_group" name="success_4" data-rate="0" /> なし</label>
+                    <legend class="up_color">弱体成功率UP 枠4 (アビリティ命中確率UP)</legend>
+                    <label><input type="checkbox" class="up_group" name="success_4" data-rate="10" /> ニオサポアビ (10%)</label>
+                    <label><input type="checkbox" class="up_group" name="success_4" data-rate="10" /> カオスクリエイター (<em>メイン装備時</em>) (10%)</label>
                 </fieldset>
                 <fieldset>
                     <legend class="up_color">弱体成功率UP 枠5 (その他サポアビ)</legend>
@@ -235,25 +235,25 @@
                     <legend class="up_color">弱体成功率UP 枠6 (武器スキル)</legend>
                     <label><input type="checkbox" class="up_group" name="success_6" data-rate="20" /> コスモスPC (<em>特殊タイプキャラのみ有効</em>) (20%)</label>
                     <label><input type="checkbox" class="up_group" name="success_6" data-rate="20" /> 麒麟弦 (<em>メイン装備時、闇属性キャラのみ有効</em>) (20%)</label>
-            <input type="checkbox" class="up_group" name="success_6" data-rate="0" data-elem="success_6_2_select" /> シャロームボウ (<em>闇属性キャラのみ有効</em>)
-            <select class="form-control-sm select-box" id="success_6_2_select">
-              <option value="25">10本 (25%)</option>
-              <option value="22.5">9本 (22.5%)</option>
-              <option value="20">8本 (20%)</option>
-              <option value="17.5">7本 (17.5%)</option>
-              <option value="15">6本 (15%)</option>
-              <option value="12.5">5本 (12.5%)</option>
-              <option value="10">4本 (10%)</option>
-              <option value="7.5">3本 (7.5%)</option>
-              <option value="5">2本 (5%)</option>
-              <option value="2.5">1本 (2.5%)</option>
-              <option selected>0本 (0%)</option>
-            </select>
-          </label>
+                    <label>
+                        <input type="checkbox" class="up_group" name="success_6" data-rate="0" data-elem="success_6_2_select" /> シャロームボウ (<em>闇属性キャラのみ有効</em>)
+                        <select class="form-control-sm select-box" id="success_6_2_select">
+                          <option value="25">10本 (25%)</option>
+                          <option value="22.5">9本 (22.5%)</option>
+                          <option value="20">8本 (20%)</option>
+                          <option value="17.5">7本 (17.5%)</option>
+                          <option value="15">6本 (15%)</option>
+                          <option value="12.5">5本 (12.5%)</option>
+                          <option value="10">4本 (10%)</option>
+                          <option value="7.5">3本 (7.5%)</option>
+                          <option value="5">2本 (5%)</option>
+                          <option value="2.5">1本 (2.5%)</option>
+                          <option selected>0本 (0%)</option>
+                        </select>
+                      </label>
                     <label><input type="checkbox" class="up_group" name="success_6" data-rate="5" /> 西風の竪琴 (<em>メイン装備時</em>) (5%)</label>
                     <label><input type="checkbox" class="up_group" name="success_6" data-rate="10" /> 虚空剣 (<em>剣/短剣得意キャラのみ有効</em>) (10%)</label>
                     <label><input type="radio" class="up_group" name="success_6" data-rate="30" /> 上限 (30%)</label>
-                    <label>
                     <label><input type="radio" class="up_group" name="success_6" data-rate="0" /> なし</label>
                     <div class="alert alert-info" role="alert">※本枠は<em>上限30%</em>ですが、それ以上選べてしまうためご注意下さい</div>
                 </fieldset>
@@ -296,7 +296,6 @@
                     <label><input type="radio" class="down_group" name="down_4" data-rate="30" /> 上限30% (ケルベロス、ヴァジラ、ゾーイ、ハロダヌ)</label>
                     <label><input type="radio" class="down_group" name="down_4" data-rate="10" /> 上限10% (アルメイダ、ミニゴブ)</label>
                     <label><input type="radio" class="down_group" name="down_4" data-rate="0" /> なし</label>
-                    </label>
                     <div class="alert alert-info" role="alert">※累積枠は全キャラまたがりで加算、ただし上限はキャラ別</div>
                 </fieldset>
                 <fieldset>
@@ -314,6 +313,7 @@
             <div class="col-md-4">
                 <div class="header">更新履歴</div>
                 <ul class="history">
+                    <li>2019/6/5: 弱体成功率UP枠4をアビリティ命中確率UPとして変更、カオスクリエイター追加</li>
                     <li>2019/5/11: ゼノコキュ琴奥義効果追加</li>
                     <li>2019/2/24: 昏睡と恐怖を追加、敵弱体耐性の文言調整、虚空剣追加</li>
                     <li>2018/10/1: ソーン延長の成功率を100％に訂正、成功率UP乗らない旨記載</li>
