@@ -91,6 +91,10 @@
         .monster_color {
             background-color: #eeeecc;
         }
+
+        .special_color {
+            background-color: #cceeee;
+        }
         
         .final_color {
             color: #ff0000;
@@ -116,6 +120,7 @@
                 <div class="navbar-text expr-container">
                     <div class="expr-block">(基礎:<span id="character" class="char_color"></span>%+UP:<span id="success" class="up_color"></span>%)</div>
                     <div class="expr-block">× (100%-(耐性:<span id="monster" class="monster_color"></span>%-DOWN:<span id="resistance" class="down_color"></span>%))</div>
+                    <div class="expr-block">× (100%-(個別耐性:<span id="special" class="special_color"></span>%)</div>
                     <div class="expr-block">=<span id="final" class="final_color"></span>%</div>
                 </div>
             </div>
@@ -189,7 +194,7 @@
               <option value="35">35</option>
               <option value="30">30 (ｶｰｵﾝ/ﾌﾟﾛﾒﾃ光、ｱﾙﾊﾞﾊHL70%~)</option>
               <option value="25">25</option>
-              <option value="20">20</option>
+              <option value="20">20 (ﾃｨｱﾏﾄﾏﾘｽ火)</option>
               <option value="15">15</option>
               <option value="10">10 (アヌビス光)</option>
               <option value="5">5</option>
@@ -197,7 +202,38 @@
             </select>
             %
           </label>
-                    <div class="alert alert-info" role="alert">※括弧内は判明しているもの。麻痺/恐怖/昏睡は通常の弱体耐性の他に個別設定があるケースあり (古戦場ボス等)</div>
+                    <div class="alert alert-info" role="alert">※括弧内は判明しているもの。麻痺/恐怖/昏睡は通常の弱体耐性の他に個別設定があるケースあり。敵個別耐性欄で指定ください</div>
+                </fieldset>
+                <fieldset>
+                    <legend class="special_color">敵個別耐性</legend>
+                    <label>
+            <input type="radio" class="special_group" name="special_1" data-rate="0" data-elem="special_select" checked />
+            <select class="form-control-sm select-box" id="special_select">
+              <option value="100">100</option>
+              <option value="95">95</option>
+              <option value="90">90</option>
+              <option value="85">85</option>
+              <option value="80">80</option>
+              <option value="75">75</option>
+              <option value="70">70</option>
+              <option value="65">65</option>
+              <option value="60">60</option>
+              <option value="55">55</option>
+              <option value="50">50 (ﾃｨｱﾏﾄﾏﾘｽ火恐怖)</option>
+              <option value="45">45</option>
+              <option value="40">40</option>
+              <option value="35">35</option>
+              <option value="30">30</option>
+              <option value="25">25</option>
+              <option value="20">20</option>
+              <option value="15">15</option>
+              <option value="10">10</option>
+              <option value="5">5</option>
+              <option selected>0</option>
+            </select>
+            %
+          </label>
+                    <div class="alert alert-info" role="alert">※括弧内は判明しているもの</div>
                 </fieldset>
                 <fieldset>
                     <legend class="down_color">ジョブ</legend>
@@ -319,7 +355,7 @@
             <div class="col-md-4">
                 <div class="header">更新履歴</div>
                 <ul class="history">
-                    <li>2019/10/20: 基礎成功率にLB★3版をいくつか追加</li>
+                    <li>2019/10/20: 基礎成功率にLB★3版をいくつか追加、敵個別耐性に対応</li>
                     <li>2019/6/5: 弱体成功率UP枠4をアビリティ命中確率UPとして変更、カオスクリエイター追加</li>
                     <li>2019/5/11: ゼノコキュ琴奥義効果追加</li>
                     <li>2019/2/24: 昏睡と恐怖を追加、敵弱体耐性の文言調整、虚空剣追加</li>
@@ -366,6 +402,7 @@
             char_rate: 0.0,
             up_rate: 0.0,
             monster_rate: 0.0,
+            special_rate: 0.0,
             down_rate: 0.0,
             final_rate: 0.0,
 
@@ -396,6 +433,15 @@
                 gbf_calc.updateFinalRate();
             },
 
+            updateSpecialRate: function(e) {
+                gbf_calc.special_rate = 0.0;
+                $(".special_group:checked").each(function(index, elem) {
+                    gbf_calc.special_rate += $(elem).data('rate');
+                });
+                $("#special").html(gbf_calc.special_rate);
+                gbf_calc.updateFinalRate();
+            },
+
             updateDownRate: function(e) {
                 gbf_calc.down_rate = 0.0;
                 $("input.down_group:checked").each(function(index, elem) {
@@ -406,7 +452,7 @@
             },
 
             updateFinalRate: function() {
-                gbf_calc.final_rate = ((gbf_calc.char_rate + gbf_calc.up_rate) / 100) * ((100 - (gbf_calc.monster_rate - gbf_calc.down_rate)) / 100)
+                gbf_calc.final_rate = ((gbf_calc.char_rate + gbf_calc.up_rate) / 100) * ((100 - (gbf_calc.monster_rate - gbf_calc.down_rate)) / 100) * ((100 - gbf_calc.special_rate) / 100)
                 $("#final").html((gbf_calc.final_rate * 100).toFixed(1));
             },
 
@@ -423,6 +469,7 @@
             $("input.char_group").click(gbf_calc.updateCharRate);
             $("input.up_group").click(gbf_calc.updateUpRate);
             $("input.monster_group").click(gbf_calc.updateMonsterRate);
+            $("input.special_group").click(gbf_calc.updateSpecialRate);
             $("input.down_group").click(gbf_calc.updateDownRate);
 
             $(".select-box").change(gbf_calc.changeRateFromInput);
@@ -431,6 +478,7 @@
             gbf_calc.updateCharRate(null);
             gbf_calc.updateUpRate(null);
             gbf_calc.updateMonsterRate(null);
+            gbf_calc.updateSpecialRate(null);
             gbf_calc.updateDownRate(null);
             gbf_calc.updateFinalRate();
         });
