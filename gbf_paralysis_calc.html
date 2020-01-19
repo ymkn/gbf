@@ -147,7 +147,7 @@
                     <label><input type="radio" class="char_group" name="char_2" data-rate="90" /> パーシヴァル/ヴァジラ恐怖 (LB★3) (90%)</label>
                     <label><input type="radio" class="char_group" name="char_2" data-rate="80" /> パーシヴァル/ヴァジラ恐怖 (80%)</label>
                     <label><input type="radio" class="char_group" name="char_2" data-rate="100" /> ハロダヌ恐怖/水着ダヌア奥義 (LB★3) (100%)</label>
-                    <label><input type="radio" class="char_group" name="char_2" data-rate="90" /> ハロダヌ恐怖/水着ダヌア奥義 (90%)</label>
+                    <label><input type="radio" class="char_group" name="char_2" data-rate="90" /> ハロダヌ恐怖/水着・光ダヌア奥義 (90%)</label>
                     <label><input type="radio" class="char_group" name="char_2" data-rate="100" /> オリヴィエ宵闇 (LB★3) (100%)</label>
                     <label><input type="radio" class="char_group" name="char_2" data-rate="90" /> オリヴィエ宵闇 (90%)</label>
                     <label><input type="radio" class="char_group" name="char_2" data-rate="20" /> シャオ恐怖 (LB★3) (20%)</label>
@@ -248,7 +248,7 @@
                     <legend class="up_color">弱体成功率UP 枠1 (奥義/アビ)</legend>
                     <label><input type="radio" class="up_group" name="success_1" data-rate="25" /> ゼノコキュ琴奥義 (25%)</label>
                     <label><input type="radio" class="up_group" name="success_1" data-rate="20" /> 水ユエル1アビ/リミロゼ奥義 (20%)</label>
-                    <label><input type="radio" class="up_group" name="success_1" data-rate="15" /> 九界琴(最終)奥義/コナン2アビ (15%)</label>
+                    <label><input type="radio" class="up_group" name="success_1" data-rate="15" /> 九界琴(最終)奥義/アーク奥義/コナン2アビ (15%)</label>
                     <label><input type="radio" class="up_group" name="success_1" data-rate="10" /> 九界琴(真以上)奥義 (10%)</label>
                     <label><input type="radio" class="up_group" name="success_1" data-rate="0" /> なし</label>
                 </fieldset>
@@ -272,7 +272,7 @@
                 </fieldset>
                 <fieldset>
                     <legend class="up_color">弱体成功率UP 枠5 (その他サポアビ)</legend>
-                    <label><input type="radio" class="up_group" name="success_5" data-rate="5" /> 火クラリス/アンリエット/アルタイルサポアビ (5%)</label>
+                    <label><input type="radio" class="up_group" name="success_5" data-rate="5" /> 火・ｸﾘｽﾏｽｸﾗﾘｽ/ｱﾝﾘｴｯﾄ/ｱﾙﾀｲﾙ/水着・光ﾀﾞﾇｱサポアビ (5%)</label>
                     <label><input type="radio" class="up_group" name="success_5" data-rate="0" /> なし</label>
                 </fieldset>
                 <fieldset>
@@ -342,6 +342,16 @@
                     <div class="alert alert-info" role="alert">※累積枠は全キャラまたがりで加算、ただし上限はキャラ別</div>
                 </fieldset>
                 <fieldset>
+                    <legend class="down_color">弱体耐性DOWN 枠5 (個人独自)</legend>
+                    <label><input type="checkbox" class="down_group" name="down_5" data-rate="10" /> ノア1アビ (10%)</label>
+                    <label><input type="checkbox" class="down_group" name="down_5" data-rate="10" /> シャレム1アビ (10%)</label>
+                    <label><input type="radio" class="down_group" name="down_5_h" data-rate="15" /> ハーゼリーラ1アビLv3 (15%)</label>
+                    <label><input type="radio" class="down_group" name="down_5_h" data-rate="10" /> ハーゼリーラ1アビLv2 (10%)</label>
+                    <label><input type="radio" class="down_group" name="down_5_h" data-rate="5" /> ハーゼリーラ1アビLv1 (5%)</label>
+                    <label><input type="radio" class="down_group" name="down_5_h" data-rate="0" /> なし</label>
+                    <div class="alert alert-info" role="alert">※それぞれ加算される</div>
+                </fieldset>
+                <fieldset>
                     <legend class="down_color">弱体耐性DOWN その他</legend>
                     <label>
                       <input type="checkbox" class="down_group" name="down_ex" data-rate="0" data-elem="down_ex_text" />
@@ -356,6 +366,7 @@
             <div class="col-md-4">
                 <div class="header">更新履歴</div>
                 <ul class="history">
+                    <li>2020/1/17: 光ダヌア恐怖、サポアビを追加、ノア、シャレム等の個人独自枠を追加、アーク奥義追加</li>
                     <li>2019/12/27: シトリ1アビ麻痺を追加、コスモスPCを削除</li>
                     <li>2019/12/14: ガチャピン2アビを追加 (ソーン2アビ互換)</li>
                     <li>2019/10/20: 基礎成功率にLB★3版をいくつか追加、敵個別耐性に対応</li>
