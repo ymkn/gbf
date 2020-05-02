@@ -383,219 +383,219 @@
         </div>
     </div>
     <script type="text/javascript">
-        var gbf_calc = {
-            char_rate: 0.0,
-            up_rate: 0.0,
-            monster_rate: 0.0,
-            special_rate: 0.0,
-            down_rate: 0.0,
-            final_rate: 0.0,
+var gbf_calc = {
+    char_rate: 0.0,
+    up_rate: 0.0,
+    monster_rate: 0.0,
+    special_rate: 0.0,
+    down_rate: 0.0,
+    final_rate: 0.0,
 
-            updateCharRate: function(e) {
-                gbf_calc.char_rate = 0.0;
-                $("input.char_group:checked").each(function(index, elem) {
-                    gbf_calc.char_rate += $(elem).data('rate');
-                });
-                $("#character").html(gbf_calc.char_rate);
-                gbf_calc.updateFinalRate();
-            },
-
-            updateUpRate: function(e) {
-                gbf_calc.up_rate = 0.0;
-                $("input.up_group:checked").each(function(index, elem) {
-                    gbf_calc.up_rate += $(elem).data('rate');
-                });
-                $("#success").html(gbf_calc.up_rate);
-                gbf_calc.updateFinalRate();
-            },
-
-            updateMonsterRate: function(e) {
-                gbf_calc.monster_rate = 0.0;
-                $(".monster_group:checked").each(function(index, elem) {
-                    gbf_calc.monster_rate += $(elem).data('rate');
-                });
-                $("#monster").html(gbf_calc.monster_rate);
-                gbf_calc.updateFinalRate();
-            },
-
-            updateSpecialRate: function(e) {
-                gbf_calc.special_rate = 0.0;
-                $(".special_group:checked").each(function(index, elem) {
-                    gbf_calc.special_rate += $(elem).data('rate');
-                });
-                $("#special").html(gbf_calc.special_rate);
-                gbf_calc.updateFinalRate();
-            },
-
-            updateDownRate: function(e) {
-                gbf_calc.down_rate = 0.0;
-                $("input.down_group:checked").each(function(index, elem) {
-                    gbf_calc.down_rate += $(elem).data('rate');
-                });
-                $("#resistance").html(gbf_calc.down_rate);
-                gbf_calc.updateFinalRate();
-            },
-
-            updateFinalRate: function() {
-                gbf_calc.final_rate = ((gbf_calc.char_rate + gbf_calc.up_rate) / 100) * ((100 - (gbf_calc.monster_rate - gbf_calc.down_rate)) / 100) * ((100 - gbf_calc.special_rate) / 100)
-                $("#final").html((gbf_calc.final_rate * 100).toFixed(1));
-            },
-
-            changeRateFromInput: function(e) {
-                var radio = $('input[data-elem="' + e.target.id + '"]');
-                radio.data("rate", parseFloat($(e.target).val()));
-                radio.attr("checked", "checked");
-                var events = $._data(radio.get(0), "events");
-                events.click[0].handler.call(null);
-            }
-        };
-
-        $(function() {
-            i18next
-            .init({
-                fallbackLng: 'ja',
-                debug: true,
-                resources: {
-                    en: {
-                        translation: {
-                            navbar_title: '&#x26A1;GBF Debuff Probability Calculator&#x26A1;',
-                            navbar_expr_bp: 'PSR',
-                            navbar_expr_up: 'UP',
-                            navbar_expr_res: 'RES',
-                            navbar_expr_down: 'DOWN',
-                            navbar_expr_idres: 'UQRES',
-                            bp_label: 'Plain Success Rate (Skills/Support Skills)',
-                            bp_tweyen_para1: "Tweyen's Paralyze (EM*3,Lvl95+,single foe) (75%)",
-                            bp_tweyen_para2: "Tweyen's Paralyze (55%)",
-                            bp_tweyen_extend: "Tweyen's Extending (100% fixed)",
-                            bp_tweyen_extend_alert: "* DO NOT select Elysian's Support Skill and any items in Boost of debuff success rate category because Tweyen's Extending is not affected by these skill/buffs",
-                            bp_shitori_para1: "Shitori's Paralyze (EM*3) (40%)",
-                            bp_shitori_para2: "Shitori's Paralyze (30%)",
-                            bp_shao_para1: "Shao's Paralyze (EM*3) (20%)",
-                            bp_shao_para2: "Shao's Paralyze (10%)",
-                            bp_niyon_comatose1: "Niyon's Comatose (EM*3) (85%)",
-                            bp_niyon_comatose2: "Niyon's Comatose (75%)",
-                            bp_joker_comatose1: "Joker's Comatose (EM*3) (90%)",
-                            bp_joker_comatose2: "Joker's Comatose (80%)",
-                            bp_percival_petrify1: "Percival/Vajra's Petrify (EM*3) (90%)",
-                            bp_percival_petrify2: "Percival/Vajra's Petrify (80%)",
-                            bp_danua_petrify1: "Halloween/Summer Danua's Charge Attack (EM*3) (100%)",
-                            bp_danua_petrify2: "Halloween/Summer/Light Danua's Charge Attack (90%)",
-                            bp_olivia_terror1: "Olivia's Twilight Terror (EM*3) (100%)",
-                            bp_olivia_terror2: "Olivia's Twilight Terror (90%)",
-                            bp_shao_petrify1: "Shao's Petrify (EM*3) (20%)",
-                            bp_shao_petrify2: "Shao's Petrify (10%)",
-                            bp_ring: "Ring (Debuff Success)",
-                            bp_other: "Other",
-                            dr_label: "Debuff Resistance",
-                            dr_100: "100",
-                            dr_90: "90",
-                            dr_80: "80",
-                            dr_70: "70 (Morrigan for Light)",
-                            dr_60: "60 (Hector/Gilgamesh for Light)",
-                            dr_50: "50 (P-Baha HL(50%-)/Astaroth(100-75%))",
-                            dr_40: "40 (Chaos Beast)",
-                            dr_30: "30 (Ca-Ong/Prometheus/U-Baha HL(70%-)/Lucilius Hard(main))",
-                            dr_20: "20 (Tiamat Malice for Fire/Lucilius Hard(wing))",
-                            dr_10: "10 (Anubis for Light)",
-                            dr_0: "0",
-                            dr_alert: "* Debuff resistance of enemies in above list are the value confirmed by users investigation. Note that some enemies might have individual resistance for Paralyze/Petrify/Comatose. Please check out Individual Debuff Resistance category",
-                            idr_label: "Individual Debuff Resistance",
-                            ir_100: "100",
-                            idr_90: "90",
-                            idr_80: "80",
-                            idr_70: "70",
-                            idr_60: "60",
-                            idr_50: "50 (Tiamat Malice for Fire's Petrify",
-                            idr_40: "40",
-                            idr_30: "30",
-                            idr_20: "20",
-                            idr_10: "10",
-                            idr_0: "0",
-                            idr_alert: "* Individual debuff resistance of enemies in above list are the value confirmed by users investigation.",
-                            job_label: "Jobs",
-                            job_elysian: "Elysian's Support Skill (<em>for advantageous element only</em>) (10%)",
-                            job_alert: "* DO NOT select this item if you calculate probability for debuffs which have fixed success rate (e.g. Twenyen's Extending). For convinience sake, this calculator treats Elysian's Support Skill (Misterioso) as a debuff resistance reducer, but in actually, it seems to behave as a kind of success rate booster.",
-                            up_label1: "Success Rate Booster: Group 1 (Charge Attacks/Skills)",
-                            up_label2: "Success Rate Booster: Group 2 (Korwa)",
-                            up_label3: "Success Rate Booster: Group 3 (Andira)",
-                            up_label4: "Success Rate Booster: Group 4 (Skill success rate booster)",
-                            up_label5: "Success Rate Booster: Group 5 (Other Support Skills)",
-                            up_label6: "Success Rate Booster: Group 6 (Weapon's Skills)",
-                            up_label7: "Success Rate Booster: Group 7 (Summons)",
-                            up_label_other: "Success Rate Booster: Other",
-                            up_1_1: "Charge Attack of Xeno Cocytus Harp (25%)",
-                            up_1_2: "Summer Yuel's 1st/Limited Rosetta's Charge Attack (20%)",
-                            up_1_3: "Charge Attack of Nine-Realm Harp(Fully Forged)/Ivory Ark/Conan's 2nd (15%)",
-                            up_1_4: "Charge Attack of Nine-Realm Harp(Forged) (10%)",
-                            up_2_1: "Normal Korwa's 1st (Fil 10) (25%)",
-                            up_3_1: "SSR Andira (FLB)/SSR Andira's 3rd (3T) (30%)",
-                            up_3_2: "SSR Andira's 3rd (4T) (20%)",
-                            up_3_3: "SSR Andira's 3rd (2T/5T) (15%)",
-                            up_3_4: "SSR Andira's 3rd (1T/6T) (5%)",
-                            up_4_1: "Niyon's Support Skill (10%)",
-                            up_4_2: "Original Sin (<em>main weapon</em>) (10%)",
-                            up_5_1: "Fire Clarisse/Cristmas Clarisse/Arriet/Altair/Summer Danua/Light Danua's Support Skill (5%)",
-                            up_6_1: "Qilin Lyre (<em>main weapon, dark element characters only</em>) (20%)",
-                            up_6_2: "Sharom Bow (<em>dark element characters only</em>)",
-                            up_6_3: "Harp of Westerly Winds (<em>main weapon</em>) (5%)",
-                            up_6_4: "Hollowsky Blade (<em>sable/dagger speciality characters only</em>) (10%)",
-                            up_6_5: "Max (30%)",
-                            up_6_alert: "* This group is limited up to <em>30%</em> in the game. But this calculator does not alert whether if you select too much items.",
-                            up_7_1: "Summon Freyr (20%)",
-                            down_label1: "Debuff Resistance Reducer: Group 1 (Skills)",
-                            down_label2: "Debuff Resistance Reducer: Group 2 (Summons)",
-                            down_label3: "Debuff Resistance Reducer: Group 3 (Charge Attacks)",
-                            down_label4: "Debuff Resistance Reducer: Group 4 (Stackable Skills)",
-                            down_label5: "Debuff Resistance Reducer: Group 5 (Character Uniques)",
-                            down_label_other: "Debuff Resistance Reducer: Other",
-                            down_1_1: "Soul Soloist (Harp) (30%)",
-                            down_1_2: "Soul Soloist (5%)",
-                            down_1_3: "Twenyen's 2nd/Gachapin's 2nd (10%)",
-                            down_2_1: "Summon Thor (20%)",
-                            down_2_2: "Summon Super Robo Gigantes/Sharom (5%)",
-                            down_3_1: "Charge Attack of Harp of Westerly Winds/Rosenbogen (10%)",
-                            down_3_2: "Light Ezecrain/Fire Clarisse's Charge Attack (10%)",
-                            down_3_3: "Charge Attack of Dominion Harp (5%)",
-                            down_4_1: "Max 30% (Cerberus/Vajra/VISA Zooey/Halloween Danua)",
-                            down_4_2: "Max 10% (Almeida/Goblin Mage)",
-                            down_4_alert: "* Stackable debuff resistance reducers have various maximum amounts by the character who use the skills",
-                            down_5_1: "SSR Noa's 1st (10%)",
-                            down_5_2: "Helel ben Shalem's 1st (10%)",
-                            down_5_3: "Haaselia's 1st Lvl3 (15%)",
-                            down_5_4: "Haaselia's 1st Lvl2 (10%)",
-                            down_5_5: "Haaselia's 1st Lvl1 (5%)",
-                            history_label: "History",
-                            history_20200502: "2020/5/2: Add language switcher (Japanese/English)",
-                            ref_label: "References",
-                            author_label: "Author",
-                            none: "None"
-                        }
-                    }
-                }
-            });
-            jqueryI18next.init(i18next, $);
-            var queryString = location.search;
-            var qs = queryString.substring(1).split('&').map((p) => p.split('=')).reduce((obj, e) => ({...obj, [e[0]]: e[1]}), {});
-            i18next.changeLanguage(qs['lang']);
-            $('body').localize();
-
-            $("input.char_group").click(gbf_calc.updateCharRate);
-            $("input.up_group").click(gbf_calc.updateUpRate);
-            $("input.monster_group").click(gbf_calc.updateMonsterRate);
-            $("input.special_group").click(gbf_calc.updateSpecialRate);
-            $("input.down_group").click(gbf_calc.updateDownRate);
-
-            $(".select-box").change(gbf_calc.changeRateFromInput);
-            $(".select-box").blur(gbf_calc.changeRateFromInput);
-
-            gbf_calc.updateCharRate(null);
-            gbf_calc.updateUpRate(null);
-            gbf_calc.updateMonsterRate(null);
-            gbf_calc.updateSpecialRate(null);
-            gbf_calc.updateDownRate(null);
-            gbf_calc.updateFinalRate();
+    updateCharRate: function(e) {
+        gbf_calc.char_rate = 0.0;
+        $("input.char_group:checked").each(function(index, elem) {
+            gbf_calc.char_rate += $(elem).data('rate');
         });
+        $("#character").html(gbf_calc.char_rate);
+        gbf_calc.updateFinalRate();
+    },
+
+    updateUpRate: function(e) {
+        gbf_calc.up_rate = 0.0;
+        $("input.up_group:checked").each(function(index, elem) {
+            gbf_calc.up_rate += $(elem).data('rate');
+        });
+        $("#success").html(gbf_calc.up_rate);
+        gbf_calc.updateFinalRate();
+    },
+
+    updateMonsterRate: function(e) {
+        gbf_calc.monster_rate = 0.0;
+        $(".monster_group:checked").each(function(index, elem) {
+            gbf_calc.monster_rate += $(elem).data('rate');
+        });
+        $("#monster").html(gbf_calc.monster_rate);
+        gbf_calc.updateFinalRate();
+    },
+
+    updateSpecialRate: function(e) {
+        gbf_calc.special_rate = 0.0;
+        $(".special_group:checked").each(function(index, elem) {
+            gbf_calc.special_rate += $(elem).data('rate');
+        });
+        $("#special").html(gbf_calc.special_rate);
+        gbf_calc.updateFinalRate();
+    },
+
+    updateDownRate: function(e) {
+        gbf_calc.down_rate = 0.0;
+        $("input.down_group:checked").each(function(index, elem) {
+            gbf_calc.down_rate += $(elem).data('rate');
+        });
+        $("#resistance").html(gbf_calc.down_rate);
+        gbf_calc.updateFinalRate();
+    },
+
+    updateFinalRate: function() {
+        gbf_calc.final_rate = ((gbf_calc.char_rate + gbf_calc.up_rate) / 100) * ((100 - (gbf_calc.monster_rate - gbf_calc.down_rate)) / 100) * ((100 - gbf_calc.special_rate) / 100)
+        $("#final").html((gbf_calc.final_rate * 100).toFixed(1));
+    },
+
+    changeRateFromInput: function(e) {
+        var radio = $('input[data-elem="' + e.target.id + '"]');
+        radio.data("rate", parseFloat($(e.target).val()));
+        radio.attr("checked", "checked");
+        var events = $._data(radio.get(0), "events");
+        events.click[0].handler.call(null);
+    }
+};
+
+$(function() {
+    i18next
+    .init({
+        fallbackLng: 'ja',
+        debug: true,
+        resources: {
+            en: {
+                translation: {
+                    navbar_title: '&#x26A1;GBF Debuff Probability Calculator&#x26A1;',
+                    navbar_expr_bp: 'PSR',
+                    navbar_expr_up: 'UP',
+                    navbar_expr_res: 'RES',
+                    navbar_expr_down: 'DOWN',
+                    navbar_expr_idres: 'UQRES',
+                    bp_label: 'Plain Success Rate (Skills/Support Skills)',
+                    bp_tweyen_para1: "Tweyen's Paralyze (EM*3,Lvl95+,single foe) (75%)",
+                    bp_tweyen_para2: "Tweyen's Paralyze (55%)",
+                    bp_tweyen_extend: "Tweyen's Extending (100% fixed)",
+                    bp_tweyen_extend_alert: "* DO NOT select Elysian's Support Skill and any items in Boost of debuff success rate category because Tweyen's Extending is not affected by these skill/buffs",
+                    bp_shitori_para1: "Shitori's Paralyze (EM*3) (40%)",
+                    bp_shitori_para2: "Shitori's Paralyze (30%)",
+                    bp_shao_para1: "Shao's Paralyze (EM*3) (20%)",
+                    bp_shao_para2: "Shao's Paralyze (10%)",
+                    bp_niyon_comatose1: "Niyon's Comatose (EM*3) (85%)",
+                    bp_niyon_comatose2: "Niyon's Comatose (75%)",
+                    bp_joker_comatose1: "Joker's Comatose (EM*3) (90%)",
+                    bp_joker_comatose2: "Joker's Comatose (80%)",
+                    bp_percival_petrify1: "Percival/Vajra's Petrify (EM*3) (90%)",
+                    bp_percival_petrify2: "Percival/Vajra's Petrify (80%)",
+                    bp_danua_petrify1: "Halloween/Summer Danua's Charge Attack (EM*3) (100%)",
+                    bp_danua_petrify2: "Halloween/Summer/Light Danua's Charge Attack (90%)",
+                    bp_olivia_terror1: "Olivia's Twilight Terror (EM*3) (100%)",
+                    bp_olivia_terror2: "Olivia's Twilight Terror (90%)",
+                    bp_shao_petrify1: "Shao's Petrify (EM*3) (20%)",
+                    bp_shao_petrify2: "Shao's Petrify (10%)",
+                    bp_ring: "Ring (Debuff Success)",
+                    bp_other: "Other",
+                    dr_label: "Debuff Resistance",
+                    dr_100: "100",
+                    dr_90: "90",
+                    dr_80: "80",
+                    dr_70: "70 (Morrigan for Light)",
+                    dr_60: "60 (Hector/Gilgamesh for Light)",
+                    dr_50: "50 (P-Baha HL(50%-)/Astaroth(100-75%))",
+                    dr_40: "40 (Chaos Beast)",
+                    dr_30: "30 (Ca-Ong/Prometheus/U-Baha HL(70%-)/Lucilius Hard(main))",
+                    dr_20: "20 (Tiamat Malice for Fire/Lucilius Hard(wing))",
+                    dr_10: "10 (Anubis for Light)",
+                    dr_0: "0",
+                    dr_alert: "* Debuff resistance of enemies in above list are the value confirmed by users investigation. Note that some enemies might have individual resistance for Paralyze/Petrify/Comatose. Please check out Individual Debuff Resistance category",
+                    idr_label: "Individual Debuff Resistance",
+                    ir_100: "100",
+                    idr_90: "90",
+                    idr_80: "80",
+                    idr_70: "70",
+                    idr_60: "60",
+                    idr_50: "50 (Tiamat Malice for Fire's Petrify",
+                    idr_40: "40",
+                    idr_30: "30",
+                    idr_20: "20",
+                    idr_10: "10",
+                    idr_0: "0",
+                    idr_alert: "* Individual debuff resistance of enemies in above list are the value confirmed by users investigation.",
+                    job_label: "Jobs",
+                    job_elysian: "Elysian's Support Skill (<em>for advantageous element only</em>) (10%)",
+                    job_alert: "* DO NOT select this item if you calculate probability for debuffs which have fixed success rate (e.g. Twenyen's Extending). For convinience sake, this calculator treats Elysian's Support Skill (Misterioso) as a debuff resistance reducer, but in actually, it seems to behave as a kind of success rate booster.",
+                    up_label1: "Success Rate Booster: Group 1 (Charge Attacks/Skills)",
+                    up_label2: "Success Rate Booster: Group 2 (Korwa)",
+                    up_label3: "Success Rate Booster: Group 3 (Andira)",
+                    up_label4: "Success Rate Booster: Group 4 (Skill success rate booster)",
+                    up_label5: "Success Rate Booster: Group 5 (Other Support Skills)",
+                    up_label6: "Success Rate Booster: Group 6 (Weapon's Skills)",
+                    up_label7: "Success Rate Booster: Group 7 (Summons)",
+                    up_label_other: "Success Rate Booster: Other",
+                    up_1_1: "Charge Attack of Xeno Cocytus Harp (25%)",
+                    up_1_2: "Summer Yuel's 1st/Limited Rosetta's Charge Attack (20%)",
+                    up_1_3: "Charge Attack of Nine-Realm Harp(Fully Forged)/Ivory Ark/Conan's 2nd (15%)",
+                    up_1_4: "Charge Attack of Nine-Realm Harp(Forged) (10%)",
+                    up_2_1: "Normal Korwa's 1st (Fil 10) (25%)",
+                    up_3_1: "SSR Andira (FLB)/SSR Andira's 3rd (3T) (30%)",
+                    up_3_2: "SSR Andira's 3rd (4T) (20%)",
+                    up_3_3: "SSR Andira's 3rd (2T/5T) (15%)",
+                    up_3_4: "SSR Andira's 3rd (1T/6T) (5%)",
+                    up_4_1: "Niyon's Support Skill (10%)",
+                    up_4_2: "Original Sin (<em>main weapon</em>) (10%)",
+                    up_5_1: "Fire Clarisse/Cristmas Clarisse/Arriet/Altair/Summer Danua/Light Danua's Support Skill (5%)",
+                    up_6_1: "Qilin Lyre (<em>main weapon, dark element characters only</em>) (20%)",
+                    up_6_2: "Sharom Bow (<em>dark element characters only</em>)",
+                    up_6_3: "Harp of Westerly Winds (<em>main weapon</em>) (5%)",
+                    up_6_4: "Hollowsky Blade (<em>sable/dagger speciality characters only</em>) (10%)",
+                    up_6_5: "Max (30%)",
+                    up_6_alert: "* This group is limited up to <em>30%</em> in the game. But this calculator does not alert whether if you select too much items.",
+                    up_7_1: "Summon Freyr (20%)",
+                    down_label1: "Debuff Resistance Reducer: Group 1 (Skills)",
+                    down_label2: "Debuff Resistance Reducer: Group 2 (Summons)",
+                    down_label3: "Debuff Resistance Reducer: Group 3 (Charge Attacks)",
+                    down_label4: "Debuff Resistance Reducer: Group 4 (Stackable Skills)",
+                    down_label5: "Debuff Resistance Reducer: Group 5 (Character Uniques)",
+                    down_label_other: "Debuff Resistance Reducer: Other",
+                    down_1_1: "Soul Soloist (Harp) (30%)",
+                    down_1_2: "Soul Soloist (5%)",
+                    down_1_3: "Twenyen's 2nd/Gachapin's 2nd (10%)",
+                    down_2_1: "Summon Thor (20%)",
+                    down_2_2: "Summon Super Robo Gigantes/Sharom (5%)",
+                    down_3_1: "Charge Attack of Harp of Westerly Winds/Rosenbogen (10%)",
+                    down_3_2: "Light Ezecrain/Fire Clarisse's Charge Attack (10%)",
+                    down_3_3: "Charge Attack of Dominion Harp (5%)",
+                    down_4_1: "Max 30% (Cerberus/Vajra/VISA Zooey/Halloween Danua)",
+                    down_4_2: "Max 10% (Almeida/Goblin Mage)",
+                    down_4_alert: "* Stackable debuff resistance reducers have various maximum amounts by the character who use the skills",
+                    down_5_1: "SSR Noa's 1st (10%)",
+                    down_5_2: "Helel ben Shalem's 1st (10%)",
+                    down_5_3: "Haaselia's 1st Lvl3 (15%)",
+                    down_5_4: "Haaselia's 1st Lvl2 (10%)",
+                    down_5_5: "Haaselia's 1st Lvl1 (5%)",
+                    history_label: "History",
+                    history_20200502: "2020/5/2: Add language switcher (Japanese/English)",
+                    ref_label: "References",
+                    author_label: "Author",
+                    none: "None"
+                }
+            }
+        }
+    });
+    jqueryI18next.init(i18next, $);
+    var queryString = location.search;
+    var qs = queryString.substring(1).split('&').map((p) => p.split('=')).reduce((obj, e) => ({...obj, [e[0]]: e[1]}), {});
+    i18next.changeLanguage(qs['lang']);
+    $('body').localize();
+
+    $("input.char_group").click(gbf_calc.updateCharRate);
+    $("input.up_group").click(gbf_calc.updateUpRate);
+    $("input.monster_group").click(gbf_calc.updateMonsterRate);
+    $("input.special_group").click(gbf_calc.updateSpecialRate);
+    $("input.down_group").click(gbf_calc.updateDownRate);
+
+    $(".select-box").change(gbf_calc.changeRateFromInput);
+    $(".select-box").blur(gbf_calc.changeRateFromInput);
+
+    gbf_calc.updateCharRate(null);
+    gbf_calc.updateUpRate(null);
+    gbf_calc.updateMonsterRate(null);
+    gbf_calc.updateSpecialRate(null);
+    gbf_calc.updateDownRate(null);
+    gbf_calc.updateFinalRate();
+});
     </script>
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
