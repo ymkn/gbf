@@ -35,6 +35,7 @@ body {
                         <th></th>
                         <th></th>
                         <th></th>
+                        <th></th>
                     </tr>
                 </thead>
             </table>
@@ -66,7 +67,8 @@ body {
             <div class="col">
                 <ul>
                     <li>ソース：<a href="https://twitter.com/jpokiehl" target="_blank">@jpokielさん</a>のスプシ 2020/06/05版、<a href="https://gbf.wiki/">GBF.WIKI</a></li>
-                    <li>作った人：<a href="https://twitter.com/ymkn_gbf" target="_blank">@ymkn_gbf</li>
+                    <li>作った人：<a href="https://twitter.com/ymkn_gbf" target="_blank">@ymkn_gbf</a></li>
+                    <li>フィードバック先：<a href="https://github.com/ymkn/gbf" target="_blank">ymkn/gbf : グラブル用物置</a></li>
                 </ul>
             </div>
         </div>
@@ -90,9 +92,6 @@ $(document).ready(function () {
             data: "ability_name",
             title: "アビリティ",
         }, {
-            data: "condition",
-            title: "条件",
-        }, {
             data: "debuff_name",
             title: "効果",
         }, {
@@ -101,6 +100,12 @@ $(document).ready(function () {
         }, {
             data: "element",
             title: "属性",
+        }, {
+            data: "stacking_side",
+            title: "枠",
+        }, {
+            data: "effect",
+            title: "効果量",
         }],
         ajax: {
             url: 'gbf_debuff_db.json'
