@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link href="https://cdn.datatables.net/1.10.16/css/dataTables.bootstrap4.min.css" rel="stylesheet">
+  <title>Granblue Fantasy Debuff Database</title>
+  <style>
+body {
+    font-size: smaller;
+}
+  </style>
+</head>
+
+<body>
+    <div class="navbar navbar-default">
+        <div class="container">
+            <div class="navbar-header">
+                <div class="navbar-text">Granblue Fantasy Debuff Database</div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <table id="dataTable" class="table table-sm table-striped table-bordered" cellspacing="0" width="100%" >
+                <thead class="thead-light">
+                    <tr>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                    </tr>
+                </thead>
+            </table>
+        </div>
+    </div>
+    <hr />
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <h6 class="h6">補足</h6>
+                <ul>
+                    <li><span class="text-warning font-weight-bold">成功率はLBやサポアビ等を除いた素の値 (例：ミゼラブルミストは80%記載だが、マスボなど足すと実質92%）</span></li>
+                    <li>固定○○%：付与率固定=弱体成功率UPが無効(弱体耐性の影響は受ける)</li>
+                    <li>基本必中：弱体耐性100％や累積耐性の影響がなければ基本的に確定で命中する</li>
+                    <li>耐性無視：弱体耐性を無視して必ず命中する</li>
+                    <li>*1 サポアビで更に成功率+5％</li>
+                    <li>*2 サポアビで更に成功率+20％(Lv95)</li>
+                    <li>*3 サポアビで更に成功率+10％</li>
+                    <li>*4 アビリティ命中確率UPはデバフに対して弱体成功率UPと同様の働きをする</li>
+                    <li>*5 サポアビで更に成功率+5~10％(Lv95)</li>
+                    <li>*6 ラカム編成時サポアビで更に成功率+10％</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <hr />
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <ul>
+                    <li>ソース：<a href="https://twitter.com/jpokiehl" target="_blank">@jpokielさん</a>のスプシ 2020/06/05版</li>
+                    <li>作った人：<a href="https://twitter.com/ymkn_gbf" target="_blank">@ymkn_gbf</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  <script src="https://cdn.datatables.net/1.10.16/js/jquery.dataTables.min.js"></script>
+  <script src="https://cdn.datatables.net/1.10.16/js/dataTables.bootstrap4.min.js"></script>
+  <script type="text/javascript">
+var myTable;
+$(document).ready(function () {
+    myTable = $("#dataTable").DataTable({
+        columns: [{
+            data: "category",
+            title: "分類",
+        }, {
+            data: "character_name",
+            title: "キャラクター",
+        }, {
+            data: "ability_name",
+            title: "アビリティ",
+        }, {
+            data: "condition",
+            title: "条件",
+        }, {
+            data: "debuff_name",
+            title: "効果",
+        }, {
+            data: "success_rate",
+            title: "成功率",
+        }, {
+            data: "element",
+            title: "属性",
+        }],
+        ajax: {
+            url: 'gbf_debuff_db.json'
+        },
+        lengthChange: false,
+
+    });
+})
+    </script>
+</body>
+</html>

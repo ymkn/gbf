@@ -1,0 +1,6943 @@
+{
+  "data": [
+    {
+      "category": "主人公",
+      "character_name": "",
+      "ability_name": "アーマーブレイク",
+      "condition": "",
+      "debuff_name": "防御",
+      "success_rate": 80,
+      "element": ""
+    },
+    {
+      "category": "主人公",
+      "character_name": "",
+      "ability_name": "アーマーブレイクⅡ",
+      "condition": "",
+      "debuff_name": "防御",
+      "success_rate": 80,
+      "element": ""
+    },
+    {
+      "category": "主人公",
+      "character_name": "",
+      "ability_name": "シールドワイア",
+      "condition": "",
+      "debuff_name": "スロウ",
+      "success_rate": 100,
+      "element": ""
+    },
+    {
+      "category": "主人公",
+      "character_name": "",
+      "ability_name": "ヴェノム",
+      "condition": "",
+      "debuff_name": "毒",
+      "success_rate": 100,
+      "element": ""
+    },
+    {
+      "category": "主人公",
+      "character_name": "",
+      "ability_name": "ブラインド",
+      "condition": "",
+      "debuff_name": "暗闇",
+      "success_rate": 75,
+      "element": ""
+    },
+    {
+      "category": "主人公",
+      "character_name": "",
+      "ability_name": "ブラックヘイズ",
+      "condition": "",
+      "debuff_name": "攻撃",
+      "success_rate": 90,
+      "element": ""
+    },
+    {
+      "category": "主人公",
+      "character_name": "",
+      "ability_name": "ブラックヘイズ",
+      "condition": "",
+      "debuff_name": "防御",
+      "success_rate": 90,
+      "element": ""
+    },
+    {
+      "category": "主人公",
+      "character_name": "",
+      "ability_name": "ブラックヘイズ",
+      "condition": "",
+      "debuff_name": "毒",
+      "success_rate": 100,
+      "element": ""
+    },
+    {
+      "category": "主人公",
+      "character_name": "",
+      "ability_name": "ブラックヘイズ",
+      "condition": "",
+      "debuff_name": "暗闇",
+      "success_rate": 75,
+      "element": ""
+    },
+    {
+      "category": "主人公",
+      "character_name": "",
+      "ability_name": "バウンス(英雄武器天聖)",
+      "condition": "",
+      "debuff_name": "防御",
+      "success_rate": 90,
+      "element": ""
+    },
+    {
+      "category": "主人公",
+      "character_name": "",
+      "ability_name": "楼門五三桐",
+      "condition": "",
+      "debuff_name": "強襲",
+      "success_rate": 100,
+      "element": ""
+    },
+    {
+      "category": "主人公",
+      "character_name": "",
+      "ability_name": "シャイニングⅡ",
+      "condition": "",
+      "debuff_name": "ホーリースパイク",
+      "success_rate": 100,
+      "element": "自"
+    },
+    {
+      "category": "主人公",
+      "character_name": "",
+      "ability_name": "ミゼラブルミスト",
+      "condition": "",
+      "debuff_name": "攻撃",
+      "success_rate": 80,
+      "element": ""
+    },
+    {
+      "category": "主人公",
+      "character_name": "",
+      "ability_name": "ミゼラブルミスト",
+      "condition": "",
+      "debuff_name": "防御",
+      "success_rate": 80,
+      "element": ""
+    },
+    {
+      "category": "主人公",
+      "character_name": "",
+      "ability_name": "アンプレディクト",
+      "condition": "",
+      "debuff_name": "攻撃",
+      "success_rate": 100,
+      "element": ""
+    },
+    {
+      "category": "主人公",
+      "character_name": "",
+      "ability_name": "アンプレディクト",
+      "condition": "",
+      "debuff_name": "防御",
+      "success_rate": 100,
+      "element": ""
+    },
+    {
+      "category": "主人公",
+      "character_name": "",
+      "ability_name": "アンプレディクト",
+      "condition": "",
+      "debuff_name": "ランダム",
+      "success_rate": 100,
+      "element": ""
+    },
+    {
+      "category": "主人公",
+      "character_name": "",
+      "ability_name": "グラビティ",
+      "condition": "",
+      "debuff_name": "グラビティ",
+      "success_rate": 100,
+      "element": ""
+    },
+    {
+      "category": "主人公",
+      "character_name": "",
+      "ability_name": "クイックダウン",
+      "condition": "",
+      "debuff_name": "DA確率",
+      "success_rate": 100,
+      "element": ""
+    },
+    {
+      "category": "主人公",
+      "character_name": "",
+      "ability_name": "クイックダウン",
+      "condition": "",
+      "debuff_name": "TA確率",
+      "success_rate": 100,
+      "element": ""
+    },
+    {
+      "category": "主人公",
+      "character_name": "",
+      "ability_name": "アローレインⅡ",
+      "condition": "",
+      "debuff_name": "攻撃",
+      "success_rate": 80,
+      "element": ""
+    },
+    {
+      "category": "主人公",
+      "character_name": "",
+      "ability_name": "アローレインⅢ",
+      "condition": "",
+      "debuff_name": "攻撃",
+      "success_rate": 80,
+      "element": ""
+    },
+    {
+      "category": "主人公",
+      "character_name": "",
+      "ability_name": "スタディエイム",
+      "condition": "",
+      "debuff_name": "スタディエイム",
+      "success_rate": 100,
+      "element": ""
+    },
+    {
+      "category": "主人公",
+      "character_name": "",
+      "ability_name": "チャフリリース",
+      "condition": "",
+      "debuff_name": "暗闇",
+      "success_rate": 100,
+      "element": ""
+    },
+    {
+      "category": "主人公",
+      "character_name": "",
+      "ability_name": "レイショナルショット",
+      "condition": "",
+      "debuff_name": "自属性防御",
+      "success_rate": 100,
+      "element": ""
+    },
+    {
+      "category": "主人公",
+      "character_name": "",
+      "ability_name": "タイム･オン･ターゲット",
+      "condition": "",
+      "debuff_name": "ランダム",
+      "success_rate": "未確認",
+      "element": ""
+    },
+    {
+      "category": "主人公",
+      "character_name": "",
+      "ability_name": "チャームボイス",
+      "condition": "楽器",
+      "debuff_name": "魅了",
+      "success_rate": 70,
+      "element": ""
+    },
+    {
+      "category": "主人公",
+      "character_name": "",
+      "ability_name": "チャームボイス",
+      "condition": "フ杖",
+      "debuff_name": "魅了",
+      "success_rate": 70,
+      "element": ""
+    },
+    {
+      "category": "主人公",
+      "character_name": "",
+      "ability_name": "チャームボイス",
+      "condition": "非楽器",
+      "debuff_name": "魅了",
+      "success_rate": 40,
+      "element": ""
+    },
+    {
+      "category": "主人公",
+      "character_name": "",
+      "ability_name": "チャームボイスⅡ",
+      "condition": "楽器",
+      "debuff_name": "魅了",
+      "success_rate": 75,
+      "element": ""
+    },
+    {
+      "category": "主人公",
+      "character_name": "",
+      "ability_name": "チャームボイスⅡ",
+      "condition": "フ杖",
+      "debuff_name": "魅了",
+      "success_rate": 75,
+      "element": ""
+    },
+    {
+      "category": "主人公",
+      "character_name": "",
+      "ability_name": "チャームボイスⅡ",
+      "condition": "非楽器",
+      "debuff_name": "魅了",
+      "success_rate": 45,
+      "element": ""
+    },
+    {
+      "category": "主人公",
+      "character_name": "",
+      "ability_name": "ソウルピルファー",
+      "condition": "楽器",
+      "debuff_name": "弱体耐性",
+      "success_rate": 200,
+      "element": ""
+    },
+    {
+      "category": "主人公",
+      "character_name": "",
+      "ability_name": "ソウルピルファー",
+      "condition": "フ杖",
+      "debuff_name": "弱体耐性",
+      "success_rate": 200,
+      "element": ""
+    },
+    {
+      "category": "主人公",
+      "character_name": "",
+      "ability_name": "ソウルピルファー",
+      "condition": "非楽器",
+      "debuff_name": "弱体耐性",
+      "success_rate": 90,
+      "element": ""
+    },
+    {
+      "category": "主人公",
+      "character_name": "",
+      "ability_name": "ひつじのうた",
+      "condition": "楽器",
+      "debuff_name": "睡眠",
+      "success_rate": 80,
+      "element": ""
+    },
+    {
+      "category": "主人公",
+      "character_name": "",
+      "ability_name": "ひつじのうた",
+      "condition": "楽器",
+      "debuff_name": "スロウ",
+      "success_rate": 100,
+      "element": ""
+    },
+    {
+      "category": "主人公",
+      "character_name": "",
+      "ability_name": "ひつじのうた",
+      "condition": "非楽器",
+      "debuff_name": "睡眠",
+      "success_rate": 50,
+      "element": ""
+    },
+    {
+      "category": "主人公",
+      "character_name": "",
+      "ability_name": "ひつじのうた",
+      "condition": "非楽器",
+      "debuff_name": "スロウ",
+      "success_rate": 70,
+      "element": ""
+    },
+    {
+      "category": "主人公",
+      "character_name": "",
+      "ability_name": "ソング･トゥ･ザ･デッド",
+      "condition": "",
+      "debuff_name": "防御",
+      "success_rate": 90,
+      "element": ""
+    },
+    {
+      "category": "主人公",
+      "character_name": "",
+      "ability_name": "ソング･トゥ･ザ･デッド",
+      "condition": "",
+      "debuff_name": "自属性防御",
+      "success_rate": 90,
+      "element": ""
+    },
+    {
+      "category": "主人公",
+      "character_name": "",
+      "ability_name": "斧デュアルインパルス",
+      "condition": "",
+      "debuff_name": "DA確率",
+      "success_rate": 75,
+      "element": ""
+    },
+    {
+      "category": "主人公",
+      "character_name": "",
+      "ability_name": "斧デュアルインパルスⅡ",
+      "condition": "",
+      "debuff_name": "DA確率",
+      "success_rate": 75,
+      "element": ""
+    },
+    {
+      "category": "主人公",
+      "character_name": "",
+      "ability_name": "斧デュアルインパルスⅢ",
+      "condition": "",
+      "debuff_name": "DA確率",
+      "success_rate": 75,
+      "element": ""
+    },
+    {
+      "category": "主人公",
+      "character_name": "",
+      "ability_name": "斧デュアルインパルスⅢ",
+      "condition": "",
+      "debuff_name": "TA確率",
+      "success_rate": 75,
+      "element": ""
+    },
+    {
+      "category": "主人公",
+      "character_name": "",
+      "ability_name": "ランドグリース",
+      "condition": "",
+      "debuff_name": "防御",
+      "success_rate": 90,
+      "element": ""
+    },
+    {
+      "category": "主人公",
+      "character_name": "",
+      "ability_name": "木こりのうた",
+      "condition": "アビ3回",
+      "debuff_name": "攻撃(累積)",
+      "success_rate": 90,
+      "element": ""
+    },
+    {
+      "category": "主人公",
+      "character_name": "",
+      "ability_name": "木こりのうた",
+      "condition": "アビ3回",
+      "debuff_name": "防御(累積)",
+      "success_rate": 90,
+      "element": ""
+    },
+    {
+      "category": "主人公",
+      "character_name": "",
+      "ability_name": "木こりのうた",
+      "condition": "敵特殊",
+      "debuff_name": "暗闇",
+      "success_rate": 100,
+      "element": ""
+    },
+    {
+      "category": "主人公",
+      "character_name": "",
+      "ability_name": "木こりのうた",
+      "condition": "敵特殊",
+      "debuff_name": "恐怖",
+      "success_rate": "未確認",
+      "element": ""
+    },
+    {
+      "category": "主人公",
+      "character_name": "",
+      "ability_name": "忍術",
+      "condition": "",
+      "debuff_name": "属性印1",
+      "success_rate": 100,
+      "element": "固定"
+    },
+    {
+      "category": "主人公",
+      "character_name": "",
+      "ability_name": "風魔手裏剣",
+      "condition": "",
+      "debuff_name": "属性印2",
+      "success_rate": 100,
+      "element": "自"
+    },
+    {
+      "category": "主人公",
+      "character_name": "",
+      "ability_name": "風魔手裏剣",
+      "condition": "",
+      "debuff_name": "属性防御",
+      "success_rate": 100,
+      "element": "固定"
+    },
+    {
+      "category": "主人公",
+      "character_name": "",
+      "ability_name": "水遁(水の印2)",
+      "condition": "",
+      "debuff_name": "防御",
+      "success_rate": 100,
+      "element": ""
+    },
+    {
+      "category": "主人公",
+      "character_name": "",
+      "ability_name": "エレメンタルブレイク",
+      "condition": "",
+      "debuff_name": "自属性防御",
+      "success_rate": 100,
+      "element": "自"
+    },
+    {
+      "category": "主人公",
+      "character_name": "",
+      "ability_name": "ハイドラフト",
+      "condition": "",
+      "debuff_name": "不利属性攻撃",
+      "success_rate": 100,
+      "element": "自"
+    },
+    {
+      "category": "主人公",
+      "character_name": "",
+      "ability_name": "ブラックサンド",
+      "condition": "",
+      "debuff_name": "命中率",
+      "success_rate": 100,
+      "element": "土"
+    },
+    {
+      "category": "主人公",
+      "character_name": "",
+      "ability_name": "フリーズバインド",
+      "condition": "",
+      "debuff_name": "氷牢",
+      "success_rate": 100,
+      "element": "水"
+    },
+    {
+      "category": "主人公",
+      "character_name": "",
+      "ability_name": "極マリシ烈火ノ太刀",
+      "condition": "解放",
+      "debuff_name": "防御",
+      "success_rate": 100,
+      "element": ""
+    },
+    {
+      "category": "主人公",
+      "character_name": "",
+      "ability_name": "蒼紅之華刀",
+      "condition": "解放",
+      "debuff_name": "風防御",
+      "success_rate": 100,
+      "element": ""
+    },
+    {
+      "category": "主人公",
+      "character_name": "",
+      "ability_name": "ギガントスライサー",
+      "condition": "解放",
+      "debuff_name": "闇防御",
+      "success_rate": 100,
+      "element": ""
+    },
+    {
+      "category": "主人公",
+      "character_name": "",
+      "ability_name": "虚空の裂剣",
+      "condition": "解放",
+      "debuff_name": "闇防御",
+      "success_rate": 100,
+      "element": ""
+    },
+    {
+      "category": "主人公",
+      "character_name": "",
+      "ability_name": "オメガスウォード",
+      "condition": "攻撃",
+      "debuff_name": "攻撃",
+      "success_rate": 10,
+      "element": ""
+    },
+    {
+      "category": "主人公",
+      "character_name": "",
+      "ability_name": "リディル",
+      "condition": "攻撃",
+      "debuff_name": "ランダム(累積)",
+      "success_rate": 10,
+      "element": ""
+    },
+    {
+      "category": "主人公",
+      "character_name": "",
+      "ability_name": "ポイズンバレット",
+      "condition": "",
+      "debuff_name": "毒",
+      "success_rate": 50,
+      "element": ""
+    },
+    {
+      "category": "主人公",
+      "character_name": "",
+      "ability_name": "フレイムバレット",
+      "condition": "",
+      "debuff_name": "灼熱",
+      "success_rate": 50,
+      "element": ""
+    },
+    {
+      "category": "主人公",
+      "character_name": "",
+      "ability_name": "スリープバレット",
+      "condition": "",
+      "debuff_name": "睡眠",
+      "success_rate": 30,
+      "element": ""
+    },
+    {
+      "category": "主人公",
+      "character_name": "",
+      "ability_name": "チャームバレット",
+      "condition": "",
+      "debuff_name": "魅了",
+      "success_rate": 65,
+      "element": ""
+    },
+    {
+      "category": "主人公",
+      "character_name": "",
+      "ability_name": "テネブラエ",
+      "condition": "",
+      "debuff_name": "攻撃",
+      "success_rate": 100,
+      "element": ""
+    },
+    {
+      "category": "主人公",
+      "character_name": "",
+      "ability_name": "テネブラエ",
+      "condition": "",
+      "debuff_name": "DA確率",
+      "success_rate": 100,
+      "element": ""
+    },
+    {
+      "category": "主人公",
+      "character_name": "",
+      "ability_name": "テネブラエ",
+      "condition": "",
+      "debuff_name": "TA確率",
+      "success_rate": 100,
+      "element": ""
+    },
+    {
+      "category": "主人公",
+      "character_name": "",
+      "ability_name": "テネブラエ",
+      "condition": "",
+      "debuff_name": "弱体耐性",
+      "success_rate": 100,
+      "element": ""
+    },
+    {
+      "category": "主人公",
+      "character_name": "",
+      "ability_name": "闘志の残響",
+      "condition": "",
+      "debuff_name": "自属性防御",
+      "success_rate": 90,
+      "element": ""
+    },
+    {
+      "category": "主人公",
+      "character_name": "",
+      "ability_name": "テクニカルユニット･ブレイク",
+      "condition": "",
+      "debuff_name": "防御(累積)",
+      "success_rate": 90,
+      "element": ""
+    },
+    {
+      "category": "主人公",
+      "character_name": "",
+      "ability_name": "ウィークマニューバ",
+      "condition": "",
+      "debuff_name": "弱体耐性",
+      "success_rate": 100,
+      "element": ""
+    },
+    {
+      "category": "武器奥義",
+      "character_name": "",
+      "ability_name": "三寅斧(真/属性変更)",
+      "condition": "",
+      "debuff_name": "防御",
+      "success_rate": 100,
+      "element": ""
+    },
+    {
+      "category": "武器奥義",
+      "character_name": "",
+      "ability_name": "三寅斧(天)",
+      "condition": "",
+      "debuff_name": "防御",
+      "success_rate": "95↑",
+      "element": ""
+    },
+    {
+      "category": "武器奥義",
+      "character_name": "",
+      "ability_name": "ローゼンボーゲン(属性変更)",
+      "condition": "",
+      "debuff_name": "弱体耐性",
+      "success_rate": 100,
+      "element": ""
+    },
+    {
+      "category": "武器奥義",
+      "character_name": "",
+      "ability_name": "コロッサスマグナ武器",
+      "condition": "",
+      "debuff_name": "防御",
+      "success_rate": 100,
+      "element": "火"
+    },
+    {
+      "category": "武器奥義",
+      "character_name": "",
+      "ability_name": "真･灼滅天の刃鎌",
+      "condition": "",
+      "debuff_name": "灼熱",
+      "success_rate": 25,
+      "element": "火"
+    },
+    {
+      "category": "武器奥義",
+      "character_name": "",
+      "ability_name": "ファイア･オブ･プロメテウス",
+      "condition": "0~3凸",
+      "debuff_name": "火防御",
+      "success_rate": 95,
+      "element": "火"
+    },
+    {
+      "category": "武器奥義",
+      "character_name": "",
+      "ability_name": "ファイア･オブ･プロメテウス",
+      "condition": "4凸",
+      "debuff_name": "火防御",
+      "success_rate": 100,
+      "element": "火"
+    },
+    {
+      "category": "武器奥義",
+      "character_name": "",
+      "ability_name": "チェーン･オブ･カウカソス",
+      "condition": "0~3凸",
+      "debuff_name": "火防御",
+      "success_rate": "未確認",
+      "element": "火"
+    },
+    {
+      "category": "武器奥義",
+      "character_name": "",
+      "ability_name": "チェーン･オブ･カウカソス",
+      "condition": "4凸",
+      "debuff_name": "火防御",
+      "success_rate": 100,
+      "element": "火"
+    },
+    {
+      "category": "武器奥義",
+      "character_name": "",
+      "ability_name": "ローズクリスタルワンド",
+      "condition": "",
+      "debuff_name": "火防御",
+      "success_rate": 95,
+      "element": "火"
+    },
+    {
+      "category": "武器奥義",
+      "character_name": "",
+      "ability_name": "バルムンク",
+      "condition": "",
+      "debuff_name": "防御",
+      "success_rate": 100,
+      "element": "火"
+    },
+    {
+      "category": "武器奥義",
+      "character_name": "",
+      "ability_name": "ウシュムガル",
+      "condition": "",
+      "debuff_name": "火防御",
+      "success_rate": 90,
+      "element": "火"
+    },
+    {
+      "category": "武器奥義",
+      "character_name": "",
+      "ability_name": "ルーン",
+      "condition": "",
+      "debuff_name": "攻撃",
+      "success_rate": 100,
+      "element": "火"
+    },
+    {
+      "category": "武器奥義",
+      "character_name": "",
+      "ability_name": "ルーン",
+      "condition": "",
+      "debuff_name": "防御",
+      "success_rate": 100,
+      "element": "火"
+    },
+    {
+      "category": "武器奥義",
+      "character_name": "",
+      "ability_name": "ドラグクロー",
+      "condition": "",
+      "debuff_name": "火防御",
+      "success_rate": 95,
+      "element": "火"
+    },
+    {
+      "category": "武器奥義",
+      "character_name": "",
+      "ability_name": "ローズクリスタルソード",
+      "condition": "",
+      "debuff_name": "水防御",
+      "success_rate": 95,
+      "element": "水"
+    },
+    {
+      "category": "武器奥義",
+      "character_name": "",
+      "ability_name": "ローズクリスタルランス",
+      "condition": "",
+      "debuff_name": "土防御",
+      "success_rate": 95,
+      "element": "土"
+    },
+    {
+      "category": "武器奥義",
+      "character_name": "",
+      "ability_name": "レインディアーホーン",
+      "condition": "",
+      "debuff_name": "土防御",
+      "success_rate": 100,
+      "element": "土"
+    },
+    {
+      "category": "武器奥義",
+      "character_name": "",
+      "ability_name": "クラブクラブ",
+      "condition": "",
+      "debuff_name": "防御",
+      "success_rate": 100,
+      "element": "土"
+    },
+    {
+      "category": "武器奥義",
+      "character_name": "",
+      "ability_name": "クラブクラブ",
+      "condition": "",
+      "debuff_name": "気絶",
+      "success_rate": 10,
+      "element": "土"
+    },
+    {
+      "category": "武器奥義",
+      "character_name": "",
+      "ability_name": "ガーンディーヴァ",
+      "condition": "",
+      "debuff_name": "土防御",
+      "success_rate": 95,
+      "element": "土"
+    },
+    {
+      "category": "武器奥義",
+      "character_name": "",
+      "ability_name": "ティアマトマグナ武器",
+      "condition": "",
+      "debuff_name": "攻撃",
+      "success_rate": "100↑",
+      "element": "風"
+    },
+    {
+      "category": "武器奥義",
+      "character_name": "",
+      "ability_name": "エーテリアルボウ",
+      "condition": "",
+      "debuff_name": "攻撃",
+      "success_rate": 100,
+      "element": "風"
+    },
+    {
+      "category": "武器奥義",
+      "character_name": "",
+      "ability_name": "エーテリアルボウ",
+      "condition": "",
+      "debuff_name": "防御",
+      "success_rate": 100,
+      "element": "風"
+    },
+    {
+      "category": "武器奥義",
+      "character_name": "",
+      "ability_name": "ローズクリスタルナイフ",
+      "condition": "",
+      "debuff_name": "風防御",
+      "success_rate": 95,
+      "element": "風"
+    },
+    {
+      "category": "武器奥義",
+      "character_name": "",
+      "ability_name": "西風の竪琴",
+      "condition": "",
+      "debuff_name": "弱体耐性",
+      "success_rate": 100,
+      "element": "風"
+    },
+    {
+      "category": "武器奥義",
+      "character_name": "",
+      "ability_name": "黄龍拳",
+      "condition": "",
+      "debuff_name": "光防御",
+      "success_rate": 95,
+      "element": "光"
+    },
+    {
+      "category": "武器奥義",
+      "character_name": "",
+      "ability_name": "スレイプニルシュー",
+      "condition": "",
+      "debuff_name": "攻撃",
+      "success_rate": 100,
+      "element": "光"
+    },
+    {
+      "category": "武器奥義",
+      "character_name": "",
+      "ability_name": "スレイプニルシュー",
+      "condition": "",
+      "debuff_name": "防御",
+      "success_rate": 100,
+      "element": "光"
+    },
+    {
+      "category": "武器奥義",
+      "character_name": "",
+      "ability_name": "司法神の錫杖",
+      "condition": "",
+      "debuff_name": "光防御",
+      "success_rate": 100,
+      "element": "光"
+    },
+    {
+      "category": "武器奥義",
+      "character_name": "",
+      "ability_name": "クリスタルルーン",
+      "condition": "",
+      "debuff_name": "攻撃",
+      "success_rate": 100,
+      "element": "光"
+    },
+    {
+      "category": "武器奥義",
+      "character_name": "",
+      "ability_name": "クリスタルルーン",
+      "condition": "",
+      "debuff_name": "防御",
+      "success_rate": 100,
+      "element": "光"
+    },
+    {
+      "category": "武器奥義",
+      "character_name": "",
+      "ability_name": "ヒロイックボウ",
+      "condition": "",
+      "debuff_name": "防御",
+      "success_rate": 100,
+      "element": "光"
+    },
+    {
+      "category": "武器奥義",
+      "character_name": "",
+      "ability_name": "フェイトルーラー",
+      "condition": "",
+      "debuff_name": "ランダム(累積)",
+      "success_rate": 100,
+      "element": "光"
+    },
+    {
+      "category": "武器奥義",
+      "character_name": "",
+      "ability_name": "アバター武器",
+      "condition": "",
+      "debuff_name": "暗闇",
+      "success_rate": 50,
+      "element": "闇"
+    },
+    {
+      "category": "武器奥義",
+      "character_name": "",
+      "ability_name": "アバター武器",
+      "condition": "",
+      "debuff_name": "弱体耐性",
+      "success_rate": 100,
+      "element": "闇"
+    },
+    {
+      "category": "武器奥義",
+      "character_name": "",
+      "ability_name": "麒麟剣",
+      "condition": "",
+      "debuff_name": "闇防御",
+      "success_rate": 95,
+      "element": "闇"
+    },
+    {
+      "category": "武器奥義",
+      "character_name": "",
+      "ability_name": "真・普天幻魔",
+      "condition": "",
+      "debuff_name": "睡眠",
+      "success_rate": 75,
+      "element": "闇"
+    },
+    {
+      "category": "武器奥義",
+      "character_name": "",
+      "ability_name": "虚空の裂剣",
+      "condition": "",
+      "debuff_name": "弱体耐性(累積)",
+      "success_rate": 90,
+      "element": "闇"
+    },
+    {
+      "category": "武器奥義",
+      "character_name": "",
+      "ability_name": "虚空の裂剣",
+      "condition": "",
+      "debuff_name": "攻撃(累積)",
+      "success_rate": 90,
+      "element": "闇"
+    },
+    {
+      "category": "武器奥義",
+      "character_name": "",
+      "ability_name": "虚空の裂剣",
+      "condition": "",
+      "debuff_name": "防御(累積)",
+      "success_rate": 90,
+      "element": "闇"
+    },
+    {
+      "category": "武器奥義",
+      "character_name": "",
+      "ability_name": "グラーシーザー",
+      "condition": "",
+      "debuff_name": "暗闇",
+      "success_rate": 50,
+      "element": "闇"
+    },
+    {
+      "category": "武器奥義",
+      "character_name": "",
+      "ability_name": "シャドウサーペント",
+      "condition": "",
+      "debuff_name": "闇防御",
+      "success_rate": 90,
+      "element": "闇"
+    },
+    {
+      "category": "武器奥義",
+      "character_name": "",
+      "ability_name": "カーラウロプス",
+      "condition": "",
+      "debuff_name": "攻撃",
+      "success_rate": 100,
+      "element": "闇"
+    },
+    {
+      "category": "武器奥義",
+      "character_name": "",
+      "ability_name": "カーラウロプス",
+      "condition": "",
+      "debuff_name": "防御",
+      "success_rate": 100,
+      "element": "闇"
+    },
+    {
+      "category": "武器奥義",
+      "character_name": "",
+      "ability_name": "ブラック･ウロボロス",
+      "condition": "",
+      "debuff_name": "防御",
+      "success_rate": 100,
+      "element": "闇"
+    },
+    {
+      "category": "武器奥義",
+      "character_name": "",
+      "ability_name": "ギガントスライサー",
+      "condition": "",
+      "debuff_name": "防御",
+      "success_rate": 100,
+      "element": "闇"
+    },
+    {
+      "category": "召喚石",
+      "character_name": "",
+      "ability_name": "コロッサス･マグナ",
+      "condition": "",
+      "debuff_name": "防御",
+      "success_rate": 100,
+      "element": "火"
+    },
+    {
+      "category": "召喚石",
+      "character_name": "",
+      "ability_name": "ザ･デビル",
+      "condition": "SR",
+      "debuff_name": "赤熱",
+      "success_rate": "100↑",
+      "element": "火"
+    },
+    {
+      "category": "召喚石",
+      "character_name": "",
+      "ability_name": "ザ･デビル",
+      "condition": "SR",
+      "debuff_name": "攻撃",
+      "success_rate": "100↑",
+      "element": "火"
+    },
+    {
+      "category": "召喚石",
+      "character_name": "",
+      "ability_name": "ザ･デビル",
+      "condition": "SR",
+      "debuff_name": "防御",
+      "success_rate": "100↑",
+      "element": "火"
+    },
+    {
+      "category": "召喚石",
+      "character_name": "",
+      "ability_name": "ザ･デビル",
+      "condition": "SSR",
+      "debuff_name": "赤熱",
+      "success_rate": "未確認",
+      "element": "火"
+    },
+    {
+      "category": "召喚石",
+      "character_name": "",
+      "ability_name": "ザ･デビル",
+      "condition": "SSR",
+      "debuff_name": "攻撃",
+      "success_rate": "未確認",
+      "element": "火"
+    },
+    {
+      "category": "召喚石",
+      "character_name": "",
+      "ability_name": "ザ･デビル",
+      "condition": "SSR",
+      "debuff_name": "防御",
+      "success_rate": "未確認",
+      "element": "火"
+    },
+    {
+      "category": "召喚石",
+      "character_name": "",
+      "ability_name": "アグニス",
+      "condition": "0~3凸",
+      "debuff_name": "灼熱",
+      "success_rate": 50,
+      "element": "火"
+    },
+    {
+      "category": "召喚石",
+      "character_name": "",
+      "ability_name": "アグニス",
+      "condition": "4凸",
+      "debuff_name": "灼熱",
+      "success_rate": 100,
+      "element": "火"
+    },
+    {
+      "category": "召喚石",
+      "character_name": "",
+      "ability_name": "サテュロス",
+      "condition": "0~3凸",
+      "debuff_name": "攻撃",
+      "success_rate": 100,
+      "element": "火"
+    },
+    {
+      "category": "召喚石",
+      "character_name": "",
+      "ability_name": "サテュロス",
+      "condition": "0~3凸",
+      "debuff_name": "防御",
+      "success_rate": 100,
+      "element": "火"
+    },
+    {
+      "category": "召喚石",
+      "character_name": "",
+      "ability_name": "サテュロス",
+      "condition": "4凸",
+      "debuff_name": "攻撃(累積)",
+      "success_rate": "未確認",
+      "element": "自"
+    },
+    {
+      "category": "召喚石",
+      "character_name": "",
+      "ability_name": "サテュロス",
+      "condition": "4凸",
+      "debuff_name": "防御(累積)",
+      "success_rate": "未確認",
+      "element": "自"
+    },
+    {
+      "category": "召喚石",
+      "character_name": "",
+      "ability_name": "ザオシェン",
+      "condition": "",
+      "debuff_name": "火防御",
+      "success_rate": "100↑",
+      "element": "火"
+    },
+    {
+      "category": "召喚石",
+      "character_name": "",
+      "ability_name": "ザオシェン",
+      "condition": "",
+      "debuff_name": "攻撃",
+      "success_rate": "未確認",
+      "element": ""
+    },
+    {
+      "category": "召喚石",
+      "character_name": "",
+      "ability_name": "ザオシェン",
+      "condition": "",
+      "debuff_name": "防御",
+      "success_rate": "未確認",
+      "element": ""
+    },
+    {
+      "category": "召喚石",
+      "character_name": "",
+      "ability_name": "リヴァイアサン･マグナ",
+      "condition": "",
+      "debuff_name": "防御",
+      "success_rate": 100,
+      "element": "水"
+    },
+    {
+      "category": "召喚石",
+      "character_name": "",
+      "ability_name": "ヴァルナ",
+      "condition": "0~3凸",
+      "debuff_name": "腐敗",
+      "success_rate": 50,
+      "element": "水"
+    },
+    {
+      "category": "召喚石",
+      "character_name": "",
+      "ability_name": "ヴァルナ",
+      "condition": "4凸",
+      "debuff_name": "腐敗",
+      "success_rate": 100,
+      "element": "水"
+    },
+    {
+      "category": "召喚石",
+      "character_name": "",
+      "ability_name": "マキュラ･マリウス",
+      "condition": "",
+      "debuff_name": "ブレキ(時間)",
+      "success_rate": 100,
+      "element": "水"
+    },
+    {
+      "category": "召喚石",
+      "character_name": "",
+      "ability_name": "マキュラ･マリウス",
+      "condition": "",
+      "debuff_name": "ブレキ(ダメ)",
+      "success_rate": 100,
+      "element": "自"
+    },
+    {
+      "category": "召喚石",
+      "character_name": "",
+      "ability_name": "水着マキュラ･マリウス",
+      "condition": "",
+      "debuff_name": "氷牢",
+      "success_rate": 100,
+      "element": "自"
+    },
+    {
+      "category": "召喚石",
+      "character_name": "",
+      "ability_name": "カツウォヌス",
+      "condition": "",
+      "debuff_name": "DA確率",
+      "success_rate": 100,
+      "element": "自"
+    },
+    {
+      "category": "召喚石",
+      "character_name": "",
+      "ability_name": "カツウォヌス",
+      "condition": "",
+      "debuff_name": "TA確率",
+      "success_rate": 100,
+      "element": "自"
+    },
+    {
+      "category": "召喚石",
+      "character_name": "",
+      "ability_name": "ポセイドン4凸",
+      "condition": "",
+      "debuff_name": "攻撃",
+      "success_rate": "100↑",
+      "element": "自"
+    },
+    {
+      "category": "召喚石",
+      "character_name": "",
+      "ability_name": "ポセイドン5凸",
+      "condition": "",
+      "debuff_name": "防御",
+      "success_rate": "100↑",
+      "element": "自"
+    },
+    {
+      "category": "召喚石",
+      "character_name": "",
+      "ability_name": "ヱビス",
+      "condition": "",
+      "debuff_name": "水防御",
+      "success_rate": "100↑",
+      "element": "水"
+    },
+    {
+      "category": "召喚石",
+      "character_name": "",
+      "ability_name": "スノウホワイト",
+      "condition": "",
+      "debuff_name": "水防御",
+      "success_rate": "100↑",
+      "element": "水"
+    },
+    {
+      "category": "召喚石",
+      "character_name": "",
+      "ability_name": "ガブリエル",
+      "condition": "",
+      "debuff_name": "浄化の激流",
+      "success_rate": 100,
+      "element": "水"
+    },
+    {
+      "category": "召喚石",
+      "character_name": "",
+      "ability_name": "メドゥーサ",
+      "condition": "",
+      "debuff_name": "ブレキ(時間)",
+      "success_rate": 100,
+      "element": "土"
+    },
+    {
+      "category": "召喚石",
+      "character_name": "",
+      "ability_name": "メドゥーサ",
+      "condition": "",
+      "debuff_name": "ブレキ(ダメ)",
+      "success_rate": 100,
+      "element": "自"
+    },
+    {
+      "category": "召喚石",
+      "character_name": "",
+      "ability_name": "ウォフマナフ",
+      "condition": "",
+      "debuff_name": "暗闇",
+      "success_rate": 50,
+      "element": "土"
+    },
+    {
+      "category": "召喚石",
+      "character_name": "",
+      "ability_name": "テスカトリポカ",
+      "condition": "",
+      "debuff_name": "防御",
+      "success_rate": 100,
+      "element": "自"
+    },
+    {
+      "category": "召喚石",
+      "character_name": "",
+      "ability_name": "ティアマト･マグナ",
+      "condition": "",
+      "debuff_name": "攻撃",
+      "success_rate": 100,
+      "element": "風"
+    },
+    {
+      "category": "召喚石",
+      "character_name": "",
+      "ability_name": "マモーナス",
+      "condition": "",
+      "debuff_name": "魅了",
+      "success_rate": 30,
+      "element": "風"
+    },
+    {
+      "category": "召喚石",
+      "character_name": "",
+      "ability_name": "ツッパリ魂",
+      "condition": "",
+      "debuff_name": "恐怖",
+      "success_rate": "100↑",
+      "element": "自"
+    },
+    {
+      "category": "召喚石",
+      "character_name": "",
+      "ability_name": "空の安寧を守りし十天衆",
+      "condition": "0~2凸",
+      "debuff_name": "麻痺",
+      "success_rate": 30,
+      "element": ""
+    },
+    {
+      "category": "召喚石",
+      "character_name": "",
+      "ability_name": "空の安寧を守りし十天衆",
+      "condition": "0~2凸",
+      "debuff_name": "恐怖",
+      "success_rate": 50,
+      "element": ""
+    },
+    {
+      "category": "召喚石",
+      "character_name": "",
+      "ability_name": "空の安寧を守りし十天衆",
+      "condition": "0~2凸",
+      "debuff_name": "即死",
+      "success_rate": 20,
+      "element": ""
+    },
+    {
+      "category": "召喚石",
+      "character_name": "",
+      "ability_name": "空の安寧を守りし十天衆",
+      "condition": "0~2凸",
+      "debuff_name": "調律",
+      "success_rate": 80,
+      "element": ""
+    },
+    {
+      "category": "召喚石",
+      "character_name": "",
+      "ability_name": "空の安寧を守りし十天衆",
+      "condition": "3凸",
+      "debuff_name": "麻痺",
+      "success_rate": 40,
+      "element": ""
+    },
+    {
+      "category": "召喚石",
+      "character_name": "",
+      "ability_name": "空の安寧を守りし十天衆",
+      "condition": "3凸",
+      "debuff_name": "恐怖",
+      "success_rate": 60,
+      "element": ""
+    },
+    {
+      "category": "召喚石",
+      "character_name": "",
+      "ability_name": "空の安寧を守りし十天衆",
+      "condition": "3凸",
+      "debuff_name": "即死",
+      "success_rate": 30,
+      "element": ""
+    },
+    {
+      "category": "召喚石",
+      "character_name": "",
+      "ability_name": "空の安寧を守りし十天衆",
+      "condition": "3凸",
+      "debuff_name": "調律",
+      "success_rate": 90,
+      "element": ""
+    },
+    {
+      "category": "召喚石",
+      "character_name": "",
+      "ability_name": "ラファエル",
+      "condition": "",
+      "debuff_name": "雄々しき恐風",
+      "success_rate": 100,
+      "element": "自"
+    },
+    {
+      "category": "召喚石",
+      "character_name": "",
+      "ability_name": "コロゥ",
+      "condition": "",
+      "debuff_name": "暗闇",
+      "success_rate": 50,
+      "element": "光"
+    },
+    {
+      "category": "召喚石",
+      "character_name": "",
+      "ability_name": "雷霆公4凸",
+      "condition": "",
+      "debuff_name": "光防御",
+      "success_rate": 100,
+      "element": "光"
+    },
+    {
+      "category": "召喚石",
+      "character_name": "",
+      "ability_name": "雷霆公5凸",
+      "condition": "",
+      "debuff_name": "火防御",
+      "success_rate": 100,
+      "element": "火"
+    },
+    {
+      "category": "召喚石",
+      "character_name": "",
+      "ability_name": "オーディン",
+      "condition": "",
+      "debuff_name": "防御",
+      "success_rate": 100,
+      "element": "自"
+    },
+    {
+      "category": "召喚石",
+      "character_name": "",
+      "ability_name": "トール",
+      "condition": "",
+      "debuff_name": "弱体耐性",
+      "success_rate": "基本必中",
+      "element": "自"
+    },
+    {
+      "category": "召喚石",
+      "character_name": "",
+      "ability_name": "トール",
+      "condition": "",
+      "debuff_name": "攻撃",
+      "success_rate": "基本必中",
+      "element": "自"
+    },
+    {
+      "category": "召喚石",
+      "character_name": "",
+      "ability_name": "トール",
+      "condition": "",
+      "debuff_name": "防御",
+      "success_rate": "基本必中",
+      "element": "自"
+    },
+    {
+      "category": "召喚石",
+      "character_name": "",
+      "ability_name": "トール",
+      "condition": "",
+      "debuff_name": "DA確率",
+      "success_rate": "基本必中",
+      "element": "自"
+    },
+    {
+      "category": "召喚石",
+      "character_name": "",
+      "ability_name": "トール",
+      "condition": "",
+      "debuff_name": "TA確率",
+      "success_rate": "基本必中",
+      "element": "自"
+    },
+    {
+      "category": "召喚石",
+      "character_name": "",
+      "ability_name": "兄弟砲ギガントブレイザー",
+      "condition": "",
+      "debuff_name": "防御",
+      "success_rate": 100,
+      "element": "自"
+    },
+    {
+      "category": "召喚石",
+      "character_name": "",
+      "ability_name": "セレスト･マグナ",
+      "condition": "0~4凸",
+      "debuff_name": "回復力",
+      "success_rate": 100,
+      "element": "闇"
+    },
+    {
+      "category": "召喚石",
+      "character_name": "",
+      "ability_name": "セレスト･マグナ",
+      "condition": "4凸",
+      "debuff_name": "暗闇",
+      "success_rate": 75,
+      "element": "自"
+    },
+    {
+      "category": "召喚石",
+      "character_name": "",
+      "ability_name": "ハデス",
+      "condition": "0~3凸",
+      "debuff_name": "睡眠",
+      "success_rate": 50,
+      "element": "闇"
+    },
+    {
+      "category": "召喚石",
+      "character_name": "",
+      "ability_name": "ハデス",
+      "condition": "4凸",
+      "debuff_name": "睡眠",
+      "success_rate": 100,
+      "element": "闇"
+    },
+    {
+      "category": "召喚石",
+      "character_name": "",
+      "ability_name": "サタン",
+      "condition": "",
+      "debuff_name": "暗闇",
+      "success_rate": 50,
+      "element": "闇"
+    },
+    {
+      "category": "召喚石",
+      "character_name": "",
+      "ability_name": "オリヴィエ",
+      "condition": "",
+      "debuff_name": "スロウ",
+      "success_rate": "100↑",
+      "element": "闇"
+    },
+    {
+      "category": "召喚石",
+      "character_name": "",
+      "ability_name": "リッチ",
+      "condition": "",
+      "debuff_name": "毒",
+      "success_rate": 30,
+      "element": "闇"
+    },
+    {
+      "category": "召喚石",
+      "character_name": "",
+      "ability_name": "ディアボロス",
+      "condition": "",
+      "debuff_name": "攻撃",
+      "success_rate": 100,
+      "element": "闇"
+    },
+    {
+      "category": "召喚石",
+      "character_name": "",
+      "ability_name": "ディアボロス",
+      "condition": "",
+      "debuff_name": "防御",
+      "success_rate": 100,
+      "element": "闇"
+    },
+    {
+      "category": "召喚石",
+      "character_name": "",
+      "ability_name": "モルガナカー",
+      "condition": "",
+      "debuff_name": "防御",
+      "success_rate": 100,
+      "element": "自"
+    },
+    {
+      "category": "召喚石",
+      "character_name": "",
+      "ability_name": "ナリタ",
+      "condition": "ランダム",
+      "debuff_name": "攻撃",
+      "success_rate": 90,
+      "element": "自"
+    },
+    {
+      "category": "召喚石",
+      "character_name": "",
+      "ability_name": "ナリタ",
+      "condition": "",
+      "debuff_name": "光攻撃",
+      "success_rate": 75,
+      "element": "自"
+    },
+    {
+      "category": "召喚石",
+      "character_name": "",
+      "ability_name": "ナリタ",
+      "condition": "",
+      "debuff_name": "DA確率",
+      "success_rate": 80,
+      "element": "自"
+    },
+    {
+      "category": "召喚石",
+      "character_name": "",
+      "ability_name": "ナリタ",
+      "condition": "",
+      "debuff_name": "TA確率",
+      "success_rate": 80,
+      "element": "自"
+    },
+    {
+      "category": "召喚石",
+      "character_name": "",
+      "ability_name": "ナリタ",
+      "condition": "ランダム",
+      "debuff_name": "防御",
+      "success_rate": 90,
+      "element": "自"
+    },
+    {
+      "category": "召喚石",
+      "character_name": "",
+      "ability_name": "ナリタ",
+      "condition": "",
+      "debuff_name": "闇防御",
+      "success_rate": 75,
+      "element": "闇"
+    },
+    {
+      "category": "召喚石",
+      "character_name": "",
+      "ability_name": "ナリタ",
+      "condition": "",
+      "debuff_name": "弱体耐性",
+      "success_rate": 80,
+      "element": "自"
+    },
+    {
+      "category": "召喚石",
+      "character_name": "",
+      "ability_name": "ナリタ",
+      "condition": "ランダム",
+      "debuff_name": "魅了",
+      "success_rate": 90,
+      "element": "自"
+    },
+    {
+      "category": "召喚石",
+      "character_name": "",
+      "ability_name": "ナリタ",
+      "condition": "",
+      "debuff_name": "暗闇",
+      "success_rate": 80,
+      "element": "自"
+    },
+    {
+      "category": "召喚石",
+      "character_name": "",
+      "ability_name": "ナリタ",
+      "condition": "",
+      "debuff_name": "グラビティ",
+      "success_rate": 75,
+      "element": "自"
+    },
+    {
+      "category": "召喚石",
+      "character_name": "",
+      "ability_name": "フラメクの契約者",
+      "condition": "",
+      "debuff_name": "麻痺",
+      "success_rate": 40,
+      "element": "闇"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "マギサ",
+      "ability_name": "奥義++",
+      "condition": "",
+      "debuff_name": "火防御",
+      "success_rate": 100,
+      "element": "火"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "マギサ",
+      "ability_name": "イラプション",
+      "condition": "",
+      "debuff_name": "攻撃",
+      "success_rate": 75,
+      "element": "火"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "マギサ",
+      "ability_name": "イラプション++",
+      "condition": "",
+      "debuff_name": "攻撃",
+      "success_rate": 90,
+      "element": "火"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "マギサ",
+      "ability_name": "イラプション++",
+      "condition": "",
+      "debuff_name": "防御",
+      "success_rate": 90,
+      "element": "火"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "マギサ",
+      "ability_name": "ヴァルプルギス",
+      "condition": "",
+      "debuff_name": "暗闇",
+      "success_rate": 90,
+      "element": "火"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "マギサ",
+      "ability_name": "ヴァルプルギス",
+      "condition": "",
+      "debuff_name": "灼熱",
+      "success_rate": 90,
+      "element": "火"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "アニラ",
+      "ability_name": "森羅万象++",
+      "condition": "",
+      "debuff_name": "火攻撃",
+      "success_rate": 85,
+      "element": "火"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "アニラ",
+      "ability_name": "森羅万象++",
+      "condition": "",
+      "debuff_name": "水攻撃",
+      "success_rate": 85,
+      "element": "火"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "アニラ",
+      "ability_name": "森羅万象++",
+      "condition": "",
+      "debuff_name": "風攻撃",
+      "success_rate": 100,
+      "element": "火"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "アニラ",
+      "ability_name": "森羅万象++",
+      "condition": "",
+      "debuff_name": "土攻撃",
+      "success_rate": 85,
+      "element": "火"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "アニラ",
+      "ability_name": "森羅万象++",
+      "condition": "",
+      "debuff_name": "光攻撃",
+      "success_rate": 85,
+      "element": "火"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "アニラ",
+      "ability_name": "森羅万象++",
+      "condition": "",
+      "debuff_name": "闇攻撃",
+      "success_rate": 85,
+      "element": "火"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "アニラ",
+      "ability_name": "森羅万象++",
+      "condition": "",
+      "debuff_name": "火防御",
+      "success_rate": 100,
+      "element": "火"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "アニラ",
+      "ability_name": "森羅万象++",
+      "condition": "",
+      "debuff_name": "水防御",
+      "success_rate": 85,
+      "element": "火"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "アニラ",
+      "ability_name": "森羅万象++",
+      "condition": "",
+      "debuff_name": "風防御",
+      "success_rate": 85,
+      "element": "火"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "アニラ",
+      "ability_name": "森羅万象++",
+      "condition": "",
+      "debuff_name": "土防御",
+      "success_rate": 85,
+      "element": "火"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "アニラ",
+      "ability_name": "森羅万象++",
+      "condition": "",
+      "debuff_name": "光防御",
+      "success_rate": 85,
+      "element": "火"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "アニラ",
+      "ability_name": "森羅万象++",
+      "condition": "",
+      "debuff_name": "闇防御",
+      "success_rate": 85,
+      "element": "火"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "アニラ",
+      "ability_name": "色即是空",
+      "condition": "",
+      "debuff_name": "スロウ",
+      "success_rate": 90,
+      "element": "火"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "ゼタ",
+      "ability_name": "アルベスの槍",
+      "condition": "",
+      "debuff_name": "アルベス･F",
+      "success_rate": "基本必中",
+      "element": "火"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "エッセル",
+      "ability_name": "奥義",
+      "condition": "",
+      "debuff_name": "天蓋花",
+      "success_rate": 100,
+      "element": "火"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "エッセル",
+      "ability_name": "ラストオーダー",
+      "condition": "",
+      "debuff_name": "強襲",
+      "success_rate": "基本必中",
+      "element": "火"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "クラリス(*1)",
+      "ability_name": "奥義",
+      "condition": "",
+      "debuff_name": "弱体耐性",
+      "success_rate": 90,
+      "element": "火"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "クラリス(*1)",
+      "ability_name": "ナノアナライズ",
+      "condition": "",
+      "debuff_name": "防御",
+      "success_rate": 90,
+      "element": "火"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "クラリス(*1)",
+      "ability_name": "ナノアナライズ",
+      "condition": "",
+      "debuff_name": "火防御",
+      "success_rate": 80,
+      "element": "火"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "パーシヴァル",
+      "ability_name": "イクスゼーレ",
+      "condition": "",
+      "debuff_name": "恐怖",
+      "success_rate": 80,
+      "element": "火"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "ガンダゴウザ",
+      "ability_name": "破天道",
+      "condition": "",
+      "debuff_name": "日暈",
+      "success_rate": 90,
+      "element": "火"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "火メーテラ",
+      "ability_name": "飾り穿ち隼返し",
+      "condition": "",
+      "debuff_name": "魅了",
+      "success_rate": 50,
+      "element": "火"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "火メーテラ",
+      "ability_name": "飾り穿ち隼返し",
+      "condition": "",
+      "debuff_name": "スロウ",
+      "success_rate": 100,
+      "element": "火"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "パーシヴァル(水着)",
+      "ability_name": "ファスツィナツィオン",
+      "condition": "",
+      "debuff_name": "心酔",
+      "success_rate": 80,
+      "element": "火"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "パーシヴァル(水着)",
+      "ability_name": "ファスツィナツィオン",
+      "condition": "",
+      "debuff_name": "火防御",
+      "success_rate": 100,
+      "element": "火"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "アンスリア",
+      "ability_name": "キャプティベイト",
+      "condition": "",
+      "debuff_name": "DA確率",
+      "success_rate": 90,
+      "element": "火"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "アンスリア",
+      "ability_name": "キャプティベイト",
+      "condition": "",
+      "debuff_name": "TA確率",
+      "success_rate": 90,
+      "element": "火"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "スツルム(リミ)",
+      "ability_name": "レックレスレイド(共通)",
+      "condition": "",
+      "debuff_name": "灼熱",
+      "success_rate": 80,
+      "element": "火"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "スツルム(リミ)",
+      "ability_name": "レックレスレイド(技錬の刃)",
+      "condition": "",
+      "debuff_name": "スロウ",
+      "success_rate": 100,
+      "element": "火"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "スツルム(リミ)",
+      "ability_name": "サポアビ",
+      "condition": "",
+      "debuff_name": "防御(累積)",
+      "success_rate": 80,
+      "element": "火"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "グレア",
+      "ability_name": "マナ･ドラグアグニ",
+      "condition": "",
+      "debuff_name": "ドラグフォース",
+      "success_rate": "基本必中",
+      "element": "火"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "ダヌア(ハロ)",
+      "ability_name": "奥義",
+      "condition": "",
+      "debuff_name": "弱体耐性(累積)",
+      "success_rate": 100,
+      "element": "火"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "ダヌア(ハロ)",
+      "ability_name": "フライテンドール",
+      "condition": "",
+      "debuff_name": "恐怖",
+      "success_rate": 90,
+      "element": "火"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "ダヌア(ハロ)",
+      "ability_name": "ザウアレス",
+      "condition": "",
+      "debuff_name": "睡眠",
+      "success_rate": 90,
+      "element": "火"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "アラナン",
+      "ability_name": "ラース･オブ･ゴッデス",
+      "condition": "",
+      "debuff_name": "攻撃",
+      "success_rate": 200,
+      "element": "火"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "アラナン",
+      "ability_name": "ラース･オブ･ゴッデス",
+      "condition": "",
+      "debuff_name": "防御",
+      "success_rate": 200,
+      "element": "火"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "アラナン",
+      "ability_name": "ラース･オブ･ゴッデス",
+      "condition": "",
+      "debuff_name": "恐怖",
+      "success_rate": 150,
+      "element": "火"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "アラナン",
+      "ability_name": "ラース･オブ･ゴッデス",
+      "condition": "",
+      "debuff_name": "穢れ無き陽光",
+      "success_rate": 200,
+      "element": "火"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "ツバサ",
+      "ability_name": "タイマンの瞬間",
+      "condition": "",
+      "debuff_name": "恐怖",
+      "success_rate": 100,
+      "element": "火"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "ツバサ",
+      "ability_name": "喧嘩の時間",
+      "condition": "",
+      "debuff_name": "CT増加",
+      "success_rate": "耐性無視",
+      "element": "火"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "Aqours3年生",
+      "ability_name": "ブッブーですわ",
+      "condition": "",
+      "debuff_name": "攻撃",
+      "success_rate": 90,
+      "element": "火"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "Aqours3年生",
+      "ability_name": "ブッブーですわ",
+      "condition": "",
+      "debuff_name": "防御",
+      "success_rate": 90,
+      "element": "火"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "シヴァ(リミ)",
+      "ability_name": "トリシューラ",
+      "condition": "",
+      "debuff_name": "悪滅の炎(ダメ)",
+      "success_rate": 200,
+      "element": "火"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "シヴァ(リミ)",
+      "ability_name": "トリシューラ",
+      "condition": "",
+      "debuff_name": "悪滅の炎(攻撃)",
+      "success_rate": 200,
+      "element": "火"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "シヴァ(リミ)",
+      "ability_name": "トリシューラ",
+      "condition": "",
+      "debuff_name": "悪滅の炎(防御)",
+      "success_rate": 200,
+      "element": "火"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "アテナ",
+      "ability_name": "テトラドラクマ",
+      "condition": "",
+      "debuff_name": "防御(累積)",
+      "success_rate": 90,
+      "element": "火"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "アテナ",
+      "ability_name": "テトラドラクマ",
+      "condition": "",
+      "debuff_name": "灼熱",
+      "success_rate": 90,
+      "element": "火"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "アテナ",
+      "ability_name": "マティティス･グラウクス",
+      "condition": "",
+      "debuff_name": "DA確率",
+      "success_rate": 80,
+      "element": "火"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "アテナ",
+      "ability_name": "マティティス･グラウクス",
+      "condition": "",
+      "debuff_name": "暗闇",
+      "success_rate": 90,
+      "element": "火"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "アテナ",
+      "ability_name": "マティティス･グラウクス",
+      "condition": "",
+      "debuff_name": "スロウ",
+      "success_rate": 100,
+      "element": "火"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "紅月カレン",
+      "ability_name": "43mmグレネードランチャー",
+      "condition": "",
+      "debuff_name": "グラビティ",
+      "success_rate": 100,
+      "element": "火"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "紅月カレン",
+      "ability_name": "チャフスモーク",
+      "condition": "",
+      "debuff_name": "暗闇",
+      "success_rate": 85,
+      "element": "火"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "紅月カレン",
+      "ability_name": "チャフスモーク",
+      "condition": "",
+      "debuff_name": "DA確率",
+      "success_rate": 90,
+      "element": "火"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "紅月カレン",
+      "ability_name": "チャフスモーク",
+      "condition": "",
+      "debuff_name": "TA確率",
+      "success_rate": 90,
+      "element": "火"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "火ジークフリート",
+      "ability_name": "フェアドレーゲン+",
+      "condition": "",
+      "debuff_name": "火防御(累積)",
+      "success_rate": 90,
+      "element": "火"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "カレン",
+      "ability_name": "奥義",
+      "condition": "",
+      "debuff_name": "火防御",
+      "success_rate": 90,
+      "element": "火"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "ティナ",
+      "ability_name": "奥義++",
+      "condition": "",
+      "debuff_name": "暗闇",
+      "success_rate": "100↑",
+      "element": "火"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "ティナ",
+      "ability_name": "虹花の日輪",
+      "condition": "",
+      "debuff_name": "灼熱",
+      "success_rate": "基本必中",
+      "element": "火"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "ドロシー",
+      "ability_name": "奥義",
+      "condition": "",
+      "debuff_name": "火防御",
+      "success_rate": 90,
+      "element": "火"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "サーヤ",
+      "ability_name": "証拠発見",
+      "condition": "",
+      "debuff_name": "防御",
+      "success_rate": 70,
+      "element": "火"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "SRアンナ",
+      "ability_name": "ブラックファイア",
+      "condition": "",
+      "debuff_name": "暗闇",
+      "success_rate": 50,
+      "element": "火"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "SRアンナ",
+      "ability_name": "チャームファイア",
+      "condition": "",
+      "debuff_name": "魅了",
+      "success_rate": 50,
+      "element": "火"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "SRアンナ",
+      "ability_name": "マジックネーム",
+      "condition": "",
+      "debuff_name": "スペルマーク",
+      "success_rate": "基本必中",
+      "element": "火"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "火ノイシュ",
+      "ability_name": "奥義++",
+      "condition": "",
+      "debuff_name": "火防御",
+      "success_rate": 90,
+      "element": "火"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "火ノイシュ",
+      "ability_name": "フルスラスト+",
+      "condition": "",
+      "debuff_name": "防御",
+      "success_rate": 80,
+      "element": "火"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "火ノイシュ",
+      "ability_name": "フルスラスト++",
+      "condition": "",
+      "debuff_name": "防御",
+      "success_rate": 90,
+      "element": "火"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "リナ=インバース",
+      "ability_name": "烈閃槍",
+      "condition": "",
+      "debuff_name": "攻撃",
+      "success_rate": 90,
+      "element": "火"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "リナ=インバース",
+      "ability_name": "烈閃槍",
+      "condition": "",
+      "debuff_name": "防御",
+      "success_rate": 90,
+      "element": "火"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "赤城みりあ",
+      "ability_name": "奥義",
+      "condition": "",
+      "debuff_name": "暗闇",
+      "success_rate": 80,
+      "element": "火"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "赤城みりあ",
+      "ability_name": "ともだちの輪",
+      "condition": "",
+      "debuff_name": "説得",
+      "success_rate": 15,
+      "element": "火"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "赤城みりあ",
+      "ability_name": "ともだちの輪",
+      "condition": "",
+      "debuff_name": "攻撃",
+      "success_rate": 70,
+      "element": "火"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "赤城みりあ",
+      "ability_name": "ともだちの輪(もふもふ)",
+      "condition": "",
+      "debuff_name": "説得",
+      "success_rate": 30,
+      "element": "火"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "赤城みりあ",
+      "ability_name": "ともだちの輪(もふもふ)",
+      "condition": "",
+      "debuff_name": "攻撃",
+      "success_rate": 90,
+      "element": "火"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "火ルシウス",
+      "ability_name": "奥義",
+      "condition": "",
+      "debuff_name": "防御",
+      "success_rate": 100,
+      "element": "火"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "火ルシウス",
+      "ability_name": "月華剣戟",
+      "condition": "",
+      "debuff_name": "暗闇",
+      "success_rate": "未確認",
+      "element": "火"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "SRグレア(イベ)",
+      "ability_name": "ブレイズデコード",
+      "condition": "",
+      "debuff_name": "ドラグフォース",
+      "success_rate": "基本必中",
+      "element": "火"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "SRグレア(イベ)",
+      "ability_name": "マナ･ドラグフレイム",
+      "condition": "",
+      "debuff_name": "火防御",
+      "success_rate": 75,
+      "element": "火"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "和泉守兼定",
+      "ability_name": "向抜撃",
+      "condition": "",
+      "debuff_name": "火防御",
+      "success_rate": 90,
+      "element": "火"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "ラインハルザ",
+      "ability_name": "焔掌",
+      "condition": "",
+      "debuff_name": "火防御",
+      "success_rate": 90,
+      "element": "火"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "SRカルバ",
+      "ability_name": "ブレイブワンステップ",
+      "condition": "",
+      "debuff_name": "CT増加",
+      "success_rate": "耐性無視",
+      "element": "火"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "SRカルバ",
+      "ability_name": "ブレイブワンステップ",
+      "condition": "",
+      "debuff_name": "火防御",
+      "success_rate": 100,
+      "element": "火"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "SRカルバ",
+      "ability_name": "アウェアネス",
+      "condition": "",
+      "debuff_name": "CT増加",
+      "success_rate": "耐性無視",
+      "element": "火"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "SRカルバ",
+      "ability_name": "スリル･センセーション",
+      "condition": "",
+      "debuff_name": "CT増加",
+      "success_rate": "耐性無視",
+      "element": "火"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "SRゾーイ",
+      "ability_name": "ジャン･フォース",
+      "condition": "",
+      "debuff_name": "風攻撃",
+      "success_rate": 85,
+      "element": "火"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "SRゾーイ",
+      "ability_name": "ジャン･フォース",
+      "condition": "",
+      "debuff_name": "火防御",
+      "success_rate": 85,
+      "element": "火"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "SRゾーイ",
+      "ability_name": "サンダー",
+      "condition": "",
+      "debuff_name": "ランダム(累積)",
+      "success_rate": 100,
+      "element": "火"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "ロジーヌ",
+      "ability_name": "おたべ(2アビ)",
+      "condition": "",
+      "debuff_name": "魅了",
+      "success_rate": 100,
+      "element": "火"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "アルタイル(*1)",
+      "ability_name": "戦術策：鶴翼+",
+      "condition": "",
+      "debuff_name": "攻撃",
+      "success_rate": 75,
+      "element": "水"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "アルタイル(*1)",
+      "ability_name": "戦術策：鶴翼+",
+      "condition": "",
+      "debuff_name": "防御",
+      "success_rate": 75,
+      "element": "水"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "アルタイル(*1)",
+      "ability_name": "戦術策：鶴翼++",
+      "condition": "",
+      "debuff_name": "攻撃",
+      "success_rate": 85,
+      "element": "水"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "アルタイル(*1)",
+      "ability_name": "戦術策：鶴翼++",
+      "condition": "",
+      "debuff_name": "防御",
+      "success_rate": 85,
+      "element": "水"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "アルタイル(*1)",
+      "ability_name": "戦術策：鶴翼++",
+      "condition": "",
+      "debuff_name": "水防御",
+      "success_rate": 85,
+      "element": "水"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "リリィ",
+      "ability_name": "フローズンゲイル",
+      "condition": "",
+      "debuff_name": "氷結",
+      "success_rate": 90,
+      "element": "水"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "リリィ",
+      "ability_name": "フローズンゲイル++",
+      "condition": "",
+      "debuff_name": "氷結",
+      "success_rate": 120,
+      "element": "水"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "リリィ",
+      "ability_name": "フローズンゲイル++",
+      "condition": "",
+      "debuff_name": "攻撃(累積)",
+      "success_rate": 95,
+      "element": "水"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "リリィ",
+      "ability_name": "フローズンゲイル++",
+      "condition": "",
+      "debuff_name": "防御(累積)",
+      "success_rate": 95,
+      "element": "水"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "シャルロッテ",
+      "ability_name": "ブルームーン++",
+      "condition": "",
+      "debuff_name": "防御",
+      "success_rate": 100,
+      "element": "水"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "ランスロット",
+      "ability_name": "ブレードインパルス++",
+      "condition": "",
+      "debuff_name": "攻撃(累積)",
+      "success_rate": 90,
+      "element": "水"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "ランスロット",
+      "ability_name": "ブレードインパルス++",
+      "condition": "",
+      "debuff_name": "防御(累積)",
+      "success_rate": 90,
+      "element": "水"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "カトル(*2)",
+      "ability_name": "奥義",
+      "condition": "",
+      "debuff_name": "スロウ",
+      "success_rate": 100,
+      "element": "水"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "カトル(*2)",
+      "ability_name": "シュリーヴァトサ",
+      "condition": "",
+      "debuff_name": "ランダム",
+      "success_rate": "100↑",
+      "element": "水"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "カトル(*2)",
+      "ability_name": "カルネージ",
+      "condition": "",
+      "debuff_name": "グラビティ",
+      "success_rate": 100,
+      "element": "水"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "ソシエ",
+      "ability_name": "陸之舞･美髯",
+      "condition": "",
+      "debuff_name": "攻撃",
+      "success_rate": 80,
+      "element": "水"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "ソシエ",
+      "ability_name": "陸之舞･美髯",
+      "condition": "",
+      "debuff_name": "防御",
+      "success_rate": 80,
+      "element": "水"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "ソシエ",
+      "ability_name": "終之舞・時詠",
+      "condition": "",
+      "debuff_name": "スロウ",
+      "success_rate": 100,
+      "element": "水"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "リルル",
+      "ability_name": "奥義",
+      "condition": "",
+      "debuff_name": "魅了",
+      "success_rate": 40,
+      "element": "水"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "ロミオ",
+      "ability_name": "ラーマ･アクゥータ",
+      "condition": "",
+      "debuff_name": "水防御",
+      "success_rate": 100,
+      "element": "水"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "アルルメイヤ(Xmas)",
+      "ability_name": "水天",
+      "condition": "",
+      "debuff_name": "水防御",
+      "success_rate": "100↑",
+      "element": "水"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "キャタピラ",
+      "ability_name": "奥義",
+      "condition": "",
+      "debuff_name": "DA確率",
+      "success_rate": 100,
+      "element": "水"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "キャタピラ",
+      "ability_name": "エーテルビーム",
+      "condition": "",
+      "debuff_name": "火攻撃",
+      "success_rate": 90,
+      "element": "水"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "キャタピラ",
+      "ability_name": "エーテルビーム",
+      "condition": "",
+      "debuff_name": "水防御",
+      "success_rate": 90,
+      "element": "水"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "ヴェイン",
+      "ability_name": "奥義",
+      "condition": "",
+      "debuff_name": "攻撃(累積)",
+      "success_rate": 100,
+      "element": "水"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "ヴェイン",
+      "ability_name": "奥義",
+      "condition": "",
+      "debuff_name": "火攻撃",
+      "success_rate": 100,
+      "element": "水"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "ヴェイン",
+      "ability_name": "奥義++",
+      "condition": "",
+      "debuff_name": "攻撃(累積)",
+      "success_rate": 100,
+      "element": "水"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "ヴェイン",
+      "ability_name": "奥義++",
+      "condition": "",
+      "debuff_name": "火攻撃",
+      "success_rate": 100,
+      "element": "水"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "ドランク(リミ)",
+      "ability_name": "奥義",
+      "condition": "",
+      "debuff_name": "火攻撃",
+      "success_rate": 90,
+      "element": "水"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "ドランク(リミ)",
+      "ability_name": "奥義",
+      "condition": "",
+      "debuff_name": "水防御",
+      "success_rate": 90,
+      "element": "水"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "ドランク(リミ)",
+      "ability_name": "フェアトリックレイド\n(策謀の術)",
+      "condition": "",
+      "debuff_name": "弱体耐性",
+      "success_rate": 100,
+      "element": "水"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "ドランク(リミ)",
+      "ability_name": "フェアトリックレイド\n(策謀の術)",
+      "condition": "",
+      "debuff_name": "スロウ",
+      "success_rate": 90,
+      "element": "水"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "ドランク(リミ)",
+      "ability_name": "インタラプト・トラップ",
+      "condition": "",
+      "debuff_name": "攻撃",
+      "success_rate": 80,
+      "element": "水"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "ドランク(リミ)",
+      "ability_name": "インタラプト・トラップ",
+      "condition": "",
+      "debuff_name": "防御",
+      "success_rate": 80,
+      "element": "水"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "水ユエル",
+      "ability_name": "奥義",
+      "condition": "",
+      "debuff_name": "防御",
+      "success_rate": 90,
+      "element": "水"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "水ユエル",
+      "ability_name": "篝火狐鳴",
+      "condition": "",
+      "debuff_name": "狐火",
+      "success_rate": 90,
+      "element": "水"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "水ユエル",
+      "ability_name": "篝火狐鳴",
+      "condition": "",
+      "debuff_name": "火攻撃",
+      "success_rate": 100,
+      "element": "水"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "水ユエル",
+      "ability_name": "篝火狐鳴",
+      "condition": "",
+      "debuff_name": "水防御",
+      "success_rate": 100,
+      "element": "水"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "水ユエル",
+      "ability_name": "闢之舞･大華",
+      "condition": "",
+      "debuff_name": "狐火",
+      "success_rate": 90,
+      "element": "水"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "ヴァジラ",
+      "ability_name": "大口真神",
+      "condition": "",
+      "debuff_name": "弱体耐性(累積)",
+      "success_rate": 200,
+      "element": "水"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "ヴァジラ",
+      "ability_name": "犬牙相制",
+      "condition": "",
+      "debuff_name": "恐怖",
+      "success_rate": 80,
+      "element": "水"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "SSRククル",
+      "ability_name": "奥義",
+      "condition": "",
+      "debuff_name": "ストッピング",
+      "success_rate": 75,
+      "element": "水"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "SSRククル",
+      "ability_name": "エクスプロージョンケッグ",
+      "condition": "",
+      "debuff_name": "DA確率",
+      "success_rate": 100,
+      "element": "水"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "SSRククル",
+      "ability_name": "エクスプロージョンケッグ",
+      "condition": "",
+      "debuff_name": "TA確率",
+      "success_rate": 100,
+      "element": "水"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "SSRククル",
+      "ability_name": "エクスプロージョンケッグ",
+      "condition": "",
+      "debuff_name": "スロウ",
+      "success_rate": 100,
+      "element": "水"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "SSRククル",
+      "ability_name": "シューテム･アップ",
+      "condition": "",
+      "debuff_name": "攻撃(累積)",
+      "success_rate": 95,
+      "element": "水"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "SSRククル",
+      "ability_name": "シューテム･アップ",
+      "condition": "",
+      "debuff_name": "防御(累積)",
+      "success_rate": 95,
+      "element": "水"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "マリア･テレサ",
+      "ability_name": "黄金の剣(サポアビ)",
+      "condition": "",
+      "debuff_name": "咎人",
+      "success_rate": "基本必中",
+      "element": "水"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "マリア･テレサ",
+      "ability_name": "正義の逆位置(サポアビ)",
+      "condition": "",
+      "debuff_name": "攻撃(累積)",
+      "success_rate": 90,
+      "element": "水"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "マリア･テレサ",
+      "ability_name": "正義の逆位置(サポアビ)",
+      "condition": "",
+      "debuff_name": "防御(累積)",
+      "success_rate": 90,
+      "element": "水"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "ハーゼリーラ",
+      "ability_name": "ボアズ",
+      "condition": "",
+      "debuff_name": "月影の幻惑",
+      "success_rate": 150,
+      "element": "水"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "ハーゼリーラ",
+      "ability_name": "ボアズ",
+      "condition": "",
+      "debuff_name": "スロウ",
+      "success_rate": 120,
+      "element": "水"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "グレア(水着)",
+      "ability_name": "マナ･ドラグアグニ",
+      "condition": "",
+      "debuff_name": "ドラグフォース",
+      "success_rate": "基本必中",
+      "element": "水"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "Aqours2年生",
+      "ability_name": "決めたよHand in Hand",
+      "condition": "",
+      "debuff_name": "魅了",
+      "success_rate": 80,
+      "element": "水"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "マキュラ･マリウス",
+      "ability_name": "奥義",
+      "condition": "",
+      "debuff_name": "銀華",
+      "success_rate": "基本必中",
+      "element": "水"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "マキュラ･マリウス",
+      "ability_name": "ヘイルストーム",
+      "condition": "",
+      "debuff_name": "スロウ",
+      "success_rate": 100,
+      "element": "水"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "マキュラ･マリウス",
+      "ability_name": "凍てつく大地",
+      "condition": "",
+      "debuff_name": "攻撃",
+      "success_rate": 100,
+      "element": "水"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "マキュラ･マリウス",
+      "ability_name": "凍てつく大地",
+      "condition": "",
+      "debuff_name": "グラビティ",
+      "success_rate": 100,
+      "element": "水"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "マキュラ･マリウス",
+      "ability_name": "凍てつく大地",
+      "condition": "",
+      "debuff_name": "氷結",
+      "success_rate": 100,
+      "element": "水"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "サンダルフォン(水着)",
+      "ability_name": "ワン･トゥー･フリーフォール",
+      "condition": "",
+      "debuff_name": "攻撃(累積)",
+      "success_rate": 90,
+      "element": "水"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "サンダルフォン(水着)",
+      "ability_name": "ワン･トゥー･フリーフォール",
+      "condition": "",
+      "debuff_name": "防御(累積)",
+      "success_rate": 90,
+      "element": "水"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "エウロペ(水着)",
+      "ability_name": "テーバイ",
+      "condition": "",
+      "debuff_name": "水防御",
+      "success_rate": 90,
+      "element": "水"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "水スツルム",
+      "ability_name": "奥義",
+      "condition": "",
+      "debuff_name": "灼熱",
+      "success_rate": "100↑",
+      "element": "水"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "水スツルム",
+      "ability_name": "奥義",
+      "condition": "",
+      "debuff_name": "攻撃(累積)",
+      "success_rate": 95,
+      "element": "水"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "水スツルム",
+      "ability_name": "奥義",
+      "condition": "",
+      "debuff_name": "防御(累積)",
+      "success_rate": 95,
+      "element": "水"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "マイシェラ",
+      "ability_name": "ミゼラブル",
+      "condition": "",
+      "debuff_name": "攻撃",
+      "success_rate": 80,
+      "element": "水"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "マイシェラ",
+      "ability_name": "ミゼラブル",
+      "condition": "",
+      "debuff_name": "水防御",
+      "success_rate": 80,
+      "element": "水"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "マイシェラ",
+      "ability_name": "ダスクトレイル",
+      "condition": "",
+      "debuff_name": "暗闇",
+      "success_rate": 60,
+      "element": "水"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "ウラムヌラン",
+      "ability_name": "ジャグリング",
+      "condition": "",
+      "debuff_name": "防御",
+      "success_rate": 70,
+      "element": "水"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "ミラオル",
+      "ability_name": "インサイトショット",
+      "condition": "",
+      "debuff_name": "攻撃",
+      "success_rate": 95,
+      "element": "水"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "ミラオル",
+      "ability_name": "ピアッシングショット",
+      "condition": "",
+      "debuff_name": "防御",
+      "success_rate": 95,
+      "element": "水"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "ペンギー",
+      "ability_name": "ぺぐ！",
+      "condition": "",
+      "debuff_name": "水防御",
+      "success_rate": 75,
+      "element": "水"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "桜庭薫",
+      "ability_name": "切り裂く視線",
+      "condition": "",
+      "debuff_name": "攻撃",
+      "success_rate": 90,
+      "element": "水"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "桜庭薫",
+      "ability_name": "切り裂く視線",
+      "condition": "",
+      "debuff_name": "防御",
+      "success_rate": 50,
+      "element": "水"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "春麗",
+      "ability_name": "スピニングバードキック",
+      "condition": "",
+      "debuff_name": "防御",
+      "success_rate": 100,
+      "element": "水"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "SRヴェイン(ガチャ)",
+      "ability_name": "アームゲイン",
+      "condition": "",
+      "debuff_name": "攻撃(累積)",
+      "success_rate": 90,
+      "element": "水"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "SRランスロット",
+      "ability_name": "ヴォーゲンシュトローム",
+      "condition": "",
+      "debuff_name": "攻撃",
+      "success_rate": 50,
+      "element": "水"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "SRランスロット",
+      "ability_name": "ヴォーゲンシュトローム",
+      "condition": "",
+      "debuff_name": "防御",
+      "success_rate": 50,
+      "element": "水"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "SRローアイン",
+      "ability_name": "奥義(ランダム)",
+      "condition": "",
+      "debuff_name": "攻撃",
+      "success_rate": "100↑",
+      "element": "水"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "SRローアイン",
+      "ability_name": "奥義(ランダム)",
+      "condition": "",
+      "debuff_name": "DA確率",
+      "success_rate": "100↑",
+      "element": "水"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "SRローアイン",
+      "ability_name": "奥義(ランダム)",
+      "condition": "",
+      "debuff_name": "弱体耐性",
+      "success_rate": "100↑",
+      "element": "水"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "SRローアイン",
+      "ability_name": "奥義(ランダム)",
+      "condition": "",
+      "debuff_name": "防御",
+      "success_rate": "100↑",
+      "element": "水"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "アナスタシア",
+      "ability_name": "アイススマイル",
+      "condition": "",
+      "debuff_name": "リョート",
+      "success_rate": "100↑",
+      "element": "水"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "アナスタシア",
+      "ability_name": "アイススマイル",
+      "condition": "",
+      "debuff_name": "防御",
+      "success_rate": 90,
+      "element": "水"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "新田美波",
+      "ability_name": "笑顔の魅力",
+      "condition": "",
+      "debuff_name": "魅了",
+      "success_rate": 80,
+      "element": "水"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "新田美波",
+      "ability_name": "ヴィーナスピアッシング",
+      "condition": "",
+      "debuff_name": "水防御",
+      "success_rate": 75,
+      "element": "水"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "シャルロッテ(水着)",
+      "ability_name": "ドルフィン･ムーン",
+      "condition": "",
+      "debuff_name": "水防御",
+      "success_rate": 70,
+      "element": "水"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "カイラナ",
+      "ability_name": "オフザリップII",
+      "condition": "",
+      "debuff_name": "水防御",
+      "success_rate": 100,
+      "element": "水"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "レオナ(浴衣)",
+      "ability_name": "奥義",
+      "condition": "",
+      "debuff_name": "攻撃(累積)",
+      "success_rate": 95,
+      "element": "水"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "レオナ(浴衣)",
+      "ability_name": "奥義",
+      "condition": "",
+      "debuff_name": "防御(累積)",
+      "success_rate": 95,
+      "element": "水"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "カリオストロ",
+      "ability_name": "コラプス++",
+      "condition": "",
+      "debuff_name": "防御",
+      "success_rate": 90,
+      "element": "土"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "カリオストロ",
+      "ability_name": "コラプス++",
+      "condition": "",
+      "debuff_name": "土防御",
+      "success_rate": 100,
+      "element": "土"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "アルルメイヤ",
+      "ability_name": "月天+",
+      "condition": "",
+      "debuff_name": "攻撃",
+      "success_rate": 75,
+      "element": "土"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "アルルメイヤ",
+      "ability_name": "月天++",
+      "condition": "",
+      "debuff_name": "攻撃",
+      "success_rate": 90,
+      "element": "土"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "アルルメイヤ",
+      "ability_name": "月天++",
+      "condition": "",
+      "debuff_name": "水攻撃",
+      "success_rate": 100,
+      "element": "土"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "アルルメイヤ",
+      "ability_name": "ナクシャトラ",
+      "condition": "",
+      "debuff_name": "スロウ",
+      "success_rate": 100,
+      "element": "土"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "サラーサ",
+      "ability_name": "グラウンドゼロ+",
+      "condition": "",
+      "debuff_name": "土防御",
+      "success_rate": 100,
+      "element": "土"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "オクトー",
+      "ability_name": "奥義",
+      "condition": "",
+      "debuff_name": "即死",
+      "success_rate": 50,
+      "element": "土"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "オクトー",
+      "ability_name": "奥義++",
+      "condition": "",
+      "debuff_name": "即死",
+      "success_rate": 50,
+      "element": "土"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "ヴィーラ(水着)",
+      "ability_name": "奥義",
+      "condition": "",
+      "debuff_name": "魅了",
+      "success_rate": 90,
+      "element": "土"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "ヴィーラ(水着)",
+      "ability_name": "ファサネイト",
+      "condition": "",
+      "debuff_name": "スロウ",
+      "success_rate": 90,
+      "element": "土"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "クラリス(Xmas)(*1)",
+      "ability_name": "アトミック･アニヒレーション",
+      "condition": "",
+      "debuff_name": "DA確率",
+      "success_rate": 75,
+      "element": "土"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "クラリス(Xmas)(*1)",
+      "ability_name": "α･ディケイ",
+      "condition": "",
+      "debuff_name": "防御(累積)",
+      "success_rate": 90,
+      "element": "土"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "クラリス(Xmas)(*1)",
+      "ability_name": "α･ディケイ",
+      "condition": "",
+      "debuff_name": "崩壊レベル",
+      "success_rate": "耐性無視",
+      "element": "土"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "クラリス(Xmas)(*1)",
+      "ability_name": "β･ディケイ",
+      "condition": "",
+      "debuff_name": "攻撃(累積)",
+      "success_rate": 90,
+      "element": "土"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "クラリス(Xmas)(*1)",
+      "ability_name": "β･ディケイ",
+      "condition": "",
+      "debuff_name": "崩壊レベル",
+      "success_rate": "耐性無視",
+      "element": "土"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "ユーステス",
+      "ability_name": "奥義",
+      "condition": "",
+      "debuff_name": "攻撃",
+      "success_rate": 100,
+      "element": "土"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "ユーステス",
+      "ability_name": "フラメクの雷",
+      "condition": "",
+      "debuff_name": "麻痺",
+      "success_rate": 70,
+      "element": "土"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "ハレゼナ",
+      "ability_name": "ミンチにしてやる！！",
+      "condition": "",
+      "debuff_name": "DA確率",
+      "success_rate": 90,
+      "element": "土"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "ハレゼナ",
+      "ability_name": "ミンチにしてやる！！",
+      "condition": "",
+      "debuff_name": "TA確率",
+      "success_rate": 90,
+      "element": "土"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "ネモネ",
+      "ability_name": "ラニーニャ",
+      "condition": "",
+      "debuff_name": "防御(累積)",
+      "success_rate": 90,
+      "element": "土"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "ユーステス(ハロ)",
+      "ability_name": "奥義",
+      "condition": "",
+      "debuff_name": "暗闇",
+      "success_rate": "未確認",
+      "element": "土"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "ユーステス(ハロ)",
+      "ability_name": "フラメクの雷",
+      "condition": "",
+      "debuff_name": "麻痺",
+      "success_rate": 70,
+      "element": "土"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "ユーステス(ハロ)",
+      "ability_name": "トゥナイト･アイ･フライ",
+      "condition": "",
+      "debuff_name": "土防御",
+      "success_rate": "未確認",
+      "element": "土"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "ユーステス(ハロ)",
+      "ability_name": "トゥナイト･アイ･フライ(充填2)",
+      "condition": "",
+      "debuff_name": "土防御",
+      "success_rate": "未確認",
+      "element": "土"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "マキラ",
+      "ability_name": "雲散鳥没",
+      "condition": "",
+      "debuff_name": "防御",
+      "success_rate": 100,
+      "element": "土"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "マキラ",
+      "ability_name": "雲散鳥没",
+      "condition": "",
+      "debuff_name": "土防御",
+      "success_rate": 85,
+      "element": "土"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "マキラ",
+      "ability_name": "雲散鳥没++",
+      "condition": "",
+      "debuff_name": "防御",
+      "success_rate": 100,
+      "element": "土"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "マキラ",
+      "ability_name": "雲散鳥没++",
+      "condition": "",
+      "debuff_name": "土防御",
+      "success_rate": 100,
+      "element": "土"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "マキラ",
+      "ability_name": "雲散鳥没++",
+      "condition": "",
+      "debuff_name": "DA確率",
+      "success_rate": 100,
+      "element": "土"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "マキラ",
+      "ability_name": "雲散鳥没++",
+      "condition": "",
+      "debuff_name": "TA確率",
+      "success_rate": 100,
+      "element": "土"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "イルザ",
+      "ability_name": "奥義",
+      "condition": "",
+      "debuff_name": "DA確率",
+      "success_rate": "未確認",
+      "element": "土"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "イルザ",
+      "ability_name": "セイクリッド･ヘル",
+      "condition": "",
+      "debuff_name": "恐怖",
+      "success_rate": "未確認",
+      "element": "土"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "イルザ",
+      "ability_name": "ヒム",
+      "condition": "",
+      "debuff_name": "防御",
+      "success_rate": "100↑",
+      "element": "土"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "カイム",
+      "ability_name": "クラブトリック",
+      "condition": "",
+      "debuff_name": "攻撃(累積)",
+      "success_rate": 100,
+      "element": "土"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "カイム",
+      "ability_name": "クラブトリック",
+      "condition": "",
+      "debuff_name": "防御(累積)",
+      "success_rate": 100,
+      "element": "土"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "カイム",
+      "ability_name": "クラブトリック",
+      "condition": "",
+      "debuff_name": "スロウ",
+      "success_rate": 100,
+      "element": "土"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "ソリッズ",
+      "ability_name": "肉弾気焔",
+      "condition": "",
+      "debuff_name": "防御(累積)",
+      "success_rate": 90,
+      "element": "土"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "カイン(リミ)",
+      "ability_name": "闊達自在の計",
+      "condition": "",
+      "debuff_name": "攻撃",
+      "success_rate": 90,
+      "element": "土"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "カイン(リミ)",
+      "ability_name": "闊達自在の計",
+      "condition": "",
+      "debuff_name": "防御",
+      "success_rate": 90,
+      "element": "土"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "カイン(リミ)",
+      "ability_name": "闊達自在の計",
+      "condition": "",
+      "debuff_name": "伏計",
+      "success_rate": 100,
+      "element": "土"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "ロゼッタ(水着)",
+      "ability_name": "奥義",
+      "condition": "",
+      "debuff_name": "毒",
+      "success_rate": 90,
+      "element": "土"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "ロゼッタ(水着)",
+      "ability_name": "奥義",
+      "condition": "",
+      "debuff_name": "魅了",
+      "success_rate": 80,
+      "element": "土"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "メドゥーサ(ガチャ)",
+      "ability_name": "ペトリファクトヴィジョン",
+      "condition": "",
+      "debuff_name": "攻撃",
+      "success_rate": 80,
+      "element": "土"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "メドゥーサ(ガチャ)",
+      "ability_name": "ペトリファクトヴィジョン",
+      "condition": "",
+      "debuff_name": "防御",
+      "success_rate": 80,
+      "element": "土"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "メドゥーサ(ガチャ)",
+      "ability_name": "ペトリファクトヴィジョン",
+      "condition": "",
+      "debuff_name": "毒",
+      "success_rate": 80,
+      "element": "土"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "メドゥーサ(ガチャ)",
+      "ability_name": "ペトリファクトヴィジョン\n(荒土の刻印1消費)",
+      "condition": "",
+      "debuff_name": "攻撃",
+      "success_rate": 100,
+      "element": "土"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "メドゥーサ(ガチャ)",
+      "ability_name": "ペトリファクトヴィジョン\n(荒土の刻印1消費)",
+      "condition": "",
+      "debuff_name": "防御",
+      "success_rate": 100,
+      "element": "土"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "メドゥーサ(ガチャ)",
+      "ability_name": "ペトリファクトヴィジョン\n(荒土の刻印1消費)",
+      "condition": "",
+      "debuff_name": "毒",
+      "success_rate": 100,
+      "element": "土"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "メドゥーサ(ガチャ)",
+      "ability_name": "ペトリファクトヴィジョン\n(荒土の刻印1消費)",
+      "condition": "",
+      "debuff_name": "スロウ",
+      "success_rate": "未確認",
+      "element": "土"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "Aqours1年生",
+      "ability_name": "一緒に堕天しましょ",
+      "condition": "",
+      "debuff_name": "暗闇",
+      "success_rate": 90,
+      "element": "土"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "Aqours1年生",
+      "ability_name": "一緒に堕天しましょ",
+      "condition": "",
+      "debuff_name": "グラビティ",
+      "success_rate": 100,
+      "element": "土"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "ファスティバ",
+      "ability_name": "漢女心100%",
+      "condition": "",
+      "debuff_name": "魅了",
+      "success_rate": "未確認",
+      "element": "土"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "ファスティバ",
+      "ability_name": "愛のサブミッション",
+      "condition": "",
+      "debuff_name": "防御",
+      "success_rate": 70,
+      "element": "土"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "ファスティバ",
+      "ability_name": "愛のサブミッション",
+      "condition": "",
+      "debuff_name": "魅了",
+      "success_rate": "未確認",
+      "element": "土"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "ファスティバ",
+      "ability_name": "抱きしめてア･ゲ･ル！",
+      "condition": "",
+      "debuff_name": "魅了",
+      "success_rate": "未確認",
+      "element": "土"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "クラウディア",
+      "ability_name": "奥義",
+      "condition": "",
+      "debuff_name": "土防御",
+      "success_rate": 90,
+      "element": "土"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "クラウディア",
+      "ability_name": "ボディブロー",
+      "condition": "",
+      "debuff_name": "DA確率",
+      "success_rate": 80,
+      "element": "土"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "レッドラック",
+      "ability_name": "浪漫・雪月花",
+      "condition": "",
+      "debuff_name": "雪",
+      "success_rate": 95,
+      "element": "土"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "レッドラック",
+      "ability_name": "浪漫・雪月花",
+      "condition": "",
+      "debuff_name": "月",
+      "success_rate": 85,
+      "element": "土"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "レッドラック",
+      "ability_name": "浪漫・雪月花",
+      "condition": "",
+      "debuff_name": "花",
+      "success_rate": 75,
+      "element": "土"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "アルメイダ",
+      "ability_name": "バジャービット",
+      "condition": "",
+      "debuff_name": "弱体耐性",
+      "success_rate": 80,
+      "element": "土"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "アルメイダ",
+      "ability_name": "アーマーマイニング",
+      "condition": "",
+      "debuff_name": "防御(累積)",
+      "success_rate": 90,
+      "element": "土"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "SRヘリヤ",
+      "ability_name": "砕打Ⅱ",
+      "condition": "",
+      "debuff_name": "防御",
+      "success_rate": 70,
+      "element": "土"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "山姥切国広",
+      "ability_name": "杜絶",
+      "condition": "",
+      "debuff_name": "暗闇",
+      "success_rate": 80,
+      "element": "土"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "山姥切国広",
+      "ability_name": "杜絶",
+      "condition": "",
+      "debuff_name": "防御",
+      "success_rate": 80,
+      "element": "土"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "SRマキラ",
+      "ability_name": "飛花落葉",
+      "condition": "",
+      "debuff_name": "土防御",
+      "success_rate": 80,
+      "element": "土"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "SRカルメリーナ",
+      "ability_name": "スタッキング･センセーション",
+      "condition": "",
+      "debuff_name": "弱体耐性(累積)",
+      "success_rate": 90,
+      "element": "土"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "SRカルメリーナ",
+      "ability_name": "スタッキング･センセーション",
+      "condition": "",
+      "debuff_name": "防御(累積)",
+      "success_rate": 90,
+      "element": "土"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "アルメイダ(水着)",
+      "ability_name": "奥義",
+      "condition": "",
+      "debuff_name": "土防御",
+      "success_rate": 90,
+      "element": "土"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "アルメイダ(水着)",
+      "ability_name": "アーマーボーリング",
+      "condition": "",
+      "debuff_name": "防御",
+      "success_rate": 80,
+      "element": "土"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "ガウェイン",
+      "ability_name": "フラクチャー++",
+      "condition": "",
+      "debuff_name": "攻撃",
+      "success_rate": 90,
+      "element": "風"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "ネツァワルピリ",
+      "ability_name": "サポアビ1",
+      "condition": "",
+      "debuff_name": "鷹の目",
+      "success_rate": "基本必中",
+      "element": "風"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "メーテラ",
+      "ability_name": "飾り穿ち",
+      "condition": "",
+      "debuff_name": "魅了",
+      "success_rate": 50,
+      "element": "風"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "メーテラ",
+      "ability_name": "綺羅星",
+      "condition": "",
+      "debuff_name": "攻撃(累積)",
+      "success_rate": 90,
+      "element": "風"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "メーテラ",
+      "ability_name": "隼落とし",
+      "condition": "",
+      "debuff_name": "スロウ",
+      "success_rate": 100,
+      "element": "風"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "クリスティーナ",
+      "ability_name": "セカンドディール",
+      "condition": "",
+      "debuff_name": "弱体耐性",
+      "success_rate": 90,
+      "element": "風"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "レナ",
+      "ability_name": "奥義++",
+      "condition": "",
+      "debuff_name": "魔生花",
+      "success_rate": 100,
+      "element": "風"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "レナ",
+      "ability_name": "ミストラルブーケ",
+      "condition": "",
+      "debuff_name": "毒",
+      "success_rate": 80,
+      "element": "風"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "ニオ(*3)(*4)",
+      "ability_name": "奥義",
+      "condition": "",
+      "debuff_name": "魅了",
+      "success_rate": 75,
+      "element": "風"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "ニオ(*3)(*4)",
+      "ability_name": "ニンアナンナ",
+      "condition": "",
+      "debuff_name": "昏睡",
+      "success_rate": 75,
+      "element": "風"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "ニオ(*3)(*4)",
+      "ability_name": "デファンデュ",
+      "condition": "",
+      "debuff_name": "調律",
+      "success_rate": 100,
+      "element": "風"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "カルメリーナ",
+      "ability_name": "ウォーフープ",
+      "condition": "",
+      "debuff_name": "防御",
+      "success_rate": 70,
+      "element": "風"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "カルメリーナ",
+      "ability_name": "ウォーフープ",
+      "condition": "",
+      "debuff_name": "DA確率",
+      "success_rate": 70,
+      "element": "風"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "カルメリーナ",
+      "ability_name": "ウォーフープ",
+      "condition": "",
+      "debuff_name": "TA確率",
+      "success_rate": 70,
+      "element": "風"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "カルメリーナ",
+      "ability_name": "カレイドスコープ",
+      "condition": "",
+      "debuff_name": "グラビティ",
+      "success_rate": 100,
+      "element": "風"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "カルメリーナ",
+      "ability_name": "オールセンセーション",
+      "condition": "",
+      "debuff_name": "弱体耐性",
+      "success_rate": 150,
+      "element": "風"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "ペトラ",
+      "ability_name": "セレスチャル･フェノメナ",
+      "condition": "",
+      "debuff_name": "風防御",
+      "success_rate": 100,
+      "element": "風"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "アンリエット(*1)",
+      "ability_name": "奥義",
+      "condition": "",
+      "debuff_name": "睡眠",
+      "success_rate": 75,
+      "element": "風"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "アンリエット(*1)",
+      "ability_name": "ユーフォリア",
+      "condition": "",
+      "debuff_name": "攻撃",
+      "success_rate": 80,
+      "element": "風"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "アンリエット(*1)",
+      "ability_name": "ユーフォリア",
+      "condition": "",
+      "debuff_name": "防御",
+      "success_rate": 80,
+      "element": "風"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "SSRフィーナ",
+      "ability_name": "鬼滅☆3WAY！！",
+      "condition": "",
+      "debuff_name": "防御",
+      "success_rate": 90,
+      "element": "風"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "アンチラ",
+      "ability_name": "三令五申",
+      "condition": "",
+      "debuff_name": "不見猿(ダメ)",
+      "success_rate": 100,
+      "element": "風"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "アンチラ",
+      "ability_name": "三令五申",
+      "condition": "",
+      "debuff_name": "不見猿(攻撃)",
+      "success_rate": 100,
+      "element": "風"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "アンチラ",
+      "ability_name": "三令五申",
+      "condition": "",
+      "debuff_name": "不言猿",
+      "success_rate": 100,
+      "element": "風"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "アンチラ",
+      "ability_name": "三令五申",
+      "condition": "",
+      "debuff_name": "不聞猿",
+      "success_rate": 100,
+      "element": "風"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "リーシャ(リミ)",
+      "ability_name": "ブレイブコマンド\n(弱体号令Lv1~4)",
+      "condition": "",
+      "debuff_name": "弱体耐性",
+      "success_rate": 100,
+      "element": "風"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "リーシャ(リミ)",
+      "ability_name": "ブレイブコマンド\n(弱体号令Lv1~4)",
+      "condition": "",
+      "debuff_name": "攻撃",
+      "success_rate": 100,
+      "element": "風"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "リーシャ(リミ)",
+      "ability_name": "ブレイブコマンド\n(弱体号令Lv1~4)",
+      "condition": "",
+      "debuff_name": "防御",
+      "success_rate": 100,
+      "element": "風"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "リーシャ(リミ)",
+      "ability_name": "ブレイブコマンド\n(弱体号令Lv1~4)",
+      "condition": "",
+      "debuff_name": "DA確率",
+      "success_rate": 100,
+      "element": "風"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "リーシャ(リミ)",
+      "ability_name": "ブレイブコマンド\n(弱体号令Lv1~4)",
+      "condition": "",
+      "debuff_name": "TA確率",
+      "success_rate": 100,
+      "element": "風"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "リーシャ(リミ)",
+      "ability_name": "ブレイブコマンド\n(弱体号令Lv5)",
+      "condition": "",
+      "debuff_name": "弱体耐性",
+      "success_rate": 200,
+      "element": "風"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "リーシャ(リミ)",
+      "ability_name": "ブレイブコマンド\n(弱体号令Lv5)",
+      "condition": "",
+      "debuff_name": "攻撃",
+      "success_rate": 200,
+      "element": "風"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "リーシャ(リミ)",
+      "ability_name": "ブレイブコマンド\n(弱体号令Lv5)",
+      "condition": "",
+      "debuff_name": "防御",
+      "success_rate": 200,
+      "element": "風"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "リーシャ(リミ)",
+      "ability_name": "ブレイブコマンド\n(弱体号令Lv5)",
+      "condition": "",
+      "debuff_name": "DA確率",
+      "success_rate": 200,
+      "element": "風"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "リーシャ(リミ)",
+      "ability_name": "ブレイブコマンド\n(弱体号令Lv5)",
+      "condition": "",
+      "debuff_name": "TA確率",
+      "success_rate": 200,
+      "element": "風"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "リーシャ(リミ)",
+      "ability_name": "ブレイブコマンド\n(弱体号令Lv5)",
+      "condition": "",
+      "debuff_name": "スロウ",
+      "success_rate": 200,
+      "element": "風"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "ジークフリート(浴衣)",
+      "ability_name": "デリヴランス",
+      "condition": "",
+      "debuff_name": "風防御",
+      "success_rate": 80,
+      "element": "風"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "ジークフリート(浴衣)",
+      "ability_name": "デリヴランス(黒龍の爪)",
+      "condition": "",
+      "debuff_name": "風防御",
+      "success_rate": 100,
+      "element": "風"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "風ランスロット",
+      "ability_name": "トゥルブレンツ",
+      "condition": "",
+      "debuff_name": "防御(累積)",
+      "success_rate": 80,
+      "element": "風"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "風ランスロット",
+      "ability_name": "トゥルブレンツ",
+      "condition": "",
+      "debuff_name": "DA確率",
+      "success_rate": 90,
+      "element": "風"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "ティアマト",
+      "ability_name": "フィブルストーム",
+      "condition": "",
+      "debuff_name": "攻撃",
+      "success_rate": 80,
+      "element": "風"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "ティアマト",
+      "ability_name": "フィブルストーム++",
+      "condition": "",
+      "debuff_name": "攻撃",
+      "success_rate": 90,
+      "element": "風"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "ティアマト",
+      "ability_name": "フィブルストーム++",
+      "condition": "",
+      "debuff_name": "防御",
+      "success_rate": 90,
+      "element": "風"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "ティアマト",
+      "ability_name": "スーパーセル",
+      "condition": "",
+      "debuff_name": "攻撃",
+      "success_rate": 100,
+      "element": "風"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "ティアマト",
+      "ability_name": "スーパーセル",
+      "condition": "",
+      "debuff_name": "防御",
+      "success_rate": 100,
+      "element": "風"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "ティアマト",
+      "ability_name": "スーパーセル",
+      "condition": "",
+      "debuff_name": "スロウ",
+      "success_rate": 100,
+      "element": "風"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "ティアマト",
+      "ability_name": "スーパーセル",
+      "condition": "",
+      "debuff_name": "裂空の慟哭",
+      "success_rate": 90,
+      "element": "風"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "ジャンヌダルク(水着)",
+      "ability_name": "リヴァーサル･タイド",
+      "condition": "",
+      "debuff_name": "防御",
+      "success_rate": 100,
+      "element": "風"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "ジャンヌダルク(水着)",
+      "ability_name": "リヴァーサル･タイド",
+      "condition": "",
+      "debuff_name": "風防御",
+      "success_rate": 85,
+      "element": "風"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "SSRセレフィラ",
+      "ability_name": "ディミヌエンド",
+      "condition": "",
+      "debuff_name": "防御",
+      "success_rate": 90,
+      "element": "風"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "SSRセレフィラ",
+      "ability_name": "ディミヌエンド",
+      "condition": "",
+      "debuff_name": "土攻撃",
+      "success_rate": 90,
+      "element": "風"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "SSRセレフィラ",
+      "ability_name": "ディミヌエンド",
+      "condition": "",
+      "debuff_name": "風防御",
+      "success_rate": 90,
+      "element": "風"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "モニカ(アーカルム)",
+      "ability_name": "紫電一閃(2アビ)",
+      "condition": "",
+      "debuff_name": "防御(累積)",
+      "success_rate": 90,
+      "element": "風"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "モニカ(アーカルム)",
+      "ability_name": "紫電一閃(サポアビ)",
+      "condition": "",
+      "debuff_name": "防御(累積)",
+      "success_rate": 100,
+      "element": "風"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "ユリウス",
+      "ability_name": "トゥルーインクワイア",
+      "condition": "",
+      "debuff_name": "攻撃(累積)",
+      "success_rate": 100,
+      "element": "風"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "ユリウス",
+      "ability_name": "トゥルーインクワイア",
+      "condition": "",
+      "debuff_name": "防御(累積)",
+      "success_rate": 100,
+      "element": "風"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "ユリウス",
+      "ability_name": "トゥルーインクワイア",
+      "condition": "",
+      "debuff_name": "ランダム",
+      "success_rate": "100↑",
+      "element": "風"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "ユリウス",
+      "ability_name": "パワーエクストラクション",
+      "condition": "",
+      "debuff_name": "CT吸収",
+      "success_rate": 100,
+      "element": "風"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "コッコロ",
+      "ability_name": "アルセイドスピア",
+      "condition": "",
+      "debuff_name": "防御",
+      "success_rate": 100,
+      "element": "風"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "ユエル(水着)",
+      "ability_name": "不知火",
+      "condition": "",
+      "debuff_name": "狐火",
+      "success_rate": 120,
+      "element": "風"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "ユエル(水着)",
+      "ability_name": "不知火",
+      "condition": "",
+      "debuff_name": "土攻撃",
+      "success_rate": 100,
+      "element": "風"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "風ヴィーラ",
+      "ability_name": "プライマル･ウェーブ",
+      "condition": "",
+      "debuff_name": "防御",
+      "success_rate": 90,
+      "element": "風"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "風ヴィーラ",
+      "ability_name": "プライマル･ウェーブ",
+      "condition": "",
+      "debuff_name": "恐怖",
+      "success_rate": 90,
+      "element": "風"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "モニカ(リミテッド)",
+      "ability_name": "紫電の閃き(奥義)",
+      "condition": "",
+      "debuff_name": "攻撃(累積)",
+      "success_rate": 90,
+      "element": "風"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "モニカ(リミテッド)",
+      "ability_name": "紫電の閃き(奥義)",
+      "condition": "",
+      "debuff_name": "防御(累積)",
+      "success_rate": 90,
+      "element": "風"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "モニカ(リミテッド)",
+      "ability_name": "紫電の閃き(サポアビ)",
+      "condition": "",
+      "debuff_name": "攻撃(累積)",
+      "success_rate": 90,
+      "element": "風"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "モニカ(リミテッド)",
+      "ability_name": "紫電の閃き(サポアビ)",
+      "condition": "",
+      "debuff_name": "防御(累積)",
+      "success_rate": 90,
+      "element": "風"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "ミュオン(Xmas)",
+      "ability_name": "ボディ･ブレイクダウンⅡ",
+      "condition": "",
+      "debuff_name": "防御",
+      "success_rate": 100,
+      "element": "風"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "ミュオン(Xmas)",
+      "ability_name": "ボディ･ブレイクダウンⅡ",
+      "condition": "",
+      "debuff_name": "風防御",
+      "success_rate": 90,
+      "element": "風"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "ミュオン(Xmas)",
+      "ability_name": "ボディ･ブレイクダウンⅡ",
+      "condition": "",
+      "debuff_name": "弱体耐性",
+      "success_rate": 100,
+      "element": "風"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "ガチャピン",
+      "ability_name": "ガチャラヴィティ",
+      "condition": "",
+      "debuff_name": "弱体耐性",
+      "success_rate": 100,
+      "element": "風"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "ガチャピン",
+      "ability_name": "ガチャラヴィティ",
+      "condition": "",
+      "debuff_name": "毒",
+      "success_rate": 65,
+      "element": "風"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "ガチャピン",
+      "ability_name": "ガチャラヴィティ",
+      "condition": "",
+      "debuff_name": "灼熱",
+      "success_rate": 65,
+      "element": "風"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "ガチャピン",
+      "ability_name": "ガチャラヴィティ",
+      "condition": "",
+      "debuff_name": "腐敗",
+      "success_rate": 65,
+      "element": "風"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "ガチャピン",
+      "ability_name": "ガチャラヴィティ",
+      "condition": "",
+      "debuff_name": "暗闇",
+      "success_rate": 50,
+      "element": "風"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "ガチャピン",
+      "ability_name": "ガチャラヴィティ",
+      "condition": "",
+      "debuff_name": "魅了",
+      "success_rate": 30,
+      "element": "風"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "ガチャピン",
+      "ability_name": "ガチャラヴィティ",
+      "condition": "",
+      "debuff_name": "アンデッド",
+      "success_rate": 30,
+      "element": "風"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "ガチャピン",
+      "ability_name": "ガチャラヴィティ",
+      "condition": "",
+      "debuff_name": "睡眠",
+      "success_rate": 20,
+      "element": "風"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "ガチャピン",
+      "ability_name": "ガチャラヴィティ",
+      "condition": "",
+      "debuff_name": "麻痺",
+      "success_rate": 20,
+      "element": "風"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "ガチャピン",
+      "ability_name": "ガチャラヴィティ",
+      "condition": "",
+      "debuff_name": "攻撃",
+      "success_rate": 65,
+      "element": "風"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "ガチャピン",
+      "ability_name": "ガチャラヴィティ",
+      "condition": "",
+      "debuff_name": "防御",
+      "success_rate": 65,
+      "element": "風"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "ガチャピン",
+      "ability_name": "ガチャラヴィティ",
+      "condition": "",
+      "debuff_name": "DA確率",
+      "success_rate": 65,
+      "element": "風"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "ガチャピン",
+      "ability_name": "ガチャラヴィティ",
+      "condition": "",
+      "debuff_name": "TA確率",
+      "success_rate": 65,
+      "element": "風"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "セルエル(Xmas)",
+      "ability_name": "ノーブルブレイド",
+      "condition": "",
+      "debuff_name": "攻撃",
+      "success_rate": 90,
+      "element": "風"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "セルエル(Xmas)",
+      "ability_name": "ノーブルブレイド",
+      "condition": "",
+      "debuff_name": "土攻撃",
+      "success_rate": 90,
+      "element": "風"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "セルエル(Xmas)",
+      "ability_name": "ノーブルブレイド",
+      "condition": "",
+      "debuff_name": "風防御",
+      "success_rate": 90,
+      "element": "風"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "キハール",
+      "ability_name": "プフール",
+      "condition": "",
+      "debuff_name": "攻撃",
+      "success_rate": 70,
+      "element": "風"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "キハール",
+      "ability_name": "プフール",
+      "condition": "",
+      "debuff_name": "防御",
+      "success_rate": 70,
+      "element": "風"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "セレフィラ",
+      "ability_name": "スフォルツァート",
+      "condition": "",
+      "debuff_name": "弱体耐性",
+      "success_rate": 80,
+      "element": "風"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "セレフィラ",
+      "ability_name": "メランコリックメロディ+",
+      "condition": "",
+      "debuff_name": "防御",
+      "success_rate": 80,
+      "element": "風"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "SRフィーナ",
+      "ability_name": "鬼滅の一矢",
+      "condition": "",
+      "debuff_name": "防御",
+      "success_rate": 70,
+      "element": "風"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "アステール",
+      "ability_name": "薫風",
+      "condition": "",
+      "debuff_name": "防御",
+      "success_rate": 95,
+      "element": "風"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "アステール",
+      "ability_name": "勁草",
+      "condition": "",
+      "debuff_name": "攻撃",
+      "success_rate": 95,
+      "element": "風"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "ミニゴブ\n(サポアビ含む)",
+      "ability_name": "やってやるゴブ",
+      "condition": "",
+      "debuff_name": "攻撃",
+      "success_rate": 75,
+      "element": "風"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "ミニゴブ\n(サポアビ含む)",
+      "ability_name": "やってやるゴブ",
+      "condition": "",
+      "debuff_name": "防御",
+      "success_rate": 75,
+      "element": "風"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "ミニゴブ\n(サポアビ含む)",
+      "ability_name": "役に立つゴブ",
+      "condition": "",
+      "debuff_name": "弱体耐性",
+      "success_rate": 95,
+      "element": "風"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "ミニゴブ\n(サポアビ含む)",
+      "ability_name": "ぼんやりするゴブ",
+      "condition": "",
+      "debuff_name": "ランダム",
+      "success_rate": "未確認",
+      "element": "風"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "リュウ",
+      "ability_name": "波動拳",
+      "condition": "",
+      "debuff_name": "気絶値蓄積",
+      "success_rate": "固定100",
+      "element": "風"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "リュウ",
+      "ability_name": "昇龍拳",
+      "condition": "",
+      "debuff_name": "気絶値蓄積",
+      "success_rate": "固定100",
+      "element": "風"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "リュウ",
+      "ability_name": "竜巻旋風脚",
+      "condition": "",
+      "debuff_name": "気絶値蓄積",
+      "success_rate": "固定100",
+      "element": "風"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "ラシード",
+      "ability_name": "イウサール",
+      "condition": "",
+      "debuff_name": "土攻撃",
+      "success_rate": "100↑",
+      "element": "風"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "ミュオン",
+      "ability_name": "ボディ･ブレイクダウン",
+      "condition": "",
+      "debuff_name": "防御",
+      "success_rate": 80,
+      "element": "風"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "ミュオン",
+      "ability_name": "ボディ･ブレイクダウン",
+      "condition": "",
+      "debuff_name": "弱体耐性",
+      "success_rate": 80,
+      "element": "風"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "ミュオン",
+      "ability_name": "ウルトラビートダウン",
+      "condition": "",
+      "debuff_name": "攻撃",
+      "success_rate": 80,
+      "element": "風"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "ミュオン",
+      "ability_name": "ウルトラビートダウン",
+      "condition": "",
+      "debuff_name": "DA確率",
+      "success_rate": 80,
+      "element": "風"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "覇王丸",
+      "ability_name": "旋風裂斬",
+      "condition": "",
+      "debuff_name": "風防御",
+      "success_rate": 95,
+      "element": "風"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "シャルロッテ(配布)",
+      "ability_name": "エヴィフルー・ムーン",
+      "condition": "",
+      "debuff_name": "防御",
+      "success_rate": 70,
+      "element": "風"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "一ノ瀬志希",
+      "ability_name": "フレグランスボディ",
+      "condition": "",
+      "debuff_name": "魅了",
+      "success_rate": 80,
+      "element": "風"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "一ノ瀬志希",
+      "ability_name": "セブンスヘブン",
+      "condition": "",
+      "debuff_name": "攻撃力",
+      "success_rate": "100↑",
+      "element": "風"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "一ノ瀬志希",
+      "ability_name": "セブンスヘブン",
+      "condition": "",
+      "debuff_name": "防御力",
+      "success_rate": "100↑",
+      "element": "風"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "一ノ瀬志希",
+      "ability_name": "セブンスヘブン",
+      "condition": "",
+      "debuff_name": "スロウ",
+      "success_rate": "100↑",
+      "element": "風"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "ミリン",
+      "ability_name": "奥義",
+      "condition": "",
+      "debuff_name": "風防御",
+      "success_rate": 100,
+      "element": "風"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "安室透",
+      "ability_name": "ノックアウト",
+      "condition": "",
+      "debuff_name": "防御",
+      "success_rate": 100,
+      "element": "風"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "風ユーリ",
+      "ability_name": "インペリアルストライク",
+      "condition": "",
+      "debuff_name": "防御",
+      "success_rate": 85,
+      "element": "風"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "ひよこ班",
+      "ability_name": "ミットヴィル･シュナイデン",
+      "condition": "",
+      "debuff_name": "土攻撃",
+      "success_rate": 90,
+      "element": "風"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "ひよこ班",
+      "ability_name": "ミットヴィル･シュナイデン",
+      "condition": "",
+      "debuff_name": "風防御",
+      "success_rate": 90,
+      "element": "風"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "レ･フィーエ",
+      "ability_name": "グロリアスフレイム",
+      "condition": "",
+      "debuff_name": "光防御",
+      "success_rate": 100,
+      "element": "光"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "サルナーン",
+      "ability_name": "ヒッチフォース++",
+      "condition": "",
+      "debuff_name": "ホーリースパイク",
+      "success_rate": 100,
+      "element": "光"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "サルナーン",
+      "ability_name": "ヒッチフォース++",
+      "condition": "",
+      "debuff_name": "CT吸収",
+      "success_rate": 100,
+      "element": "光"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "レ･フィーエ(水着)",
+      "ability_name": "プリズムピラー",
+      "condition": "",
+      "debuff_name": "暗闇",
+      "success_rate": 90,
+      "element": "光"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "シャルロッテ(ハロ)",
+      "ability_name": "プラーズニクスラスト",
+      "condition": "",
+      "debuff_name": "攻撃",
+      "success_rate": 90,
+      "element": "光"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "シャルロッテ(ハロ)",
+      "ability_name": "プラーズニクスラスト",
+      "condition": "",
+      "debuff_name": "暗闇",
+      "success_rate": 100,
+      "element": "光"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "シャルロッテ(ハロ)",
+      "ability_name": "トリック・アンド・トリート",
+      "condition": "",
+      "debuff_name": "パンプキン",
+      "success_rate": "基本必中",
+      "element": "光"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "ソーン(*5)",
+      "ability_name": "ディプラヴィティ",
+      "condition": "",
+      "debuff_name": "弱体耐性",
+      "success_rate": 100,
+      "element": "光"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "ソーン(*5)",
+      "ability_name": "ディプラヴィティ",
+      "condition": "",
+      "debuff_name": "毒",
+      "success_rate": 65,
+      "element": "光"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "ソーン(*5)",
+      "ability_name": "ディプラヴィティ",
+      "condition": "",
+      "debuff_name": "灼熱",
+      "success_rate": 65,
+      "element": "光"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "ソーン(*5)",
+      "ability_name": "ディプラヴィティ",
+      "condition": "",
+      "debuff_name": "腐敗",
+      "success_rate": 65,
+      "element": "光"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "ソーン(*5)",
+      "ability_name": "ディプラヴィティ",
+      "condition": "",
+      "debuff_name": "暗闇",
+      "success_rate": 50,
+      "element": "光"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "ソーン(*5)",
+      "ability_name": "ディプラヴィティ",
+      "condition": "",
+      "debuff_name": "魅了",
+      "success_rate": 30,
+      "element": "光"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "ソーン(*5)",
+      "ability_name": "ディプラヴィティ",
+      "condition": "",
+      "debuff_name": "アンデッド",
+      "success_rate": 30,
+      "element": "光"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "ソーン(*5)",
+      "ability_name": "ディプラヴィティ",
+      "condition": "",
+      "debuff_name": "睡眠",
+      "success_rate": 20,
+      "element": "光"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "ソーン(*5)",
+      "ability_name": "ディプラヴィティ",
+      "condition": "",
+      "debuff_name": "麻痺",
+      "success_rate": 20,
+      "element": "光"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "ソーン(*5)",
+      "ability_name": "ディプラヴィティ",
+      "condition": "",
+      "debuff_name": "攻撃",
+      "success_rate": 65,
+      "element": "光"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "ソーン(*5)",
+      "ability_name": "ディプラヴィティ",
+      "condition": "",
+      "debuff_name": "防御",
+      "success_rate": 65,
+      "element": "光"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "ソーン(*5)",
+      "ability_name": "ディプラヴィティ",
+      "condition": "",
+      "debuff_name": "DA確率",
+      "success_rate": 65,
+      "element": "光"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "ソーン(*5)",
+      "ability_name": "ディプラヴィティ",
+      "condition": "",
+      "debuff_name": "TA確率",
+      "success_rate": 65,
+      "element": "光"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "ソーン(*5)",
+      "ability_name": "ディプラヴィティ",
+      "condition": "",
+      "debuff_name": "即死",
+      "success_rate": "固定65",
+      "element": "光"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "ソーン(*5)",
+      "ability_name": "クリンチャー",
+      "condition": "",
+      "debuff_name": "麻痺",
+      "success_rate": 55,
+      "element": "光"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "ソーン(*5)",
+      "ability_name": "ニ王の諍い",
+      "condition": "",
+      "debuff_name": "弱体延長",
+      "success_rate": "固定100",
+      "element": "光"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "フュンフ",
+      "ability_name": "奥義++",
+      "condition": "",
+      "debuff_name": "闇攻撃",
+      "success_rate": 100,
+      "element": "光"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "フュンフ",
+      "ability_name": "奥義++",
+      "condition": "",
+      "debuff_name": "DA確率",
+      "success_rate": 100,
+      "element": "光"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "フュンフ",
+      "ability_name": "奥義++",
+      "condition": "",
+      "debuff_name": "TA確率",
+      "success_rate": 100,
+      "element": "光"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "ジャンヌダルク",
+      "ability_name": "リヴァーサル++",
+      "condition": "",
+      "debuff_name": "防御",
+      "success_rate": 90,
+      "element": "光"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "ジャンヌダルク",
+      "ability_name": "リヴァーサル++",
+      "condition": "",
+      "debuff_name": "攻撃",
+      "success_rate": 90,
+      "element": "光"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "アルベール",
+      "ability_name": "インパルススラッシュ",
+      "condition": "",
+      "debuff_name": "光防御",
+      "success_rate": 100,
+      "element": "光"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "アルベール",
+      "ability_name": "エレクトロンブレード",
+      "condition": "",
+      "debuff_name": "スロウ",
+      "success_rate": 90,
+      "element": "光"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "ゼタ(水着)",
+      "ability_name": "ライムス",
+      "condition": "",
+      "debuff_name": "弱体耐性",
+      "success_rate": 100,
+      "element": "光"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "ゼタ(水着)",
+      "ability_name": "ライムス",
+      "condition": "",
+      "debuff_name": "アルベス･F",
+      "success_rate": "基本必中",
+      "element": "光"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "SSRロザミア",
+      "ability_name": "砕鎧符・肆重",
+      "condition": "",
+      "debuff_name": "防御(累積)",
+      "success_rate": 100,
+      "element": "光"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "ヘルエス(水着)",
+      "ability_name": "奥義",
+      "condition": "",
+      "debuff_name": "魅了",
+      "success_rate": 90,
+      "element": "光"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "ジュリエット",
+      "ability_name": "フルミネ･ビアンコ",
+      "condition": "",
+      "debuff_name": "光防御",
+      "success_rate": 100,
+      "element": "光"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "光クラリス",
+      "ability_name": "フォトリシス",
+      "condition": "",
+      "debuff_name": "光防御",
+      "success_rate": 100,
+      "element": "光"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "光クラリス",
+      "ability_name": "フォトリシス",
+      "condition": "",
+      "debuff_name": "闇攻撃",
+      "success_rate": 100,
+      "element": "光"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "サーヴァンツ\nドロシー&\nクラウディア",
+      "ability_name": "奥義",
+      "condition": "",
+      "debuff_name": "DA確率",
+      "success_rate": 100,
+      "element": "光"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "サーヴァンツ\nドロシー&\nクラウディア",
+      "ability_name": "奥義",
+      "condition": "",
+      "debuff_name": "防御",
+      "success_rate": 100,
+      "element": "光"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "サーヴァンツ\nドロシー&\nクラウディア",
+      "ability_name": "ドア･ノッカー",
+      "condition": "",
+      "debuff_name": "グラビティ",
+      "success_rate": 100,
+      "element": "光"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "サーヴァンツ\nドロシー&\nクラウディア",
+      "ability_name": "サポアビ(クラウディア)",
+      "condition": "",
+      "debuff_name": "防御(累積)",
+      "success_rate": 100,
+      "element": "光"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "木之本桜",
+      "ability_name": "奥義",
+      "condition": "",
+      "debuff_name": "戒めの鎖",
+      "success_rate": 100,
+      "element": "光"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "木之本桜",
+      "ability_name": "奥義",
+      "condition": "",
+      "debuff_name": "DA確率",
+      "success_rate": 150,
+      "element": "光"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "木之本桜",
+      "ability_name": "『水』",
+      "condition": "",
+      "debuff_name": "攻撃(累積)",
+      "success_rate": 90,
+      "element": "光"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "木之本桜",
+      "ability_name": "『水』",
+      "condition": "",
+      "debuff_name": "防御(累積)",
+      "success_rate": 90,
+      "element": "光"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "サンダルフォン",
+      "ability_name": "奥義",
+      "condition": "",
+      "debuff_name": "審判の鐘",
+      "success_rate": 100,
+      "element": "光"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "SSRロボミ",
+      "ability_name": "超斥力ストーム",
+      "condition": "",
+      "debuff_name": "防御(累積)",
+      "success_rate": 90,
+      "element": "光"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "江戸川コナン",
+      "ability_name": "眠りの小五郎",
+      "condition": "",
+      "debuff_name": "防御",
+      "success_rate": "100↑",
+      "element": "光"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "江戸川コナン",
+      "ability_name": "犯人追跡メガネ",
+      "condition": "",
+      "debuff_name": "追跡",
+      "success_rate": "基本必中",
+      "element": "光"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "江戸川コナン",
+      "ability_name": "オーバーヘッドキック",
+      "condition": "",
+      "debuff_name": "気絶",
+      "success_rate": "未確認",
+      "element": "光"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "光シルヴァ",
+      "ability_name": "アクーメン",
+      "condition": "",
+      "debuff_name": "攻撃",
+      "success_rate": 120,
+      "element": "光"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "光シルヴァ",
+      "ability_name": "アクーメン",
+      "condition": "",
+      "debuff_name": "防御",
+      "success_rate": 120,
+      "element": "光"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "光シルヴァ",
+      "ability_name": "アクーメン",
+      "condition": "",
+      "debuff_name": "ウィークネスP",
+      "success_rate": 120,
+      "element": "光"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "ノイシュ(水着)",
+      "ability_name": "ルーセントドライヴ",
+      "condition": "",
+      "debuff_name": "光防御",
+      "success_rate": 85,
+      "element": "光"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "ノイシュ(水着)",
+      "ability_name": "ルーセントドライヴ(聖槍)",
+      "condition": "",
+      "debuff_name": "光防御",
+      "success_rate": 100,
+      "element": "光"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "レヴィオン姉妹",
+      "ability_name": "アクアブレード",
+      "condition": "",
+      "debuff_name": "防御(累積)",
+      "success_rate": 90,
+      "element": "光"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "レヴィオン姉妹",
+      "ability_name": "ブレイブコンバット",
+      "condition": "",
+      "debuff_name": "気絶",
+      "success_rate": 70,
+      "element": "光"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "メーテラ(Xmas)",
+      "ability_name": "飾り穿ち星天落とし",
+      "condition": "",
+      "debuff_name": "攻撃(累積)",
+      "success_rate": 90,
+      "element": "光"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "メーテラ(Xmas)",
+      "ability_name": "飾り穿ち星天落とし",
+      "condition": "",
+      "debuff_name": "防御(累積)",
+      "success_rate": 90,
+      "element": "光"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "光シャルロッテ",
+      "ability_name": "清き光の蒼剣",
+      "condition": "",
+      "debuff_name": "闇攻撃",
+      "success_rate": 90,
+      "element": "光"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "光シャルロッテ",
+      "ability_name": "清き光の蒼剣",
+      "condition": "",
+      "debuff_name": "命中率",
+      "success_rate": 100,
+      "element": "光"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "クビラ",
+      "ability_name": "迅雷風烈",
+      "condition": "",
+      "debuff_name": "光防御",
+      "success_rate": 90,
+      "element": "光"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "μ's2年生",
+      "ability_name": "ラブアローシュート！",
+      "condition": "",
+      "debuff_name": "魅了",
+      "success_rate": 80,
+      "element": "光"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "μ's2年生",
+      "ability_name": "ラブアローシュート！",
+      "condition": "",
+      "debuff_name": "攻撃",
+      "success_rate": 90,
+      "element": "光"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "μ's2年生",
+      "ability_name": "ラブアローシュート！",
+      "condition": "",
+      "debuff_name": "防御",
+      "success_rate": 90,
+      "element": "光"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "ハレゼナ(ハロ)",
+      "ability_name": "くり抜いてやるぜぇ！！",
+      "condition": "",
+      "debuff_name": "攻撃(累積)",
+      "success_rate": 95,
+      "element": "光"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "ハレゼナ(ハロ)",
+      "ability_name": "くり抜いてやるぜぇ！！",
+      "condition": "",
+      "debuff_name": "防御(累積)",
+      "success_rate": 95,
+      "element": "光"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "シトリ",
+      "ability_name": "月雲花風",
+      "condition": "",
+      "debuff_name": "攻撃",
+      "success_rate": 90,
+      "element": "光"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "シトリ",
+      "ability_name": "月雲花風",
+      "condition": "",
+      "debuff_name": "防御",
+      "success_rate": 90,
+      "element": "光"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "ジャンヌダルク(リミ)",
+      "ability_name": "セイクリッド･リヴァーサル",
+      "condition": "",
+      "debuff_name": "攻撃",
+      "success_rate": 120,
+      "element": "光"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "ジャンヌダルク(リミ)",
+      "ability_name": "セイクリッド･リヴァーサル",
+      "condition": "",
+      "debuff_name": "防御",
+      "success_rate": 120,
+      "element": "光"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "ジャンヌダルク(リミ)",
+      "ability_name": "セイクリッド･リヴァーサル",
+      "condition": "",
+      "debuff_name": "神罰の槍",
+      "success_rate": 90,
+      "element": "光"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "ノア(リミ)",
+      "ability_name": "ラジェーションボルトII",
+      "condition": "",
+      "debuff_name": "安寧の渡鳥(防御)",
+      "success_rate": 200,
+      "element": "光"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "ノア(リミ)",
+      "ability_name": "ラジェーションボルトII",
+      "condition": "",
+      "debuff_name": "安寧の渡鳥(耐性)",
+      "success_rate": 200,
+      "element": "光"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "フェリ",
+      "ability_name": "ゲシュペンスト",
+      "condition": "",
+      "debuff_name": "攻撃",
+      "success_rate": 70,
+      "element": "光"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "フェリ",
+      "ability_name": "ゲシュペンスト",
+      "condition": "",
+      "debuff_name": "防御",
+      "success_rate": 70,
+      "element": "光"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "ノア(*6)",
+      "ability_name": "マインドオーダー",
+      "condition": "",
+      "debuff_name": "防御",
+      "success_rate": 70,
+      "element": "光"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "ノア(*6)",
+      "ability_name": "ラジェーションボルト++",
+      "condition": "",
+      "debuff_name": "弱体耐性",
+      "success_rate": 90,
+      "element": "光"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "島村卯月",
+      "ability_name": "ティンクルスター++",
+      "condition": "",
+      "debuff_name": "魅了",
+      "success_rate": 90,
+      "element": "光"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "島村卯月",
+      "ability_name": "ティンクルスター++",
+      "condition": "",
+      "debuff_name": "灼熱",
+      "success_rate": 80,
+      "element": "光"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "ロザミア",
+      "ability_name": "砕鎧符",
+      "condition": "",
+      "debuff_name": "防御",
+      "success_rate": 70,
+      "element": "光"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "ファスティバ(Xmas)",
+      "ability_name": "慰めのレインメーカー",
+      "condition": "",
+      "debuff_name": "魅了",
+      "success_rate": 50,
+      "element": "光"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "ファスティバ(Xmas)",
+      "ability_name": "愛のヘッドバット",
+      "condition": "",
+      "debuff_name": "防御",
+      "success_rate": 70,
+      "element": "光"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "ファスティバ(Xmas)",
+      "ability_name": "愛のヘッドバット",
+      "condition": "",
+      "debuff_name": "恐怖",
+      "success_rate": 90,
+      "element": "光"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "SRダエッタ",
+      "ability_name": "フルブレイクⅡ",
+      "condition": "",
+      "debuff_name": "攻撃",
+      "success_rate": 70,
+      "element": "光"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "SRダエッタ",
+      "ability_name": "フルブレイクⅡ",
+      "condition": "",
+      "debuff_name": "防御",
+      "success_rate": 70,
+      "element": "光"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "SRアルベール",
+      "ability_name": "エレクトロンブレード",
+      "condition": "",
+      "debuff_name": "スロウ",
+      "success_rate": 70,
+      "element": "光"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "SRジャンヌダルク",
+      "ability_name": "ライト･リヴァーサル",
+      "condition": "",
+      "debuff_name": "光防御",
+      "success_rate": 80,
+      "element": "光"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "サーヤ(ガチャ)",
+      "ability_name": "奥義",
+      "condition": "",
+      "debuff_name": "光防御",
+      "success_rate": 80,
+      "element": "光"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "サーヤ(ガチャ)",
+      "ability_name": "対象観察",
+      "condition": "",
+      "debuff_name": "観察",
+      "success_rate": "未確認",
+      "element": "光"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "サーヤ(ガチャ)",
+      "ability_name": "行動分析",
+      "condition": "",
+      "debuff_name": "攻撃",
+      "success_rate": "未確認",
+      "element": "光"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "サーヤ(ガチャ)",
+      "ability_name": "偽証論破",
+      "condition": "",
+      "debuff_name": "運の尽き",
+      "success_rate": "未確認",
+      "element": "光"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "フィーナ(Xmas)",
+      "ability_name": "光聖の破魔矢",
+      "condition": "",
+      "debuff_name": "光防御",
+      "success_rate": 85,
+      "element": "光"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "SRゼタ",
+      "ability_name": "アルベスの槍",
+      "condition": "",
+      "debuff_name": "アルベス･F",
+      "success_rate": "基本必中",
+      "element": "光"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "光エルタ",
+      "ability_name": "ファシネートソング",
+      "condition": "",
+      "debuff_name": "魅了",
+      "success_rate": 90,
+      "element": "光"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "光エルタ",
+      "ability_name": "シングフォーユー",
+      "condition": "",
+      "debuff_name": "攻撃",
+      "success_rate": 90,
+      "element": "光"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "光エルタ",
+      "ability_name": "シングフォーユー",
+      "condition": "",
+      "debuff_name": "防御",
+      "success_rate": 90,
+      "element": "光"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "光エルタ",
+      "ability_name": "シングフォーユー",
+      "condition": "",
+      "debuff_name": "闇攻撃",
+      "success_rate": "100↑",
+      "element": "光"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "SRクビラ",
+      "ability_name": "威風凜凜",
+      "condition": "",
+      "debuff_name": "光防御(累積)",
+      "success_rate": 90,
+      "element": "光"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "レディ・グレイ",
+      "ability_name": "奥義++",
+      "condition": "",
+      "debuff_name": "アンデッド",
+      "success_rate": 90,
+      "element": "闇"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "レディ・グレイ",
+      "ability_name": "ダーク",
+      "condition": "",
+      "debuff_name": "闇防御",
+      "success_rate": 90,
+      "element": "闇"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "レディ・グレイ",
+      "ability_name": "ディープダウン+",
+      "condition": "",
+      "debuff_name": "防御",
+      "success_rate": 90,
+      "element": "闇"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "レディ・グレイ",
+      "ability_name": "ディープダウン++",
+      "condition": "",
+      "debuff_name": "防御",
+      "success_rate": 90,
+      "element": "闇"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "レディ・グレイ",
+      "ability_name": "ディープダウン++",
+      "condition": "",
+      "debuff_name": "スロウ",
+      "success_rate": "100↑",
+      "element": "闇"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "レディ・グレイ",
+      "ability_name": "ペイン",
+      "condition": "",
+      "debuff_name": "毒",
+      "success_rate": 100,
+      "element": "闇"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "ケルベロス",
+      "ability_name": "ディスイリュージョン",
+      "condition": "",
+      "debuff_name": "弱体耐性",
+      "success_rate": 90,
+      "element": "闇"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "ケルベロス",
+      "ability_name": "トライアド･\nディセプション",
+      "condition": "",
+      "debuff_name": "魅了",
+      "success_rate": 55,
+      "element": "闇"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "ケルベロス",
+      "ability_name": "トライアド･\nディセプション",
+      "condition": "",
+      "debuff_name": "暗闇",
+      "success_rate": 70,
+      "element": "闇"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "ケルベロス",
+      "ability_name": "トライアド･\nディセプション",
+      "condition": "",
+      "debuff_name": "灼熱",
+      "success_rate": 100,
+      "element": "闇"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "ケルベロス",
+      "ability_name": "サポアビ",
+      "condition": "",
+      "debuff_name": "弱体耐性(累積)",
+      "success_rate": 100,
+      "element": "闇"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "ロゼッタ(Xmas)",
+      "ability_name": "ネメシス",
+      "condition": "",
+      "debuff_name": "毒",
+      "success_rate": "未確認",
+      "element": "闇"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "SSRヴィーラ",
+      "ability_name": "レイアーライズⅡ",
+      "condition": "",
+      "debuff_name": "攻撃",
+      "success_rate": 75,
+      "element": "闇"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "SSRヴィーラ",
+      "ability_name": "レイアーライズⅡ",
+      "condition": "",
+      "debuff_name": "防御",
+      "success_rate": 75,
+      "element": "闇"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "ダヌア(水着)(*1)",
+      "ability_name": "奥義",
+      "condition": "",
+      "debuff_name": "恐怖",
+      "success_rate": 90,
+      "element": "闇"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "ダヌア(水着)(*1)",
+      "ability_name": "グリムリッパーⅡ",
+      "condition": "",
+      "debuff_name": "防御(累積)",
+      "success_rate": 100,
+      "element": "闇"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "ダヌア(水着)(*1)",
+      "ability_name": "アップグルント",
+      "condition": "",
+      "debuff_name": "攻撃",
+      "success_rate": 90,
+      "element": "闇"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "ヴァンピィ",
+      "ability_name": "テスタメント++(VB消費)",
+      "condition": "",
+      "debuff_name": "闇防御",
+      "success_rate": 100,
+      "element": "闇"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "ヴァンピィ",
+      "ability_name": "スカーレットギフト",
+      "condition": "",
+      "debuff_name": "CT吸収",
+      "success_rate": 100,
+      "element": "闇"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "ヴァンピィ",
+      "ability_name": "チャームスローブ",
+      "condition": "",
+      "debuff_name": "魅了",
+      "success_rate": 80,
+      "element": "闇"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "ヴァンピィ",
+      "ability_name": "チャームスローブ(VB消費)",
+      "condition": "",
+      "debuff_name": "魅了",
+      "success_rate": 100,
+      "element": "闇"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "カリオストロ(ハロ)",
+      "ability_name": "コラプス",
+      "condition": "",
+      "debuff_name": "防御(累積)",
+      "success_rate": 100,
+      "element": "闇"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "ナルメア",
+      "ability_name": "泡沫夢幻+",
+      "condition": "",
+      "debuff_name": "防御",
+      "success_rate": 95,
+      "element": "闇"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "ナルメア",
+      "ability_name": "泡沫夢幻++",
+      "condition": "",
+      "debuff_name": "防御",
+      "success_rate": 120,
+      "element": "闇"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "ナルメア",
+      "ability_name": "鏡花水月",
+      "condition": "",
+      "debuff_name": "スロウ",
+      "success_rate": 100,
+      "element": "闇"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "ベアトリクス",
+      "ability_name": "ユニフィケイション",
+      "condition": "",
+      "debuff_name": "攻撃",
+      "success_rate": 100,
+      "element": "闇"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "ベアトリクス",
+      "ability_name": "ユニフィケイション",
+      "condition": "",
+      "debuff_name": "光攻撃",
+      "success_rate": 85,
+      "element": "闇"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "闇ジャンヌダルク",
+      "ability_name": "アンチ･リヴァーサル",
+      "condition": "",
+      "debuff_name": "防御",
+      "success_rate": 100,
+      "element": "闇"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "黒騎士",
+      "ability_name": "クアッドスペル",
+      "condition": "",
+      "debuff_name": "灼熱",
+      "success_rate": 100,
+      "element": "闇"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "黒騎士",
+      "ability_name": "クアッドスペル",
+      "condition": "",
+      "debuff_name": "スロウ",
+      "success_rate": 90,
+      "element": "闇"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "黒騎士",
+      "ability_name": "クアッドスペル++",
+      "condition": "",
+      "debuff_name": "灼熱",
+      "success_rate": 100,
+      "element": "闇"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "黒騎士",
+      "ability_name": "クアッドスペル++",
+      "condition": "",
+      "debuff_name": "スロウ",
+      "success_rate": 100,
+      "element": "闇"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "黒騎士",
+      "ability_name": "クアッドスペル++",
+      "condition": "",
+      "debuff_name": "防御(累積)",
+      "success_rate": 100,
+      "element": "闇"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "黒騎士",
+      "ability_name": "ネグロドレイン",
+      "condition": "",
+      "debuff_name": "攻撃(累積)",
+      "success_rate": 100,
+      "element": "闇"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "黒騎士",
+      "ability_name": "アキュメン",
+      "condition": "",
+      "debuff_name": "恐怖",
+      "success_rate": 80,
+      "element": "闇"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "フォルテ",
+      "ability_name": "バトルクライ",
+      "condition": "",
+      "debuff_name": "攻撃(累積)",
+      "success_rate": 90,
+      "element": "闇"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "ゾーイ(水着)",
+      "ability_name": "サンダー",
+      "condition": "",
+      "debuff_name": "ランダム(累積)",
+      "success_rate": 100,
+      "element": "闇"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "ヴァイト",
+      "ability_name": "フィアー･オブ･ワンスセルフ",
+      "condition": "",
+      "debuff_name": "DA確率",
+      "success_rate": 70,
+      "element": "闇"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "ヴァイト",
+      "ability_name": "フィアー･オブ･ワンスセルフ",
+      "condition": "",
+      "debuff_name": "TA確率",
+      "success_rate": 70,
+      "element": "闇"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "ヴァイト",
+      "ability_name": "スカーレットスレイヤ",
+      "condition": "",
+      "debuff_name": "CT増加",
+      "success_rate": "耐性無視",
+      "element": "闇"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "闇ゼタ",
+      "ability_name": "シャイニング･スター",
+      "condition": "",
+      "debuff_name": "弱体耐性(累積)",
+      "success_rate": 100,
+      "element": "闇"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "闇ゼタ",
+      "ability_name": "シャイニング･スター",
+      "condition": "",
+      "debuff_name": "命中率",
+      "success_rate": 100,
+      "element": "闇"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "闇ゼタ",
+      "ability_name": "インフィニット･\nワンダーズ",
+      "condition": "",
+      "debuff_name": "攻撃",
+      "success_rate": 80,
+      "element": "闇"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "闇ゼタ",
+      "ability_name": "インフィニット･\nワンダーズ",
+      "condition": "",
+      "debuff_name": "防御",
+      "success_rate": 80,
+      "element": "闇"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "闇ゼタ",
+      "ability_name": "インフィニット･\nワンダーズ",
+      "condition": "",
+      "debuff_name": "灼熱",
+      "success_rate": 140,
+      "element": "闇"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "アザゼル",
+      "ability_name": "マーシレスドゥーム",
+      "condition": "",
+      "debuff_name": "暗闇",
+      "success_rate": 85,
+      "element": "闇"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "アザゼル",
+      "ability_name": "マーシレスドゥーム",
+      "condition": "",
+      "debuff_name": "闇防御",
+      "success_rate": 100,
+      "element": "闇"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "アザゼル",
+      "ability_name": "タナトスゲイン",
+      "condition": "",
+      "debuff_name": "毒",
+      "success_rate": 85,
+      "element": "闇"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "オリヴィエ",
+      "ability_name": "シルバーレイク",
+      "condition": "",
+      "debuff_name": "DA確率",
+      "success_rate": 90,
+      "element": "闇"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "オリヴィエ",
+      "ability_name": "シルバーレイク",
+      "condition": "",
+      "debuff_name": "宵闇の恐怖",
+      "success_rate": 90,
+      "element": "闇"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "オリヴィエ",
+      "ability_name": "モータル･シン",
+      "condition": "",
+      "debuff_name": "スロウ",
+      "success_rate": 100,
+      "element": "闇"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "SSRシロウ",
+      "ability_name": "バイオブレード",
+      "condition": "",
+      "debuff_name": "攻撃(累積)",
+      "success_rate": 90,
+      "element": "闇"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "ニーア",
+      "ability_name": "サポアビ",
+      "condition": "",
+      "debuff_name": "残執",
+      "success_rate": "基本必中",
+      "element": "闇"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "ジョーカー",
+      "ability_name": "奥義",
+      "condition": "",
+      "debuff_name": "攻撃",
+      "success_rate": "未確認",
+      "element": "闇"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "ジョーカー",
+      "ability_name": "スクンダ",
+      "condition": "",
+      "debuff_name": "スクンダ",
+      "success_rate": 100,
+      "element": "闇"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "ジョーカー",
+      "ability_name": "夢見針",
+      "condition": "",
+      "debuff_name": "昏睡",
+      "success_rate": 80,
+      "element": "闇"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "闇ユーステス",
+      "ability_name": "奥義",
+      "condition": "",
+      "debuff_name": "攻撃",
+      "success_rate": 90,
+      "element": "闇"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "闇ユーステス",
+      "ability_name": "奥義",
+      "condition": "",
+      "debuff_name": "暗闇",
+      "success_rate": 90,
+      "element": "闇"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "闇ユーステス",
+      "ability_name": "フォエヴァー･ユアーズ",
+      "condition": "",
+      "debuff_name": "防御(累積)",
+      "success_rate": 90,
+      "element": "闇"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "SSRターニャ",
+      "ability_name": "トキシックネイルズ",
+      "condition": "",
+      "debuff_name": "毒",
+      "success_rate": 140,
+      "element": "闇"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "SSRターニャ",
+      "ability_name": "ニンブルスロー",
+      "condition": "",
+      "debuff_name": "攻撃(累積)",
+      "success_rate": 95,
+      "element": "闇"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "SSRターニャ",
+      "ability_name": "ニンブルスロー",
+      "condition": "",
+      "debuff_name": "防御(累積)",
+      "success_rate": 95,
+      "element": "闇"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "SSRターニャ",
+      "ability_name": "サポアビ",
+      "condition": "",
+      "debuff_name": "スロウ",
+      "success_rate": 100,
+      "element": "闇"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "フェリ(リミ)",
+      "ability_name": "ブラウ･ゲシュペンスト",
+      "condition": "",
+      "debuff_name": "攻撃",
+      "success_rate": 90,
+      "element": "闇"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "フェリ(リミ)",
+      "ability_name": "ブラウ･ゲシュペンスト",
+      "condition": "",
+      "debuff_name": "防御",
+      "success_rate": 90,
+      "element": "闇"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "フェリ(リミ)",
+      "ability_name": "ブラウ･ゲシュペンスト",
+      "condition": "",
+      "debuff_name": "幽想の檻",
+      "success_rate": "基本必中",
+      "element": "闇"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "キャル",
+      "ability_name": "アーマーダウン",
+      "condition": "",
+      "debuff_name": "闇防御(累積)",
+      "success_rate": 90,
+      "element": "闇"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "ルルーシュ",
+      "ability_name": "スラッシュハーケン",
+      "condition": "",
+      "debuff_name": "防御",
+      "success_rate": 100,
+      "element": "闇"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "ルルーシュ",
+      "ability_name": "ドルイドシステム",
+      "condition": "",
+      "debuff_name": "解析",
+      "success_rate": 100,
+      "element": "闇"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "ルルーシュ",
+      "ability_name": "黒の盤上",
+      "condition": "",
+      "debuff_name": "奇跡の条件",
+      "success_rate": "基本必中",
+      "element": "闇"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "ルルーシュ",
+      "ability_name": "黒の盤上",
+      "condition": "",
+      "debuff_name": "恐怖",
+      "success_rate": "固定100",
+      "element": "闇"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "コルル",
+      "ability_name": "ちぇすと",
+      "condition": "",
+      "debuff_name": "防御(累積)",
+      "success_rate": 90,
+      "element": "闇"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "コルル",
+      "ability_name": "ちぇすと",
+      "condition": "",
+      "debuff_name": "暗闇",
+      "success_rate": 90,
+      "element": "闇"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "μ's3年生",
+      "ability_name": "スピリチュアルやね",
+      "condition": "",
+      "debuff_name": "光攻撃",
+      "success_rate": 90,
+      "element": "闇"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "μ's3年生",
+      "ability_name": "スピリチュアルやね",
+      "condition": "",
+      "debuff_name": "闇防御",
+      "success_rate": 90,
+      "element": "闇"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "ダヌア",
+      "ability_name": "奥義++",
+      "condition": "",
+      "debuff_name": "睡眠",
+      "success_rate": 60,
+      "element": "闇"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "ルシウス",
+      "ability_name": "奥義++",
+      "condition": "",
+      "debuff_name": "灼熱",
+      "success_rate": "未確認",
+      "element": "闇"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "ルシウス",
+      "ability_name": "奥義++",
+      "condition": "",
+      "debuff_name": "即死",
+      "success_rate": 15,
+      "element": "闇"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "ルシウス",
+      "ability_name": "悪鬼彷斬",
+      "condition": "",
+      "debuff_name": "暗闇",
+      "success_rate": "未確認",
+      "element": "闇"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "SRゼヘク",
+      "ability_name": "コノテーション・マジカ",
+      "condition": "",
+      "debuff_name": "暗闇",
+      "success_rate": 70,
+      "element": "闇"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "ユーリ･ローウェル",
+      "ability_name": "蒼破刃",
+      "condition": "",
+      "debuff_name": "攻撃",
+      "success_rate": 80,
+      "element": "闇"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "ユーリ･ローウェル",
+      "ability_name": "爪竜連牙斬",
+      "condition": "",
+      "debuff_name": "防御",
+      "success_rate": 80,
+      "element": "闇"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "白坂小梅",
+      "ability_name": "ホラースクリーモ",
+      "condition": "",
+      "debuff_name": "防御",
+      "success_rate": 80,
+      "element": "闇"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "白坂小梅",
+      "ability_name": "リビングデッド",
+      "condition": "",
+      "debuff_name": "アンデッド",
+      "success_rate": 70,
+      "element": "闇"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "SRウィル",
+      "ability_name": "奥義++",
+      "condition": "",
+      "debuff_name": "攻撃",
+      "success_rate": 100,
+      "element": "闇"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "SRウィル",
+      "ability_name": "奥義++",
+      "condition": "",
+      "debuff_name": "防御",
+      "success_rate": 100,
+      "element": "闇"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "シャオ",
+      "ability_name": "奥義",
+      "condition": "",
+      "debuff_name": "毒",
+      "success_rate": 40,
+      "element": "闇"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "シャオ",
+      "ability_name": "奥義++",
+      "condition": "",
+      "debuff_name": "毒",
+      "success_rate": 90,
+      "element": "闇"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "シャオ",
+      "ability_name": "四百四病",
+      "condition": "",
+      "debuff_name": "毒",
+      "success_rate": 80,
+      "element": "闇"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "シャオ",
+      "ability_name": "四百四病",
+      "condition": "",
+      "debuff_name": "暗闇",
+      "success_rate": 50,
+      "element": "闇"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "シャオ",
+      "ability_name": "四百四病++",
+      "condition": "",
+      "debuff_name": "毒",
+      "success_rate": 90,
+      "element": "闇"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "シャオ",
+      "ability_name": "四百四病++",
+      "condition": "",
+      "debuff_name": "暗闇",
+      "success_rate": 90,
+      "element": "闇"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "シャオ",
+      "ability_name": "四百四病++",
+      "condition": "",
+      "debuff_name": "攻撃",
+      "success_rate": 90,
+      "element": "闇"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "シャオ",
+      "ability_name": "四百四病++",
+      "condition": "",
+      "debuff_name": "防御",
+      "success_rate": 90,
+      "element": "闇"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "シャオ",
+      "ability_name": "四百四病++",
+      "condition": "",
+      "debuff_name": "弱体耐性",
+      "success_rate": 90,
+      "element": "闇"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "シャオ",
+      "ability_name": "毋望之禍",
+      "condition": "",
+      "debuff_name": "恐怖",
+      "success_rate": 10,
+      "element": "闇"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "シャオ",
+      "ability_name": "毋望之禍",
+      "condition": "",
+      "debuff_name": "麻痺",
+      "success_rate": 10,
+      "element": "闇"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "ルドミリア",
+      "ability_name": "ラウドプレッシャー",
+      "condition": "",
+      "debuff_name": "防御",
+      "success_rate": 100,
+      "element": "闇"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "ルドミリア",
+      "ability_name": "ラウドプレッシャー",
+      "condition": "",
+      "debuff_name": "DA確率",
+      "success_rate": 100,
+      "element": "闇"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "カリオストロ(配布)",
+      "ability_name": "コラプス",
+      "condition": "",
+      "debuff_name": "防御",
+      "success_rate": 75,
+      "element": "闇"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "闇ジャミル",
+      "ability_name": "スウィープ",
+      "condition": "",
+      "debuff_name": "闇防御",
+      "success_rate": 85,
+      "element": "闇"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "闇ジャミル",
+      "ability_name": "スウィープ+",
+      "condition": "",
+      "debuff_name": "闇防御",
+      "success_rate": 90,
+      "element": "闇"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "SRヴァンピィ",
+      "ability_name": "奥義",
+      "condition": "",
+      "debuff_name": "魅了",
+      "success_rate": 60,
+      "element": "闇"
+    },
+    {
+      "category": "キャラ",
+      "character_name": "ルリア",
+      "ability_name": "奥義",
+      "condition": "",
+      "debuff_name": "防御",
+      "success_rate": 100,
+      "element": ""
+    }
+  ]
+}

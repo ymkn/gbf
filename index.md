@@ -4,6 +4,12 @@
 
 ソーンやシャオの麻痺の成功率を計算します。
 
+[English Version](gbf_paralysis_calc.html?lang=en)
+
+## [デバフDB](debuffdb/index.html)
+
+各種デバフの基礎成功率を検索できます。
+
 ## [ｾｽﾗｶ翻訳機](automagod_translator.html)
 
 機神語と英語を相互翻訳します。
