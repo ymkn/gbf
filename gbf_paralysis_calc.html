@@ -193,15 +193,15 @@
             <input type="radio" class="monster_group" name="monster_1" data-rate="0" data-elem="monster_select" checked />
             <select class="form-control-sm select-box" id="monster_select">
               <option value="100" data-i18n="dr_100">100</option>
-              <option value="90" data-i18n="dr_90">90</option>
+              <option value="90" data-i18n="dr_90">90 (強ﾊﾞﾊ光90~50%)</option>
               <option value="80" data-i18n="dr_80">80</option>
-              <option value="70" data-i18n="dr_70">70 (バイヴカハ光)</option>
-              <option value="60" data-i18n="dr_60">60 (ヘクトル/ギルガメ光)</option>
-              <option value="50" data-i18n="dr_50">50 (強ﾊﾞﾊ光50%、ｱｽﾀﾛﾄ75%)</option>
+              <option value="70" data-i18n="dr_70">70</option>
+              <option value="60" data-i18n="dr_60">60</option>
+              <option value="50" data-i18n="dr_50">50 (ｱｽﾀﾛﾄ75%~)</option>
               <option value="40" data-i18n="dr_40">40 (ケイオスビースト)</option>
-              <option value="30" data-i18n="dr_30">30 (ｶｰｵﾝ/ﾌﾟﾛﾒﾃ光、ｱﾙﾊﾞﾊHL70%~、ﾙｼH本体)</option>
+              <option value="30" data-i18n="dr_30">30 (ｱﾙﾊﾞﾊHL70%~、ﾙｼH本体)</option>
               <option value="20" data-i18n="dr_20">20 (ﾃｨｱﾏﾄﾏﾘｽ火、ﾙｼH羽)</option>
-              <option value="10" data-i18n="dr_10">10 (アヌビス光)</option>
+              <option value="10" data-i18n="dr_10">10 (強ﾊﾞﾊ光50~25%)</option>
               <option selected data-i18n="dr_0">0</option>
             </select>
             %
@@ -357,6 +357,7 @@
             <div class="col-md-6">
                 <div class="header" data-i18n="history_label">更新履歴</div>
                 <ul class="history">
+                    <li data-i18n="history_20201106">2020/11/06: つよバハ弱体耐性を更新</li>
                     <li data-i18n="history_20200723">2020/7/23: デバフDBへのリンクを追加</li>
                     <li data-i18n="history_20200505">2020/5/05: 言語自動判別機能を追加</li>
                     <li data-i18n="history_20200502">2020/5/02: 表示言語切り替え機能を追加（日本語/英語）</li>
@@ -381,6 +382,7 @@
             <div class="col-md-6">
                 <div class="header" data-i18n="ref_label">参考</div>
                 <ul>
+                    <li><a href="https://twitter.com/crom_evil_eye/status/1324446270577016832">クロムさんのつよバハ弱体耐性調査</a></li>
                     <li><a href="http://meidyrouge.com/list-of-articles/formation/paralysis/">【麻痺編成】麻痺･延長特化編成の解説</a></li>
                     <li><a href="https://xn--bck3aza1a2if6kra4ee0hf.gamewith.jp/article/show/57569">【グラブル】「敵弱体耐性と弱体耐性DOWN」検証と考察/すんどめ侍コラム【グランブルーファンタジー】 - GameWith</a></li>
                     <li><a href="https://twitter.com/jpokiehl/status/865925583863074817">ポキールさんのツイート</a></li>
@@ -505,15 +507,15 @@ $(function() {
                     bp_opendb: "Open Debuff DB",
                     dr_label: "Debuff Resistance",
                     dr_100: "100",
-                    dr_90: "90",
+                    dr_90: "90 (P-Baha HL(Light,90-50%))",
                     dr_80: "80",
-                    dr_70: "70 (Morrigan for Light)",
-                    dr_60: "60 (Hector/Gilgamesh for Light)",
-                    dr_50: "50 (P-Baha HL(50%-)/Astaroth(100-75%))",
+                    dr_70: "70",
+                    dr_60: "60",
+                    dr_50: "50 (Astaroth(100-75%))",
                     dr_40: "40 (Chaos Beast)",
-                    dr_30: "30 (Ca-Ong/Prometheus/U-Baha HL(70%-)/Lucilius Hard(main))",
-                    dr_20: "20 (Tiamat Malice for Fire/Lucilius Hard(wing))",
-                    dr_10: "10 (Anubis for Light)",
+                    dr_30: "30 (U-Baha HL(70%-)/Lucilius Hard(main))",
+                    dr_20: "20 (Tiamat Malice(Fire)/Lucilius Hard(wing))",
+                    dr_10: "10 (P-Baha HL(Light,50-25%))",
                     dr_0: "0",
                     dr_alert: "* Debuff resistance of enemies in above list are the value confirmed by users investigation. Note that some enemies might have individual resistance for Paralyze/Petrify/Comatose. Please check out Individual Debuff Resistance category",
                     idr_label: "Individual Debuff Resistance",
@@ -522,7 +524,7 @@ $(function() {
                     idr_80: "80",
                     idr_70: "70",
                     idr_60: "60",
-                    idr_50: "50 (Tiamat Malice for Fire's Petrify",
+                    idr_50: "50 (Tiamat Malice(Fire,Petrify))",
                     idr_40: "40",
                     idr_30: "30",
                     idr_20: "20",
@@ -582,6 +584,7 @@ $(function() {
                     down_5_4: "Haaselia's 1st Lvl2 (10%)",
                     down_5_5: "Haaselia's 1st Lvl1 (5%)",
                     history_label: "History",
+                    history_20201106: "2020/11/6: Update resistance of Proto Baha HL",
                     history_20200723: "2020/7/23: Add link to Debuff DB",
                     history_20200505: "2020/5/5: Add language autodetection",
                     history_20200502: "2020/5/2: Add language switcher (Japanese/English)",
