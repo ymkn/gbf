@@ -241,7 +241,7 @@
                     <label><input type="radio" class="up_group" name="success_1" data-rate="25" /> <span data-i18n="up_1_1">ゼノコキュ琴奥義 (25%)</span></label>
                     <label><input type="radio" class="up_group" name="success_1" data-rate="20" /> <span data-i18n="up_1_2">水ユエル1アビ/リミロゼ奥義 (20%)</span></label>
                     <label><input type="radio" class="up_group" name="success_1" data-rate="15" /> <span data-i18n="up_1_3">九界琴(最終)奥義/アーク奥義/コナン2アビ (15%)</span></label>
-                    <label><input type="radio" class="up_group" name="success_1" data-rate="10" /> <span data-i18n="up_1_4">九界琴(真以上)奥義 (10%)</span></label>
+                    <label><input type="radio" class="up_group" name="success_1" data-rate="10" /> <span data-i18n="up_1_4">九界琴(真以上)奥義/浴衣ジェシカ2アビ (10%)</span></label>
                     <label><input type="radio" class="up_group" name="success_1" data-rate="0" /> <span data-i18n="none">なし</span></label>
                 </fieldset>
                 <fieldset>
@@ -283,11 +283,12 @@
                           <option value="7.5">3 (7.5%)</option>
                           <option value="5">2 (5%)</option>
                           <option value="2.5">1 (2.5%)</option>
-                          <option selected>0 (0%)</option>
+                          <option value="0" selected>0 (0%)</option>
                         </select>
                       </label>
-                    <label><input type="checkbox" class="up_group" name="success_6" data-rate="5" /> <span data-i18n="[html]up_6_3">西風の竪琴 (<em>メイン装備時</em>) (5%)</span></label>
-                    <label><input type="checkbox" class="up_group" name="success_6" data-rate="10" /> <span data-i18n="[html]up_6_4">虚空剣 (<em>剣/短剣得意キャラのみ有効</em>) (10%)</span></label>
+                      <label><input type="checkbox" class="up_group" name="success_6" data-rate="8" /> <span data-i18n="[html]up_6_6">神授のリラ(4凸) (<em>メイン装備時</em>) (8%)</span></label>
+                      <label><input type="checkbox" class="up_group" name="success_6" data-rate="5" /> <span data-i18n="[html]up_6_3">西風の竪琴 (<em>メイン装備時</em>) (5%)</span></label>
+                      <label><input type="checkbox" class="up_group" name="success_6" data-rate="10" /> <span data-i18n="[html]up_6_4">虚空剣 (<em>剣/短剣得意キャラのみ有効</em>) (10%)</span></label>
                     <label><input type="radio" class="up_group" name="success_6" data-rate="30" /> <span data-i18n="up_6_5">上限 (30%)</span></label>
                     <label><input type="radio" class="up_group" name="success_6" data-rate="0" /> <span data-i18n="none">なし</span></label>
                     <div class="alert alert-info" role="alert" data-i18n="[html]up_6_alert">※本枠は<em>上限30%</em>ですが、それ以上選べてしまうためご注意下さい</div>
@@ -295,6 +296,7 @@
                 <fieldset>
                     <legend class="up_color" data-i18n="up_label7">弱体成功率UP 枠7 (召喚)</legend>
                     <label><input type="radio" class="up_group" name="success_7" data-rate="20" /> <span data-i18n="up_7_1">フレイ召喚 (20%)</span></label>
+                    <label><input type="radio" class="up_group" name="success_7" data-rate="5" /> <span data-i18n="up_7_2">空の安寧を守りし十天衆(3凸)召喚 (5%)</span></label>                    
                     <label><input type="radio" class="up_group" name="success_7" data-rate="0" /> <span data-i18n="none">なし</span></label>
                 </fieldset>
                 <fieldset>
@@ -309,8 +311,10 @@
                 <fieldset>
                     <legend class="down_color" data-i18n="down_label1">弱体耐性DOWN 枠1 (アビ)</legend>
                     <label><input type="radio" class="down_group" name="down_1" data-rate="30" /> <span data-i18n="down_1_1">ソウルピルファー (楽器) (30%)</span></label>
-                    <label><input type="radio" class="down_group" name="down_1" data-rate="5" /> <span data-i18n="down_1_2">ソウルピルファー (短剣) (5%)</span></label>
-                    <label><input type="radio" class="down_group" name="down_1" data-rate="10" /> <span data-i18n="down_1_3">ソーン2アビ/ガチャピン2アビ (10%)</span></label>
+                    <label><input type="radio" class="down_group" name="down_1" data-rate="20" /> <span data-i18n="down_1_4">水ドランク1アビ/土SRアルメイダ1アビ (20%)</span></label>
+                    <label><input type="radio" class="down_group" name="down_1" data-rate="15" /> <span data-i18n="down_1_5">カルメリーナ1アビ (15%)</span></label>
+                    <label><input type="radio" class="down_group" name="down_1" data-rate="10" /> <span data-i18n="down_1_3">ソーン2アビ/ガチャピン2アビ/ケルベロス2アビ/クリスティーナ1アビ (10%)</span></label>
+                    <label><input type="radio" class="down_group" name="down_1" data-rate="5" /> <span data-i18n="down_1_2">ソウルピルファー (楽器以外) (5%)</span></label>
                     <label><input type="radio" class="down_group" name="down_1" data-rate="0" /> <span data-i18n="none">なし</span></label>
                 </fieldset>
                 <fieldset>
@@ -321,17 +325,26 @@
                 </fieldset>
                 <fieldset>
                     <legend class="down_color" data-i18n="down_label3">弱体耐性DOWN 枠3 (奥義)</legend>
+                    <label><input type="radio" class="down_group" name="down_3" data-rate="15" /> <span data-i18n="down_3_4">レイ奥義 (15%)</span></label>
                     <label><input type="radio" class="down_group" name="down_3" data-rate="10" /> <span data-i18n="down_3_1">西風の竪琴奥義/ローゼンボーゲン奥義 (10%)</span></label>
-                    <label><input type="radio" class="down_group" name="down_3" data-rate="10" /> <span data-i18n="down_3_2">イベント産エゼクレイン奥義/SSR火クラリス奥義 (10%)</span></label>
+                    <label><input type="radio" class="down_group" name="down_3" data-rate="10" /> <span data-i18n="down_3_2">SSR火クラリス奥義 (10%)</span></label>
                     <label><input type="radio" class="down_group" name="down_3" data-rate="5" /> <span data-i18n="down_3_3">ドミニオンハープ奥義 (5%)</span></label>
                     <label><input type="radio" class="down_group" name="down_3" data-rate="0" /> <span data-i18n="none">なし</span></label>
                 </fieldset>
                 <fieldset>
                     <legend class="down_color" data-i18n="down_label4">弱体耐性DOWN 枠4 (累積)</legend>
-                    <label><input type="radio" class="down_group" name="down_4" data-rate="30" /> <span data-i18n="down_4_1">上限30% (ケルベロス、ヴァジラ、ゾーイ、ハロダヌ)</span></label>
-                    <label><input type="radio" class="down_group" name="down_4" data-rate="10" /> <span data-i18n="down_4_2">上限10% (アルメイダ、ミニゴブ)</span></label>
+                    <input type="checkbox" class="down_group" name="down_4" data-rate="0" data-elem="down_4_1_select" /> <span data-i18n="down_4_1">火ドランク1アビ(10%)、ヴァジラ1アビ(10%)、ケルベロス(5%)、ハロダヌ奥義(5%)</span>
+                    <select class="form-control-sm select-box" id="down_4_1_select">
+                      <option value="30">30%</option>
+                      <option value="25">25%</option>
+                      <option value="20">20%</option>
+                      <option value="15">15%</option>
+                      <option value="10">10%</option>
+                      <option value="5">5%</option>
+                      <option value="0" selected>0%</option>
+                    </select>
                     <label><input type="radio" class="down_group" name="down_4" data-rate="0" /> <span data-i18n="none">なし</span></label>
-                    <div class="alert alert-info" role="alert" data-i18n="down_4_alert">※累積枠は全キャラまたがりで加算、ただし上限はキャラ別</div>
+                    <div class="alert alert-info" role="alert" data-i18n="down_4_alert">※本枠の上限は30%</div>
                 </fieldset>
                 <fieldset>
                     <legend class="down_color" data-i18n="down_label5">弱体耐性DOWN 枠5 (個人独自)</legend>
@@ -357,6 +370,7 @@
             <div class="col-md-6">
                 <div class="header" data-i18n="history_label">更新履歴</div>
                 <ul class="history">
+                    <li data-i18n="history_20210320">2021/3/20: レイ奥義、空の安寧を守りし十天衆、浴衣ジェシカ2アビ、ドランク1アビ、土SRアルメイダ1アビ、カルメリーナ1アビ、ケルベロス2アビ、クリスティーナ1アビを追加、累積弱体耐性ダウンの効果量を選択式に変更</li>
                     <li data-i18n="history_20201106">2020/11/06: つよバハ弱体耐性を更新</li>
                     <li data-i18n="history_20200723">2020/7/23: デバフDBへのリンクを追加</li>
                     <li data-i18n="history_20200505">2020/5/05: 言語自動判別機能を追加</li>
@@ -545,7 +559,7 @@ $(function() {
                     up_1_1: "Charge Attack of Xeno Cocytus Harp (25%)",
                     up_1_2: "Summer Yuel's 1st/Limited Rosetta's Charge Attack (20%)",
                     up_1_3: "Charge Attack of Nine-Realm Harp(Fully Forged)/Ivory Ark/Conan's 2nd (15%)",
-                    up_1_4: "Charge Attack of Nine-Realm Harp(Forged) (10%)",
+                    up_1_4: "Charge Attack of Nine-Realm Harp(Forged)/Yukata Jessica's 2nd(10%)",
                     up_2_1: "Normal Korwa's 1st (Fil 10) (25%)",
                     up_3_1: "SSR Andira (FLB)/SSR Andira's 3rd (3T) (30%)",
                     up_3_2: "SSR Andira's 3rd (4T) (20%)",
@@ -559,8 +573,10 @@ $(function() {
                     up_6_3: "Harp of Westerly Winds (<em>main weapon</em>) (5%)",
                     up_6_4: "Hollowsky Blade (<em>sable/dagger specialty characters only</em>) (10%)",
                     up_6_5: "Max (30%)",
+                    up_6_6: "Cords of Heaven Lyre *4 (<em>main weapon</em>) (8%)",
                     up_6_alert: "* This group is limited up to <em>30%</em> in the game. But this calculator does not alert whether if you select too much items.",
                     up_7_1: "Summon Freyr (20%)",
+                    up_7_2: "Summon The Eternal Defenders(*3) (5%)",
                     down_label1: "Debuff Resistance Reducer: Group 1 (Skills)",
                     down_label2: "Debuff Resistance Reducer: Group 2 (Summons)",
                     down_label3: "Debuff Resistance Reducer: Group 3 (Charge Attacks)",
@@ -569,12 +585,15 @@ $(function() {
                     down_label_other: "Debuff Resistance Reducer: Other",
                     down_1_1: "Soul Soloist (Harp) (30%)",
                     down_1_2: "Soul Soloist (5%)",
-                    down_1_3: "Twenyen's 2nd/Gachapin's 2nd (10%)",
+                    down_1_3: "Twenyen's 2nd/Gachapin's 2nd/Cerberus's 2nd/Christina's 1st(10%)",
+                    down_1_4: "Drang's 1st/Earth SR Almeida's 1st (20%)",
+                    down_1_5: "Carmelina's 1st (15%)",
                     down_2_1: "Summon Thor (20%)",
                     down_2_2: "Summon Super Robo Gigantes/Sharom (5%)",
                     down_3_1: "Charge Attack of Harp of Westerly Winds/Rosenbogen (10%)",
-                    down_3_2: "Light Ezecrain/Fire Clarisse's Charge Attack (10%)",
+                    down_3_2: "Fire Clarisse's Charge Attack (10%)",
                     down_3_3: "Charge Attack of Dominion Harp (5%)",
+                    down_3_4: "Rei's Charge Attack (15%)",
                     down_4_1: "Max 30% (Cerberus/Vajra/VISA Zooey/Halloween Danua)",
                     down_4_2: "Max 10% (Almeida/Goblin Mage)",
                     down_4_alert: "* Stackable debuff resistance reducers have various maximum amounts by the character who use the skills",
@@ -584,6 +603,7 @@ $(function() {
                     down_5_4: "Haaselia's 1st Lvl2 (10%)",
                     down_5_5: "Haaselia's 1st Lvl1 (5%)",
                     history_label: "History",
+                    history_20210320: "2021/3/20: Add some templates, Change succes rate debuff (stackable) to selectable",
                     history_20201106: "2020/11/6: Update resistance of Proto Baha HL",
                     history_20200723: "2020/7/23: Add link to Debuff DB",
                     history_20200505: "2020/5/5: Add language autodetection",
