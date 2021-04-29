@@ -356,6 +356,11 @@
                     <label><input type="radio" class="down_group" name="down_5_h" data-rate="0" /> <span data-i18n="none">なし</span></label>
                 </fieldset>
                 <fieldset>
+                    <legend class="down_color" data-i18n="down_label6">弱体耐性DOWN 枠6 (侵食)</legend>
+                    <label><input type="radio" class="down_group" name="down_6" data-rate="10" /> <span data-i18n="down_6_1">ユリウス4アビ/カトル1アビ (10%)</span></label>
+                    <label><input type="radio" class="down_group" name="down_6" data-rate="0" /> <span data-i18n="none">なし</span></label>
+                </fieldset>
+                <fieldset>
                     <legend class="down_color" data-i18n="down_label_other">弱体耐性DOWN その他</legend>
                     <label>
                       <input type="checkbox" class="down_group" name="down_ex" data-rate="0" data-elem="down_ex_text" />
@@ -370,6 +375,7 @@
             <div class="col-md-6">
                 <div class="header" data-i18n="history_label">更新履歴</div>
                 <ul class="history">
+                    <li data-i18n="history_20210429">2021/4/29: 弱体耐性DOWNに枠6(侵食)を追加</li>
                     <li data-i18n="history_20210320">2021/3/20: レイ奥義、空の安寧を守りし十天衆、浴衣ジェシカ2アビ、ドランク1アビ、土SRアルメイダ1アビ、カルメリーナ1アビ、ケルベロス2アビ、クリスティーナ1アビを追加、累積弱体耐性ダウンの効果量を選択式に変更</li>
                     <li data-i18n="history_20201106">2020/11/06: つよバハ弱体耐性を更新</li>
                     <li data-i18n="history_20200723">2020/7/23: デバフDBへのリンクを追加</li>
@@ -582,6 +588,7 @@ $(function() {
                     down_label3: "Debuff Resistance Reducer: Group 3 (Charge Attacks)",
                     down_label4: "Debuff Resistance Reducer: Group 4 (Stackable Skills)",
                     down_label5: "Debuff Resistance Reducer: Group 5 (Character Unique)",
+                    down_label6: "Debuff Resistance Reducer: Group 6 (Corrosion)",
                     down_label_other: "Debuff Resistance Reducer: Other",
                     down_1_1: "Soul Soloist (Harp) (30%)",
                     down_1_2: "Soul Soloist (5%)",
@@ -602,7 +609,9 @@ $(function() {
                     down_5_3: "Haaselia's 1st Lvl3 (15%)",
                     down_5_4: "Haaselia's 1st Lvl2 (10%)",
                     down_5_5: "Haaselia's 1st Lvl1 (5%)",
+                    down_6_1: "Yurius's 4th/Feower's 1st (10%)",
                     history_label: "History",
+                    history_20210429: "2021/4/29: Add Debuff Resistance Reducer: Group 6 (Corrosion)",
                     history_20210320: "2021/3/20: Add some templates, Change succes rate debuff (stackable) to selectable",
                     history_20201106: "2020/11/6: Update resistance of Proto Baha HL",
                     history_20200723: "2020/7/23: Add link to Debuff DB",
