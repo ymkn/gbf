@@ -143,6 +143,7 @@
             <div class="col-md-4">
                 <fieldset>
                     <legend class="char_color" data-i18n="bp_label">基礎成功率 (キャラ/アビ)</legend>
+                    <label><input type="radio" class="char_group" name="char_2" data-rate="85" /> <span data-i18n="bp_tweyen_para3">ソーン麻痺 (LB★6,敵1体時) (85%)</span></label>
                     <label><input type="radio" class="char_group" name="char_2" data-rate="75" /> <span data-i18n="bp_tweyen_para1">ソーン麻痺 (LB★3,Lv95↑敵1体時) (75%)</span></label>
                     <label><input type="radio" class="char_group" name="char_2" data-rate="55" /> <span data-i18n="bp_tweyen_para2">ソーン麻痺 (55%)</span></label>
                     <label><input type="radio" class="char_group" name="char_2" data-rate="100" /> <span data-i18n="bp_tweyen_extend">ソーン延長 (100%固定)</span></label>
@@ -375,12 +376,13 @@
             <div class="col-md-6">
                 <div class="header" data-i18n="history_label">更新履歴</div>
                 <ul class="history">
+                    <li data-i18n="history_20210502">2021/5/2: ソーン麻痺LB6を追加 (限界超越)</li>
                     <li data-i18n="history_20210429">2021/4/29: 弱体耐性DOWNに枠6(侵食)を追加</li>
                     <li data-i18n="history_20210320">2021/3/20: レイ奥義、空の安寧を守りし十天衆、浴衣ジェシカ2アビ、ドランク1アビ、土SRアルメイダ1アビ、カルメリーナ1アビ、ケルベロス2アビ、クリスティーナ1アビを追加、累積弱体耐性ダウンの効果量を選択式に変更</li>
-                    <li data-i18n="history_20201106">2020/11/06: つよバハ弱体耐性を更新</li>
+                    <li data-i18n="history_20201106">2020/11/6: つよバハ弱体耐性を更新</li>
                     <li data-i18n="history_20200723">2020/7/23: デバフDBへのリンクを追加</li>
-                    <li data-i18n="history_20200505">2020/5/05: 言語自動判別機能を追加</li>
-                    <li data-i18n="history_20200502">2020/5/02: 表示言語切り替え機能を追加（日本語/英語）</li>
+                    <li data-i18n="history_20200505">2020/5/5: 言語自動判別機能を追加</li>
+                    <li data-i18n="history_20200502">2020/5/2: 表示言語切り替え機能を追加（日本語/英語）</li>
                     <li data-i18n="history_20200117">2020/1/17: 光ダヌア恐怖、サポアビを追加、ノア、シャレム等の個人独自枠を追加、アーク奥義追加</li>
                     <li data-i18n="history_20191227">2019/12/27: シトリ1アビ麻痺を追加、コスモスPCを削除</li>
                     <li data-i18n="history_20191214">2019/12/14: ガチャピン2アビを追加 (ソーン2アビ互換)</li>
@@ -504,6 +506,7 @@ $(function() {
                     bp_label: 'Plain Success Rate (Skills/Support Skills)',
                     bp_tweyen_para1: "Tweyen's Paralyze (EM*3,Lvl95+,single foe) (75%)",
                     bp_tweyen_para2: "Tweyen's Paralyze (55%)",
+                    bp_tweyen_para3: "Tweyen's Paralyze (EM*6,single foe) (85%)",
                     bp_tweyen_extend: "Tweyen's Extending (100% fixed)",
                     bp_tweyen_extend_alert: "* DO NOT select Elysian's Support Skill and any items in Boost of debuff success rate category because Tweyen's Extending is not affected by these skill/buffs",
                     bp_shitori_para1: "Shitori's Paralyze (EM*3) (40%)",
@@ -611,6 +614,7 @@ $(function() {
                     down_5_5: "Haaselia's 1st Lvl1 (5%)",
                     down_6_1: "Yurius's 4th/Feower's 1st (10%)",
                     history_label: "History",
+                    history_20210502: "2021/5/02: Add Tweyen's Paralyze EM*6 (Transended the Edge)",
                     history_20210429: "2021/4/29: Add Debuff Resistance Reducer: Group 6 (Corrosion)",
                     history_20210320: "2021/3/20: Add some templates, Change succes rate debuff (stackable) to selectable",
                     history_20201106: "2020/11/6: Update resistance of Proto Baha HL",
